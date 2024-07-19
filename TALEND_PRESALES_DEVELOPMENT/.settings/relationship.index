@@ -162,19 +162,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_WNxFsBvrEe-ryueBa_onWQ - Claim",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_WNxFsBvrEe-ryueBa_onWQ - Policy",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_WNxFsBvrEe-ryueBa_onWQ - Policyholder",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_TGfYQCMpEe-b8t9hh6Yleg",
@@ -189,18 +177,6 @@
     "id" : "_sihBQD61Ee-dM54k-axwRw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_JuihcD60Ee-dM54k-axwRw - DRUGS",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_JuihcD60Ee-dM54k-axwRw - MEDICATIONDRUGS",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_sihBQD61Ee-dM54k-axwRw - DRUGMASTER",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
