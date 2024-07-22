@@ -4,4 +4,6 @@
     <migrationTask xmi:id="_T2sOIET_Ee-dusSd7fTpWw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_T1cQ8kT_Ee-dusSd7fTpWw" login="harsh.p@nfr.predoole.com" firstName="Harsh" lastName="Patel" type="DQ"/>
+  <TalendProperties:User xmi:id="_oe2TNUZ6Ee-P8JXT-7cuVQ" login="nikhilr@nfr.predoole.com" firstName="Nikhil" lastName="Raorane" type="DQ"/>
+  <TalendProperties:User xmi:id="_oe2TNkZ6Ee-P8JXT-7cuVQ" login="megha.m@nfr.predoole.com" firstName="Megha" lastName="More" type="DQ"/>
 </xmi:XMI>

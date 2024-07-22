@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="Soap_dummy"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="Soap_dummyOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="ID" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Soap_dummyOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Name" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="Soap_dummyOperationRequest">
+		<wsdl:part name="parameters" element="tns:Soap_dummyOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="Soap_dummyOperationResponse">
+		<wsdl:part name="parameters" element="tns:Soap_dummyOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="Soap_dummyPortType">
+		<wsdl:operation name="Soap_dummyOperation">
+			<wsdl:input message="tns:Soap_dummyOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:Soap_dummyOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="Soap_dummyBinding" type="tns:Soap_dummyPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="Soap_dummyOperation">
+			<soap:operation soapAction="http://www.talend.org/service/Soap_dummyOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="Soap_dummy">
+		<wsdl:port name="Soap_dummyPort" binding="tns:Soap_dummyBinding">
+			<soap:address location="http://localhost:8090/services/Soap_dummy" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

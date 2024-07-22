@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="TEST"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="TESTOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="TESTOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="TESTOperationRequest">
+		<wsdl:part name="parameters" element="tns:TESTOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="TESTOperationResponse">
+		<wsdl:part name="parameters" element="tns:TESTOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="TESTPortType">
+		<wsdl:operation name="TESTOperation">
+			<wsdl:input message="tns:TESTOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:TESTOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="TESTBinding" type="tns:TESTPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="TESTOperation">
+			<soap:operation soapAction="http://www.talend.org/service/TESTOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="TEST">
+		<wsdl:port name="TESTPort" binding="tns:TESTBinding">
+			<soap:address location="http://localhost:8090/services/TEST" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
