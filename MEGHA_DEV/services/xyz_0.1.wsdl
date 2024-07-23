@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="xyz"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="xyzOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="xyzOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="xyzOperationRequest">
+		<wsdl:part name="parameters" element="tns:xyzOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="xyzOperationResponse">
+		<wsdl:part name="parameters" element="tns:xyzOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="xyzPortType">
+		<wsdl:operation name="xyzOperation">
+			<wsdl:input message="tns:xyzOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:xyzOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="xyzBinding" type="tns:xyzPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="xyzOperation">
+			<soap:operation soapAction="http://www.talend.org/service/xyzOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="xyz">
+		<wsdl:port name="xyzPort" binding="tns:xyzBinding">
+			<soap:address location="http://localhost:8090/services/xyz" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
