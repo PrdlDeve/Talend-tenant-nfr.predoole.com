@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>metadata/fileXml/www-talend-org/service/TESTPortType</deletedFolders>
+  <deletedFolders>metadata/fileXml/www-talend-org/service/TESTPortType/TESTOperation</deletedFolders>
+  <deletedItems id="_PBp-IUf6Ee-jCpvQBNypvA" path="www-talend-org/service/TESTPortType/TESTOperation" type="METADATA_FILE_XML"/>
+  <deletedItems id="_PCPM8Uf6Ee-jCpvQBNypvA" path="www-talend-org/service/TESTPortType/TESTOperation" type="METADATA_FILE_XML"/>
+</recyclebin:RecycleBin>
