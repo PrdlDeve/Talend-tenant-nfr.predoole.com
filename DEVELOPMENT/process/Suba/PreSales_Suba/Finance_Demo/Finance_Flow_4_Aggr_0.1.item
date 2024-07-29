@@ -321,7 +321,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables expressionFilter="row3.Amount != null" name="out1" sizeState="INTERMEDIATE">
+      <outputTables activateExpressionFilter="true" expressionFilter="row3.Amount != null" name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row1.FundName" name="FundName" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row3.InvestorID" name="InvestorID" type="id_Integer"/>
         <mapperTableEntries expression="row2.Amount" name="Amount" nullable="true" type="id_BigDecimal"/>
@@ -346,13 +346,10 @@
         <mapperTableEntries name="FullName" nullable="true" type="id_String"/>
         <mapperTableEntries name="DateOfBirth" nullable="true" type="id_String"/>
         <mapperTableEntries name="Email" nullable="true" type="id_String"/>
-        <mapperTableEntries name="AddressID" nullable="true" type="id_Integer"/>
         <mapperTableEntries name="Amount" nullable="true" type="id_BigDecimal"/>
-        <mapperTableEntries name="EndDate" nullable="true" type="id_Date"/>
         <mapperTableEntries name="Frequency" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row1.FundID " name="FundID" nullable="true" operator="=" type="id_Integer"/>
-        <mapperTableEntries expression="row2.PlanID " name="PlanID" type="id_Integer"/>
-        <mapperTableEntries expression="" name="StartDate" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row2.PlanID " name="PlanID" nullable="true" type="id_Integer"/>
       </inputTables>
     </nodeData>
   </node>
@@ -378,7 +375,7 @@
     <elementParameter field="CHECK" name="CHECK_ULP" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tAggregateRow_1">
-      <column comment="" key="true" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
       </column>
       <column comment="" key="false" length="38" name="InvestorID" nullable="false" originalLength="-1" pattern="" precision="0" type="id_Integer" usefulColumn="true">
@@ -401,12 +398,12 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MLbB4tnWToqrM68/9dAAce/M4VdQSFRykptZY3Z94xtHVfS515edIybu"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SIPTransactions_Landing&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Clean_Transactions&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select landing.SIPTransactions_Landing.Amount,landing.SIPTransactions_Landing.NAVAtPurchase,landing.SIPTransactions_Landing.PlanID,landing.SIPTransactions_Landing.TransactionDate,landing.SIPTransactions_Landing.TransactionID,landing.SIPTransactions_Landing.UnitsPurchased &#10;from landing.SIPTransactions_Landing&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT landing.Clean_Transactions.Amount,&#10;&#9;&#9;landing.Clean_Transactions.NAVAtPurchase,&#10;&#9;&#9;landing.Clean_Transactions.PlanID,&#10;&#9;&#9;landing.Clean_Transactions.TransactionDate,&#10;&#9;&#9;landing.Clean_Transactions.TransactionID,&#10;&#9;&#9;landing.Clean_Transactions.UnitsPurchased&#10;FROM&#9;landing.Clean_Transactions&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -432,7 +429,7 @@
     </elementParameter>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
-    <elementParameter field="TEXT" name="LABEL" value="SIPTransactions_Landing"/>
+    <elementParameter field="TEXT" name="LABEL" value="&quot;Clean_Transactions&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_1">
       <column comment="" defaultValue="" key="false" length="15" name="Amount" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
@@ -457,12 +454,12 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Demo_SS&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;qdimainuser&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fLrdeDeIsFW1siV0pSpfK6D/Uef0XFrPY7ZHK0R11ZI73+lXqPriOYKs"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Clean_Master_Investors_SIPPlan&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select landing.Clean_Master_Investors_SIPPlan.InvestorID,landing.Clean_Master_Investors_SIPPlan.FullName,landing.Clean_Master_Investors_SIPPlan.DateOfBirth,landing.Clean_Master_Investors_SIPPlan.Email,landing.Clean_Master_Investors_SIPPlan.AddressID,landing.Clean_Master_Investors_SIPPlan.Amount,landing.Clean_Master_Investors_SIPPlan.EndDate,landing.Clean_Master_Investors_SIPPlan.Frequency,landing.Clean_Master_Investors_SIPPlan.FundID,landing.Clean_Master_Investors_SIPPlan.PlanID,landing.Clean_Master_Investors_SIPPlan.StartDate &#10;from landing.Clean_Master_Investors_SIPPlan&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT landing.Clean_Master_Investors_SIPPlan.InvestorID,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.FullName,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.DateOfBirth,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.Email,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.Amount,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.Frequency,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.FundID,&#10;&#9;&#9;landing.Clean_Master_Investors_SIPPlan.PlanID&#10;FROM&#9;landing.Clean_Master_Investors_SIPPlan&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -481,11 +478,7 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="AddressID"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Amount"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EndDate"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Frequency"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -493,28 +486,23 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PlanID"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="StartDate"/>
-      <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
-    <elementParameter field="TEXT" name="LABEL" value="Landing_Preparation"/>
+    <elementParameter field="TEXT" name="LABEL" value="&quot;Clean_Master_Investors_SIPPlan&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_2">
       <column comment="" defaultValue="" key="false" length="10" name="InvestorID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="FullName" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="DateOfBirth" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="Email" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="AddressID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="15" name="Amount" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="EndDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="Frequency" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="10" name="FundID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="10" name="PlanID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="10" name="StartDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PlanID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1000" posY="200">
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
@@ -576,7 +564,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Landing.Aggregate"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="true" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
       </column>
       <column comment="" key="false" length="38" name="InvestorID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -587,7 +575,43 @@
       </column>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="true" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
+      </column>
+      <column comment="" key="false" length="38" name="InvestorID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="InvestorID"/>
+      </column>
+      <column comment="" key="false" length="15" name="Amount" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Amount"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="200">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="FundName"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="InvestorID"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Amount"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
       </column>
       <column comment="" key="false" length="38" name="InvestorID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -629,6 +653,10 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
+  <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tDBOutput_1" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_1" target="tLogRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
@@ -639,13 +667,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0e7413ff-d86b-4b0e-8080-c2df5a3b4236"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N/7rH8WceoIdbhvL8z32TOJ/ImVBDcNCEHIb/KsuEmOv6XpaQj+EnSmvoTEtPiAJ2gySD8G1hyC7&#13;
-gKzCWcvl+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1ca71ac4-398a-4e82-b29d-7a4c7fda47ec"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rVSJn4StimKSa/FIQXukRyaP0XLn7MiYXeuBLvTEzV/lxNb8ditg7ldjOYUd87T9UKFECvdLiDok&#13;
-NquAtUv3hg==</DigestValue></Reference></SignedInfo><SignatureValue>loHutXcnfvIjF7klGqOaimgzQURp+28J57rLFbN1IrlAybwhOgJFmvobt4OLiWY3S97FrfCfTCAZ&#13;
-L4wjWVVnUPmXphnj9jPYUKDy9bLGgFLxKOvgdZ6bP5sisIcIEl9WY8GAbvCeO6Kg3GKXcH2ZOo9P&#13;
-pnj+mtKCD4Mhqq9l7CnN5negeptRZYSmqFP3fomDeWhQ9pQzJzEadNEXUI6Kljf/z9piK6lbnYAq&#13;
-k7bgZKYpBcV9FaHLkCgJzhUIL1JWhtGoCyKSye16cHjD30Hfi3Rua05HBx3JPEDfCrR36JBba4Rr&#13;
-zdFn+MvrVYQ3bs9WQdshM0Ca0fKJrh63Y1ggrA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_43c548a4-cebf-4837-b8de-e12a5f4d7104"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OkZOOuJtCezZb/kOWTZnh/KhSconU6ksyauixUWdJL60kyMtcekKLgYVSXEL5Gn0q6yidXQhGVY0&#13;
+T5e2/aPPng==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0853fd66-d1cc-4b7a-bd89-17ffdede9963"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zCJYeTaDC/NW8CNkSg31h+niw7WRL3oEaljHlNqdWncypqdFx1+i9fg2fnFiJcD1NWtacp0gbvEv&#13;
+AAtDWTXqqg==</DigestValue></Reference></SignedInfo><SignatureValue>UQJwTigBZ1Mt8ORjabFg1jWD+AFe3J64X78fDghVWgEV9snZ8IHSBBMNgRLbWPXYXeQSKiIHCUg1&#13;
+Ywtd75jujeJV3id9qqKOPNQlRVLxeAShdjgwmhS4rb2fdFyIj3LJvjFko9H5VBkKElczgNKTEGCR&#13;
+p829gdypyxDwtgQca5n4OZFzGXzXU04rqEsz8DmMKoTwwYKUay9jCoGOXcFWYoHd0MQF3VwLT9aX&#13;
+9vCiRC2bZG1Zd9kBv0g6enjQ03v5uTy49jFFbBtLEz54LGqK1pbN2TfIjEKubRZBz1gCFHOSW2vP&#13;
+u0Gtwfl16x+I9gd5zvV5cgq9vHqWJvYWNsGxpQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -667,4 +695,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1ca71ac4-398a-4e82-b29d-7a4c7fda47ec" Target="#_0e7413ff-d86b-4b0e-8080-c2df5a3b4236"><Timestamp>2024-07-25 12:46:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0853fd66-d1cc-4b7a-bd89-17ffdede9963" Target="#_43c548a4-cebf-4837-b8de-e12a5f4d7104"><Timestamp>2024-07-29 07:42:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

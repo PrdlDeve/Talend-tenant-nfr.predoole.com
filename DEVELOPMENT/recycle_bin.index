@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/Suba/PreSales_Suba/Suba</deletedFolders>
+  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba</deletedFolders>
+  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP</deletedFolders>
+  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba</deletedFolders>
+  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba/PreSales_Suba</deletedFolders>
   <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_en9MEDntEe-L17apX-73jA" path="CP/BANKING" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_6bKsoFhGEe69bKoNEun9KA" path="Megha" type="METADATA_CONNECTIONS"/>
