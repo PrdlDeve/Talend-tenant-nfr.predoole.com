@@ -104,21 +104,9 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_XFbdQDqGEe-L17apX-73jA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_xuXpkEQwEe-FgvMNFvOBnw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_PxU8UEQwEe-FgvMNFvOBnw - Loans",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_xuXpkEQwEe-FgvMNFvOBnw - Clean_Master_Master_Loans_Filtered",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
