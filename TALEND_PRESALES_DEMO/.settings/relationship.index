@@ -124,15 +124,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_JuihcD60Ee-dM54k-axwRw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_sihBQD61Ee-dM54k-axwRw",
-    "version" : "Latest",
-    "type" : "property"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_aGIKkUZtEe-HNufR_fAfQA",
@@ -150,27 +142,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_JuihcD60Ee-dM54k-axwRw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_sihBQD61Ee-dM54k-axwRw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_JuihcD60Ee-dM54k-axwRw - MEDICATIONS",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_JuihcD60Ee-dM54k-axwRw - SALES",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_sihBQD61Ee-dM54k-axwRw - AGGREGATED",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_dERDUD-hEe-eI9uuammsdA",
