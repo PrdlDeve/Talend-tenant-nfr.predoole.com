@@ -527,6 +527,33 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_MpQukFPbEe-naMwK30hlBw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_rZ9DEBKJEe-Z9bWIUD3MLg",
+    "version" : "Latest",
+    "type" : "mapper"
+  }, {
+    "id" : "_ZOfMwFVnEe-9GIA4D_2B_w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_gs5zABNkEe-Z9bWIUD3MLg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n4vX0AXgEe-EKrvRwtEITQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_n4vX0AXgEe-EKrvRwtEITQ - customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_OUnNYOEtEe6OtKrUQSA9Jg",
     "version" : "0.1",
     "type" : "job"
@@ -1175,6 +1202,17 @@
   },
   "relatedItems" : [ {
     "id" : "_MWlz0Ps_Ee67Q_gb2Ba35w",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_opBBEFVnEe-9GIA4D_2B_w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_QyWRcFVoEe-9GIA4D_2B_w",
     "version" : "Latest",
     "type" : "property"
   } ]
