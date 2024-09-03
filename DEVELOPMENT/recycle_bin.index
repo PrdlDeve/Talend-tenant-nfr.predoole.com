@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/Megha/Qlik_demo_26_10_23</deletedFolders>
-  <deletedFolders>process/Megha/Sumit</deletedFolders>
-  <deletedFolders>process/Megha/Sumit/Partition_Jobs</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Incremental</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Parallization</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/DemoJobs_26_9_23/Steward_and_preparation</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_Aggregation</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_preparation</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/Data_stewardship</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Demo_job_04_10_23/SCD2</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_Presales_Pune</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/DemoJobs_26_9_23</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/DemoJobs_26_9_23/Incremental</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/DemoJobs_26_9_23/Parallization</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/DemoJobs_26_9_23/Steward_and_preparation</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/Partition_Jobs</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/SCD</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo/Transformation</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Talend_demo_21_09_23</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Audit_Framework</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Data_Migration</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Data_stewardship_test</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Incremental_load</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Interval_Match</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Parallel_regular_time_test</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Remove_duplicates</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/Replacement_Job</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/SCD</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/SCD/SCD1</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/SCD/SCD2</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/SCD/SCD3</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/pharma</deletedFolders>
-  <deletedFolders>process/Megha/TalendDemo/Test_Jobs/validation_check_jobs</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba/PreSales_Suba</deletedFolders>
+  <deletedFolders>process/Suba/Suba</deletedFolders>
+  <deletedItems id="_EQAX0FlxEe-zColVVpzJkQ" path="" type="JSON"/>
   <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_en9MEDntEe-L17apX-73jA" path="CP/BANKING" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_6bKsoFhGEe69bKoNEun9KA" path="Megha" type="METADATA_CONNECTIONS"/>
