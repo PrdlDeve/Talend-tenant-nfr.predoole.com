@@ -1,0 +1,50 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Jay_Test",
+    "description" : "No description",
+    "contact" : { },
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "paths" : {
+    "/employees" : {
+      "get" : {
+        "summary" : "get_all",
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object"
+                },
+                "example" : "{\n  \"ShipperID\": 1,\n  \"CompanyName\": \"Speedy Express\",\n  \"Phone\": \"(503) 555-9831\"\n}\n\n"
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "OAuth2" : [ ]
+        } ]
+      }
+    }
+  },
+  "components" : {
+    "securitySchemes" : {
+      "OAuth2" : {
+        "type" : "oauth2",
+        "flows" : {
+          "authorizationCode" : {
+            "scopes" : {
+              "sc1" : "",
+              "sc2" : ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
