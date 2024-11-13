@@ -158,13 +158,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_SLkV8DnDEe-9Brt4mDM0JA",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ ]
-}, {
-  "baseItem" : {
     "id" : "_TGfYQCMpEe-b8t9hh6Yleg",
     "version" : "0.1",
     "type" : "job"
