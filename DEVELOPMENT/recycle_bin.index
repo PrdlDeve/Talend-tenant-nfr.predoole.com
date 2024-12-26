@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/Suba/PreSales_Suba/Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba</deletedFolders>
-  <deletedFolders>process/Suba/PreSales_Suba/Suba/PreSales_Suba/JayP/Suba/PreSales_Suba</deletedFolders>
+  <deletedFolders>process/Suba/Suba</deletedFolders>
+  <deletedItems id="_EQAX0FlxEe-zColVVpzJkQ" path="" type="JSON"/>
   <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_en9MEDntEe-L17apX-73jA" path="CP/BANKING" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_6bKsoFhGEe69bKoNEun9KA" path="Megha" type="METADATA_CONNECTIONS"/>
@@ -14,6 +11,8 @@
   <deletedItems id="_5YgCQDOeEe-AluTJBw6Nwg" path="Megha/TalendDemo/Test_Jobs/pharma" type="PROCESS"/>
   <deletedItems id="_EnHicOEvEe6OtKrUQSA9Jg" path="Megha/TalendDemo/udemy_test_jobs" type="PROCESS"/>
   <deletedItems id="_Ch9hoOHQEe6OtKrUQSA9Jg" path="Megha/udemy_test_jobs" type="PROCESS"/>
+  <deletedItems id="_0KbyYJzPEe-RpopY_FEGKQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_B1HnYJ2ZEe-8EuEj5h4Xow" path="Melita/APIs" type="PROCESS"/>
   <deletedItems id="_U8rdIDUAEe6g0ZNH9Eq4tw" path="Sumit/Partition_Jobs" type="PROCESS"/>
   <deletedItems id="_m4qYQEXFEe-bnvX39q3vUA" path="" type="SERVICES"/>
 </recyclebin:RecycleBin>

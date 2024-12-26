@@ -1,0 +1,24 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Auth_Test",
+    "description" : "No description",
+    "contact" : { },
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "https://7k2atrji3bau6gr.ap.api-mocks.com/customers"
+  } ],
+  "security" : [ {
+    "Bearer authentication" : [ ]
+  } ],
+  "paths" : { },
+  "components" : {
+    "securitySchemes" : {
+      "Bearer authentication" : {
+        "type" : "http",
+        "scheme" : "bearer"
+      }
+    }
+  }
+}
