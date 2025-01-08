@@ -30,6 +30,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_19MDgIFyEe-vB7OSWlwSQQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-lZaAIFzEe-vB7OSWlwSQQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_wcjsgIFyEe-vB7OSWlwSQQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_1EpZgDzfEe6ETb1XQ1vr8w",
     "version" : "0.1",
     "type" : "job"
@@ -167,6 +182,17 @@
     "id" : "_JbyicDj_Ee-Lf_L9zPWogQ - AGGREGATE_LANDING",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_4uY-8JXuEe-s0Ml03MgWlg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "HTMLScrapingTools",
+    "version" : "Latest",
+    "type" : "routine"
   } ]
 }, {
   "baseItem" : {

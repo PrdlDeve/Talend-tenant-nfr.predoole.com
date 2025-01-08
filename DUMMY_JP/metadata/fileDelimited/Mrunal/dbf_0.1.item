@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OS3O8U_QEe-TA8KMLPXdmw" name="dbf" dataPackage="_OS3O8k_QEe-TA8KMLPXdmw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Laptop_User/Downloads/sample.dbf" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OS3O8k_QEe-TA8KMLPXdmw" name="default" dataManager="_OS3O8U_QEe-TA8KMLPXdmw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OS3O80_QEe-TA8KMLPXdmw" id="_FBl34E_QEe-TA8KMLPXdmw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OS3O9E_QEe-TA8KMLPXdmw" label="Column0" length="8951" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_3X8vUL6REe-XcqALphGvgg" name="Copy_of_MSSQL_Pharma_demo" id="_3QkU8L6REe-XcqALphGvgg" label="Copy_of_MSSQL_Pharma_demo" dataPackage="_Ad_t3r6SEe-XcqALphGvgg" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=manufactures;" dbVersionString="MSSQL_PROP" Port="1433" Username="megha" Password="enc:system.encryption.key.v1:f76Rxa7b50kDTO08ViEbjMyftK/QvVQ7KGf/taC5wd3xcGh83AmpIvI=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="manufactures" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_BCFboSL9Ee-b8t9hh6Yleg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_BCmZACL9Ee-b8t9hh6Yleg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_BCttwCL9Ee-b8t9hh6Yleg" tag="Status" value=""/>
+    <taggedValue xmi:id="_BCttwSL9Ee-b8t9hh6Yleg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_BCttwiL9Ee-b8t9hh6Yleg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_BCttwyL9Ee-b8t9hh6Yleg" tag="Description" value=""/>
+    <taggedValue xmi:id="_BCttxCL9Ee-b8t9hh6Yleg" tag="Author" value=""/>
+    <taggedValue xmi:id="_BCttxSL9Ee-b8t9hh6Yleg" tag="otherParameter"/>
+    <taggedValue xmi:id="_BFdfwCL9Ee-b8t9hh6Yleg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_BFdfwSL9Ee-b8t9hh6Yleg" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_BFdfwiL9Ee-b8t9hh6Yleg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_BCFboiL9Ee-b8t9hh6Yleg" key="CONN_PARA_KEY_USERNAME" value="megha"/>
+    <parameters xmi:id="_elGx8Es8Ee-dx7aRdLKMGw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Ad_t3r6SEe-XcqALphGvgg" name="manufactures" dataManager="_3X8vUL6REe-XcqALphGvgg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_Ad_t376SEe-XcqALphGvgg" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

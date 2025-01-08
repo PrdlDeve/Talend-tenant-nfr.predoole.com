@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_WA_MgK7sEe-7wL_jd_vtxw" name="jay_SQL_server" id="_NiUXEK7sEe-7wL_jd_vtxw" label="jay_SQL_server" dataPackage="_WEnvUK7sEe-7wL_jd_vtxw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.40.229:1433;DatabaseName=Jay_3;trustServerCertificate=true;encrypt=true;" dbVersionString="MSSQL_PROP" Port="1433" Username="User1" Password="enc:system.encryption.key.v1:Dfu7ewxIIVV9NZLiJev0qqJ8ltK22d5GpQyeteRl+pG+bM6d8t5Wzg==" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="Jay_3" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="trustServerCertificate=true;encrypt=true;" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_WA_Mga7sEe-7wL_jd_vtxw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_WBtlQK7sEe-7wL_jd_vtxw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_WBtlQa7sEe-7wL_jd_vtxw" tag="Status" value=""/>
+    <taggedValue xmi:id="_WBtlQq7sEe-7wL_jd_vtxw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_WBtlQ67sEe-7wL_jd_vtxw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_WBtlRK7sEe-7wL_jd_vtxw" tag="Description" value=""/>
+    <taggedValue xmi:id="_WBtlRa7sEe-7wL_jd_vtxw" tag="Author" value=""/>
+    <taggedValue xmi:id="_WBtlRq7sEe-7wL_jd_vtxw" tag="otherParameter"/>
+    <taggedValue xmi:id="_WCnkMK7sEe-7wL_jd_vtxw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_WCnkMa7sEe-7wL_jd_vtxw" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_WCnkMq7sEe-7wL_jd_vtxw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_WA_Mgq7sEe-7wL_jd_vtxw" key="CONN_PARA_KEY_USERNAME" value="User1"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_WEnvUK7sEe-7wL_jd_vtxw" name="Jay_3" dataManager="_WA_MgK7sEe-7wL_jd_vtxw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_WEnvUa7sEe-7wL_jd_vtxw" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

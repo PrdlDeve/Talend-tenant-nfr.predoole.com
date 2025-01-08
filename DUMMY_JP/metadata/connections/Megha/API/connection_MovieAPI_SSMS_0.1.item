@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_CnW4AI90Ee-e1umB8A-2uw" name="connection_MovieAPI_SSMS" id="_vCHMMI9yEe-e1umB8A-2uw" label="connection_MovieAPI_SSMS" dataPackage="_p6-uwI98Ee-e1umB8A-2uw" ContextMode="true" ContextId="_XmhAQI95Ee-e1umB8A-2uw" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250;DatabaseName=MM_Test;encrypt=true;trustServerCertificate=true;" dbVersionString="MSSQL_PROP" Port="context.connection_MovieAPI_SSMS_Port" Username="context.connection_MovieAPI_SSMS_Login" Password="context.connection_MovieAPI_SSMS_Password" ServerName="context.connection_MovieAPI_SSMS_Server" DatasourceName="" FileFieldName="" SID="context.connection_MovieAPI_SSMS_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.connection_MovieAPI_SSMS_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.connection_MovieAPI_SSMS_Schema" supportNLS="false">
+    <taggedValue xmi:id="_CnW4AY90Ee-e1umB8A-2uw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Cn0yEI90Ee-e1umB8A-2uw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_Cn5DgI90Ee-e1umB8A-2uw" tag="Status" value=""/>
+    <taggedValue xmi:id="_Cn5DgY90Ee-e1umB8A-2uw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Cn5Dgo90Ee-e1umB8A-2uw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Cn5Dg490Ee-e1umB8A-2uw" tag="Description" value=""/>
+    <taggedValue xmi:id="_Cn5DhI90Ee-e1umB8A-2uw" tag="Author" value=""/>
+    <taggedValue xmi:id="_Cn5DhY90Ee-e1umB8A-2uw" tag="otherParameter"/>
+    <taggedValue xmi:id="_Co368I90Ee-e1umB8A-2uw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_Co368Y90Ee-e1umB8A-2uw" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_Co368o90Ee-e1umB8A-2uw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_CnW4Ao90Ee-e1umB8A-2uw" key="CONN_PARA_KEY_USERNAME" value="context.connection_MovieAPI_SSMS_Login"/>
+    <parameters xmi:id="_GiCk4I90Ee-e1umB8A-2uw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_p6-uwI98Ee-e1umB8A-2uw" name="MM_Test" dataManager="_CnW4AI90Ee-e1umB8A-2uw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_p6-uwY98Ee-e1umB8A-2uw" name="moviecatalog">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_ulxp8I98Ee-e1umB8A-2uw" name="movies" id="_ulv0wI98Ee-e1umB8A-2uw" label="movies" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_ulxp8Y98Ee-e1umB8A-2uw" name="movieId" label="movieId" length="10" sourceType="INT" talendType="id_Integer">
+          <taggedValue xmi:id="_ulxp8o98Ee-e1umB8A-2uw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ulxp8498Ee-e1umB8A-2uw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ulxp9I98Ee-e1umB8A-2uw" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ulxp9Y98Ee-e1umB8A-2uw" name="title" label="title" length="255" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_ulxp9o98Ee-e1umB8A-2uw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ulxp9498Ee-e1umB8A-2uw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ulxp-I98Ee-e1umB8A-2uw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ulxp-Y98Ee-e1umB8A-2uw" name="releaseYear" label="releaseYear" length="10" sourceType="INT" talendType="id_Integer">
+          <taggedValue xmi:id="_ulxp-o98Ee-e1umB8A-2uw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ulxp-498Ee-e1umB8A-2uw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ulxp_I98Ee-e1umB8A-2uw" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ulxp_Y98Ee-e1umB8A-2uw" name="director" label="director" length="255" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_ulxp_o98Ee-e1umB8A-2uw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ulxp_498Ee-e1umB8A-2uw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ulxqAI98Ee-e1umB8A-2uw" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ulxqAY98Ee-e1umB8A-2uw" name="price" label="price" length="53" sourceType="FLOAT" talendType="id_Double">
+          <taggedValue xmi:id="_ulxqAo98Ee-e1umB8A-2uw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ulxqA498Ee-e1umB8A-2uw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ulxqBI98Ee-e1umB8A-2uw" name="FLOAT" numericPrecisionRadix="2" javaDataType="8" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
