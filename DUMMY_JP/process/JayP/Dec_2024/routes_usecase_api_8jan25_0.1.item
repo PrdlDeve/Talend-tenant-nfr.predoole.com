@@ -109,7 +109,7 @@
     <elementParameter field="TABLE" name="SCHEMAS">
       <elementValue elementRef="SCHEMA" value="orderPost"/>
       <elementValue elementRef="HTTP_VERB" value="POST"/>
-      <elementValue elementRef="URI_PATTERN" value="&quot;/&quot;"/>
+      <elementValue elementRef="URI_PATTERN" value="&quot;/p&quot;"/>
       <elementValue elementRef="CONSUMES" value="JSON"/>
       <elementValue elementRef="PRODUCES" value="JSON"/>
       <elementValue elementRef="STREAMING" value="false"/>
