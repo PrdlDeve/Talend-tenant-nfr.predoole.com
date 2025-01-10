@@ -1,198 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_FC2qUM5PEe-wdaqOsexRhQ" defaultContext="Default" jobType="Standard">
-  <context xmi:id="_FC2qUc5PEe-wdaqOsexRhQ" confirmationNeeded="false" hide="false" name="Default"/>
-  <parameters xmi:id="_FC2qUs5PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2qU85PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter xmi:id="_FC2qVM5PEe-wdaqOsexRhQ" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter xmi:id="_FC2qVc5PEe-wdaqOsexRhQ" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
-    <elementParameter xmi:id="_FC2qVs5PEe-wdaqOsexRhQ" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qV85PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qWM5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qWc5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qWs5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qW85PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qXM5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qXc5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qXs5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qX85PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qYM5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qYc5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qYs5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qY85PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qZM5PEe-wdaqOsexRhQ" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_s60KEM9QEe-Revkyksemlg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_s64bgM9QEe-Revkyksemlg" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_s64bgc9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64bgs9QEe-Revkyksemlg" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_s64bg89QEe-Revkyksemlg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_s64bhM9QEe-Revkyksemlg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_s64bhc9QEe-Revkyksemlg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_s64bhs9QEe-Revkyksemlg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_s64bh89QEe-Revkyksemlg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_s64biM9QEe-Revkyksemlg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_s64bic9QEe-Revkyksemlg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_s64bis9QEe-Revkyksemlg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_s64bi89QEe-Revkyksemlg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_s64bjM9QEe-Revkyksemlg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_s64bjc9QEe-Revkyksemlg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_s64bjs9QEe-Revkyksemlg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_s64bj89QEe-Revkyksemlg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_s64bkM9QEe-Revkyksemlg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_s64bkc9QEe-Revkyksemlg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_s64bks9QEe-Revkyksemlg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_s64bk89QEe-Revkyksemlg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
   </parameters>
-  <node xmi:id="_FC2qZc5PEe-wdaqOsexRhQ" componentName="cSQLConnection" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
-    <elementParameter xmi:id="_FC2qZs5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cSQLConnection_1" show="false"/>
-    <elementParameter xmi:id="_FC2qZ85PEe-wdaqOsexRhQ" field="TEXT" name="DRIVER_CLASS" value="&quot;com.mysql.cj.jdbc.Driver&quot;"/>
-    <elementParameter xmi:id="_FC2qaM5PEe-wdaqOsexRhQ" field="TABLE" name="DRIVER_JAR">
-      <elementValue xmi:id="_FC2qac5PEe-wdaqOsexRhQ" elementRef="JAR_NAME" value="mvn:org.talend.libraries/mysql-connector-j-8.4.0/6.0.0-SNAPSHOT/jar"/>
+  <node xmi:id="_s64blM9QEe-Revkyksemlg" componentName="cSQLConnection" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="80" posY="40">
+    <elementParameter xmi:id="_s64blc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cSQLConnection_1" show="false"/>
+    <elementParameter xmi:id="_s64bls9QEe-Revkyksemlg" field="TEXT" name="DRIVER_CLASS" value="&quot;com.mysql.cj.jdbc.Driver&quot;"/>
+    <elementParameter xmi:id="_s64bl89QEe-Revkyksemlg" field="TABLE" name="DRIVER_JAR">
+      <elementValue xmi:id="_s64bmM9QEe-Revkyksemlg" elementRef="JAR_NAME" value="mvn:org.talend.libraries/mysql-connector-j-8.4.0/6.0.0-SNAPSHOT/jar"/>
     </elementParameter>
-    <elementParameter xmi:id="_FC2qas5PEe-wdaqOsexRhQ" field="TEXT" name="URL" value="&quot;jdbc:mysql://192.168.1.133:3306/jay_db&quot;"/>
-    <elementParameter xmi:id="_FC2qa85PEe-wdaqOsexRhQ" field="CHECK" name="AUTH_REQUIRED" value="true"/>
-    <elementParameter xmi:id="_FC2qbM5PEe-wdaqOsexRhQ" field="TEXT" name="USER" value="&quot;Aarti&quot;"/>
-    <elementParameter xmi:id="_FC2qbc5PEe-wdaqOsexRhQ" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d/DRF9k3Xl7o0a27MxydnLbD1QlugZ/goQ+hfkty+mktwd15HTmh7oIlWg=="/>
-    <elementParameter xmi:id="_FC2qbs5PEe-wdaqOsexRhQ" field="CHECK" name="USE_DATA_SOURCE_ALIAS" value="false"/>
-    <elementParameter xmi:id="_FC2qb85PEe-wdaqOsexRhQ" field="TEXT" name="DATA_SOURCE_ALIAS" value="&quot;jdbc/mydatasource&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qcM5PEe-wdaqOsexRhQ" field="TEXT" name="INITIAL_SIZE" value="0"/>
-    <elementParameter xmi:id="_FC2qcc5PEe-wdaqOsexRhQ" field="TEXT" name="MAX_TOTAL" value="8"/>
-    <elementParameter xmi:id="_FC2qcs5PEe-wdaqOsexRhQ" field="TEXT" name="MIN_IDLE" value="0"/>
-    <elementParameter xmi:id="_FC2qc85PEe-wdaqOsexRhQ" field="TEXT" name="MAX_IDLE" value="8"/>
-    <elementParameter xmi:id="_FC2qdM5PEe-wdaqOsexRhQ" field="CHECK" name="SET_TIMEOUTS" value="false"/>
-    <elementParameter xmi:id="_FC2qdc5PEe-wdaqOsexRhQ" field="TEXT" name="QUERY_TIMEOUT" value="-1" show="false"/>
-    <elementParameter xmi:id="_FC2qds5PEe-wdaqOsexRhQ" field="TEXT" name="MAX_CONNECTION_DURATION" value="-1" show="false"/>
-    <elementParameter xmi:id="_FC2qd85PEe-wdaqOsexRhQ" field="CHECK" name="USE_VALIDATION_QUERY" value="false"/>
-    <elementParameter xmi:id="_FC2qeM5PEe-wdaqOsexRhQ" field="TEXT" name="VALIDATION_QUERY_TIMEOUT" value="-1" show="false"/>
-    <elementParameter xmi:id="_FC2qec5PEe-wdaqOsexRhQ" field="TEXT" name="VALIDATION_QUERY" value="&quot;SELECT 1&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qes5PEe-wdaqOsexRhQ" field="CHECK" name="USE_INIT_SQL" value="false"/>
-    <elementParameter xmi:id="_FC2qe85PEe-wdaqOsexRhQ" field="MEMO_SQL" name="INIT_QUERY" value="&quot;CREATE TABLE ....&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qfM5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qfc5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+    <elementParameter xmi:id="_s64bmc9QEe-Revkyksemlg" field="TEXT" name="URL" value="&quot;jdbc:mysql://192.168.1.133:3306/jay_db&quot;"/>
+    <elementParameter xmi:id="_s64bms9QEe-Revkyksemlg" field="CHECK" name="AUTH_REQUIRED" value="true"/>
+    <elementParameter xmi:id="_s64bm89QEe-Revkyksemlg" field="TEXT" name="USER" value="&quot;Aarti&quot;"/>
+    <elementParameter xmi:id="_s64bnM9QEe-Revkyksemlg" field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d/DRF9k3Xl7o0a27MxydnLbD1QlugZ/goQ+hfkty+mktwd15HTmh7oIlWg=="/>
+    <elementParameter xmi:id="_s64bnc9QEe-Revkyksemlg" field="CHECK" name="USE_DATA_SOURCE_ALIAS" value="false"/>
+    <elementParameter xmi:id="_s64bns9QEe-Revkyksemlg" field="TEXT" name="DATA_SOURCE_ALIAS" value="&quot;jdbc/mydatasource&quot;" show="false"/>
+    <elementParameter xmi:id="_s64bn89QEe-Revkyksemlg" field="TEXT" name="INITIAL_SIZE" value="0"/>
+    <elementParameter xmi:id="_s64boM9QEe-Revkyksemlg" field="TEXT" name="MAX_TOTAL" value="8"/>
+    <elementParameter xmi:id="_s64boc9QEe-Revkyksemlg" field="TEXT" name="MIN_IDLE" value="0"/>
+    <elementParameter xmi:id="_s64bos9QEe-Revkyksemlg" field="TEXT" name="MAX_IDLE" value="8"/>
+    <elementParameter xmi:id="_s64bo89QEe-Revkyksemlg" field="CHECK" name="SET_TIMEOUTS" value="false"/>
+    <elementParameter xmi:id="_s64bpM9QEe-Revkyksemlg" field="TEXT" name="QUERY_TIMEOUT" value="-1" show="false"/>
+    <elementParameter xmi:id="_s64bpc9QEe-Revkyksemlg" field="TEXT" name="MAX_CONNECTION_DURATION" value="-1" show="false"/>
+    <elementParameter xmi:id="_s64bps9QEe-Revkyksemlg" field="CHECK" name="USE_VALIDATION_QUERY" value="false"/>
+    <elementParameter xmi:id="_s64bp89QEe-Revkyksemlg" field="TEXT" name="VALIDATION_QUERY_TIMEOUT" value="-1" show="false"/>
+    <elementParameter xmi:id="_s64bqM9QEe-Revkyksemlg" field="TEXT" name="VALIDATION_QUERY" value="&quot;SELECT 1&quot;" show="false"/>
+    <elementParameter xmi:id="_s64bqc9QEe-Revkyksemlg" field="CHECK" name="USE_INIT_SQL" value="false"/>
+    <elementParameter xmi:id="_s64bqs9QEe-Revkyksemlg" field="MEMO_SQL" name="INIT_QUERY" value="&quot;CREATE TABLE ....&quot;" show="false"/>
+    <elementParameter xmi:id="_s64bq89QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64brM9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qfs5PEe-wdaqOsexRhQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="40">
-    <elementParameter xmi:id="_FC2qf85PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
-    <elementParameter xmi:id="_FC2qgM5PEe-wdaqOsexRhQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
-    <elementParameter xmi:id="_FC2qgc5PEe-wdaqOsexRhQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_3"/>
-    <elementParameter xmi:id="_FC2qgs5PEe-wdaqOsexRhQ" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qg85PEe-wdaqOsexRhQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_FC2qhM5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qhc5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64brc9QEe-Revkyksemlg" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="720" posY="40">
+    <elementParameter xmi:id="_s64brs9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+    <elementParameter xmi:id="_s64br89QEe-Revkyksemlg" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false"/>
+    <elementParameter xmi:id="_s64bsM9QEe-Revkyksemlg" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="cDirect_3"/>
+    <elementParameter xmi:id="_s64bsc9QEe-Revkyksemlg" field="TEXT" name="NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_s64bss9QEe-Revkyksemlg" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_s64bs89QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64btM9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qhs5PEe-wdaqOsexRhQ" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="120">
-    <elementParameter xmi:id="_FC2qh85PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
-    <elementParameter xmi:id="_FC2qiM5PEe-wdaqOsexRhQ" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qic5PEe-wdaqOsexRhQ" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qis5PEe-wdaqOsexRhQ" field="TEXT" name="NAME" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2qi85PEe-wdaqOsexRhQ" field="TABLE" name="ADVARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_FC2qjM5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qjc5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64btc9QEe-Revkyksemlg" componentName="cDirect" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="120">
+    <elementParameter xmi:id="_s64bts9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+    <elementParameter xmi:id="_s64bt89QEe-Revkyksemlg" field="CHECK" name="INPUT_ENDPOINT_NAME" value="false" show="false"/>
+    <elementParameter xmi:id="_s64buM9QEe-Revkyksemlg" field="ROUTE_COMPONENT_TYPE" name="EXIST_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_s64buc9QEe-Revkyksemlg" field="TEXT" name="NAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_s64bus9QEe-Revkyksemlg" field="TABLE" name="ADVARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_s64bu89QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64bvM9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qjs5PEe-wdaqOsexRhQ" componentName="cHttp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
-    <elementParameter xmi:id="_FC2qj85PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cHttp_2" show="false"/>
-    <elementParameter xmi:id="_FC2qkM5PEe-wdaqOsexRhQ" field="TEXT" name="URI" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2qkc5PEe-wdaqOsexRhQ" field="RADIO" name="CLIENT" value="true"/>
-    <elementParameter xmi:id="_FC2qks5PEe-wdaqOsexRhQ" field="RADIO" name="SERVER" value="false"/>
-    <elementParameter xmi:id="_FC2qk85PEe-wdaqOsexRhQ" field="CHECK" name="DISABLE_STREAM" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qlM5PEe-wdaqOsexRhQ" field="CHECK" name="SESSION_SUPPORT" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qlc5PEe-wdaqOsexRhQ" field="CHECK" name="CHUNKED" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qls5PEe-wdaqOsexRhQ" field="CHECK" name="ENABLEJMX" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2ql85PEe-wdaqOsexRhQ" field="CHECK" name="MATCH_ON_URI_PREFIX" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qmM5PEe-wdaqOsexRhQ" field="CHECK" name="USE_CONTINUATION" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qmc5PEe-wdaqOsexRhQ" field="CHECK" name="TRACE_ENABLE" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qms5PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="METHOD" value="DELETE"/>
-    <elementParameter xmi:id="_FC2qm85PEe-wdaqOsexRhQ" field="RADIO" name="PLAIN_TEXT" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qnM5PEe-wdaqOsexRhQ" field="RADIO" name="FORM_CONTENT" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qnc5PEe-wdaqOsexRhQ" field="RADIO" name="NO_CONTENT" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qns5PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json" show="false"/>
-    <elementParameter xmi:id="_FC2qn85PEe-wdaqOsexRhQ" field="TEXT" name="MANUAL_CONTENT_TYPE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qoM5PEe-wdaqOsexRhQ" field="TABLE" name="PARAMETERS"/>
-    <elementParameter xmi:id="_FC2qoc5PEe-wdaqOsexRhQ" field="TEXT" name="ENCODER_CHARSET" value="UTF-8"/>
-    <elementParameter xmi:id="_FC2qos5PEe-wdaqOsexRhQ" field="MEMO" name="PLAIN_TEXT_CONTENT" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qo85PEe-wdaqOsexRhQ" field="TABLE" name="HEADERS"/>
-    <elementParameter xmi:id="_FC2qpM5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qpc5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64bvc9QEe-Revkyksemlg" componentName="cHttp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
+    <elementParameter xmi:id="_s64bvs9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cHttp_2" show="false"/>
+    <elementParameter xmi:id="_s64bv89QEe-Revkyksemlg" field="TEXT" name="URI" value="&quot;http://localhost:8093/1011/8&quot;"/>
+    <elementParameter xmi:id="_s64bwM9QEe-Revkyksemlg" field="RADIO" name="CLIENT" value="true"/>
+    <elementParameter xmi:id="_s64bwc9QEe-Revkyksemlg" field="RADIO" name="SERVER" value="false"/>
+    <elementParameter xmi:id="_s64bws9QEe-Revkyksemlg" field="CHECK" name="DISABLE_STREAM" value="false" show="false"/>
+    <elementParameter xmi:id="_s64bw89QEe-Revkyksemlg" field="CHECK" name="SESSION_SUPPORT" value="false" show="false"/>
+    <elementParameter xmi:id="_s64bxM9QEe-Revkyksemlg" field="CHECK" name="CHUNKED" value="true" show="false"/>
+    <elementParameter xmi:id="_s64bxc9QEe-Revkyksemlg" field="CHECK" name="ENABLEJMX" value="false" show="false"/>
+    <elementParameter xmi:id="_s64bxs9QEe-Revkyksemlg" field="CHECK" name="MATCH_ON_URI_PREFIX" value="false" show="false"/>
+    <elementParameter xmi:id="_s64bx89QEe-Revkyksemlg" field="CHECK" name="USE_CONTINUATION" value="true" show="false"/>
+    <elementParameter xmi:id="_s64byM9QEe-Revkyksemlg" field="CHECK" name="TRACE_ENABLE" value="false" show="false"/>
+    <elementParameter xmi:id="_s64byc9QEe-Revkyksemlg" field="CLOSED_LIST" name="METHOD" value="PATCH"/>
+    <elementParameter xmi:id="_s64bys9QEe-Revkyksemlg" field="RADIO" name="PLAIN_TEXT" value="false"/>
+    <elementParameter xmi:id="_s64by89QEe-Revkyksemlg" field="RADIO" name="FORM_CONTENT" value="false"/>
+    <elementParameter xmi:id="_s64bzM9QEe-Revkyksemlg" field="RADIO" name="NO_CONTENT" value="true"/>
+    <elementParameter xmi:id="_s64bzc9QEe-Revkyksemlg" field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
+    <elementParameter xmi:id="_s64bzs9QEe-Revkyksemlg" field="TEXT" name="MANUAL_CONTENT_TYPE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_s64bz89QEe-Revkyksemlg" field="TABLE" name="PARAMETERS" show="false"/>
+    <elementParameter xmi:id="_s64b0M9QEe-Revkyksemlg" field="TEXT" name="ENCODER_CHARSET" value="UTF-8" show="false"/>
+    <elementParameter xmi:id="_s64b0c9QEe-Revkyksemlg" field="MEMO" name="PLAIN_TEXT_CONTENT" value="" show="false"/>
+    <elementParameter xmi:id="_s64b0s9QEe-Revkyksemlg" field="TABLE" name="HEADERS"/>
+    <elementParameter xmi:id="_s64b089QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64b1M9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qps5PEe-wdaqOsexRhQ" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="120">
-    <elementParameter xmi:id="_FC2qp85PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
-    <elementParameter xmi:id="_FC2qqM5PEe-wdaqOsexRhQ" field="TEXT" name="LOGGING_CATEGORY" value="&quot;use_case.cLog_1&quot;"/>
-    <elementParameter xmi:id="_FC2qqc5PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
-    <elementParameter xmi:id="_FC2qqs5PEe-wdaqOsexRhQ" field="RADIO" name="NOTHING" value="true"/>
-    <elementParameter xmi:id="_FC2qq85PEe-wdaqOsexRhQ" field="RADIO" name="GROUP_SIZE" value="false"/>
-    <elementParameter xmi:id="_FC2qrM5PEe-wdaqOsexRhQ" field="TEXT" name="SIZE" value="1" show="false"/>
-    <elementParameter xmi:id="_FC2qrc5PEe-wdaqOsexRhQ" field="RADIO" name="GROUP_INTERVAL" value="false"/>
-    <elementParameter xmi:id="_FC2qrs5PEe-wdaqOsexRhQ" field="TEXT" name="INTERVAL" value="1" show="false"/>
-    <elementParameter xmi:id="_FC2qr85PEe-wdaqOsexRhQ" field="TEXT" name="DELAY" value="0" show="false"/>
-    <elementParameter xmi:id="_FC2qsM5PEe-wdaqOsexRhQ" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qsc5PEe-wdaqOsexRhQ" field="RADIO" name="FORMAT" value="false"/>
-    <elementParameter xmi:id="_FC2qss5PEe-wdaqOsexRhQ" field="TABLE" name="ARGUMENTS" show="false"/>
-    <elementParameter xmi:id="_FC2qs85PEe-wdaqOsexRhQ" field="RADIO" name="USE_LOGEIP" value="false"/>
-    <elementParameter xmi:id="_FC2qtM5PEe-wdaqOsexRhQ" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qtc5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qts5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64b1c9QEe-Revkyksemlg" componentName="cLog" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="720" posY="120">
+    <elementParameter xmi:id="_s64b1s9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+    <elementParameter xmi:id="_s64b189QEe-Revkyksemlg" field="TEXT" name="LOGGING_CATEGORY" value="&quot;use_case.cLog_1&quot;"/>
+    <elementParameter xmi:id="_s64b2M9QEe-Revkyksemlg" field="CLOSED_LIST" name="LEVEL_TYPE" value="WARN"/>
+    <elementParameter xmi:id="_s64b2c9QEe-Revkyksemlg" field="RADIO" name="NOTHING" value="true"/>
+    <elementParameter xmi:id="_s64b2s9QEe-Revkyksemlg" field="RADIO" name="GROUP_SIZE" value="false"/>
+    <elementParameter xmi:id="_s64b289QEe-Revkyksemlg" field="TEXT" name="SIZE" value="1" show="false"/>
+    <elementParameter xmi:id="_s64b3M9QEe-Revkyksemlg" field="RADIO" name="GROUP_INTERVAL" value="false"/>
+    <elementParameter xmi:id="_s64b3c9QEe-Revkyksemlg" field="TEXT" name="INTERVAL" value="1" show="false"/>
+    <elementParameter xmi:id="_s64b3s9QEe-Revkyksemlg" field="TEXT" name="DELAY" value="0" show="false"/>
+    <elementParameter xmi:id="_s64b389QEe-Revkyksemlg" field="CHECK" name="ACTIVE_ONLY" value="true" show="false"/>
+    <elementParameter xmi:id="_s64b4M9QEe-Revkyksemlg" field="RADIO" name="FORMAT" value="false"/>
+    <elementParameter xmi:id="_s64b4c9QEe-Revkyksemlg" field="TABLE" name="ARGUMENTS" show="false"/>
+    <elementParameter xmi:id="_s64b4s9QEe-Revkyksemlg" field="RADIO" name="USE_LOGEIP" value="false"/>
+    <elementParameter xmi:id="_s64b489QEe-Revkyksemlg" field="TEXT" name="MESSAGE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_s64b5M9QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64b5c9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qt85PEe-wdaqOsexRhQ" componentName="cHttp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="40">
-    <elementParameter xmi:id="_FC2quM5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cHttp_1" show="false"/>
-    <elementParameter xmi:id="_FC2quc5PEe-wdaqOsexRhQ" field="TEXT" name="URI" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2qus5PEe-wdaqOsexRhQ" field="RADIO" name="CLIENT" value="true"/>
-    <elementParameter xmi:id="_FC2qu85PEe-wdaqOsexRhQ" field="RADIO" name="SERVER" value="false"/>
-    <elementParameter xmi:id="_FC2qvM5PEe-wdaqOsexRhQ" field="CHECK" name="DISABLE_STREAM" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qvc5PEe-wdaqOsexRhQ" field="CHECK" name="SESSION_SUPPORT" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qvs5PEe-wdaqOsexRhQ" field="CHECK" name="CHUNKED" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qv85PEe-wdaqOsexRhQ" field="CHECK" name="ENABLEJMX" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qwM5PEe-wdaqOsexRhQ" field="CHECK" name="MATCH_ON_URI_PREFIX" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qwc5PEe-wdaqOsexRhQ" field="CHECK" name="USE_CONTINUATION" value="true" show="false"/>
-    <elementParameter xmi:id="_FC2qws5PEe-wdaqOsexRhQ" field="CHECK" name="TRACE_ENABLE" value="false" show="false"/>
-    <elementParameter xmi:id="_FC2qw85PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="METHOD" value="POST"/>
-    <elementParameter xmi:id="_FC2qxM5PEe-wdaqOsexRhQ" field="RADIO" name="PLAIN_TEXT" value="false"/>
-    <elementParameter xmi:id="_FC2qxc5PEe-wdaqOsexRhQ" field="RADIO" name="FORM_CONTENT" value="false"/>
-    <elementParameter xmi:id="_FC2qxs5PEe-wdaqOsexRhQ" field="RADIO" name="NO_CONTENT" value="true"/>
-    <elementParameter xmi:id="_FC2qx85PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
-    <elementParameter xmi:id="_FC2qyM5PEe-wdaqOsexRhQ" field="TEXT" name="MANUAL_CONTENT_TYPE" value="&quot;&quot;" show="false"/>
-    <elementParameter xmi:id="_FC2qyc5PEe-wdaqOsexRhQ" field="TABLE" name="PARAMETERS" show="false"/>
-    <elementParameter xmi:id="_FC2qys5PEe-wdaqOsexRhQ" field="TEXT" name="ENCODER_CHARSET" value="UTF-8" show="false"/>
-    <elementParameter xmi:id="_FC2qy85PEe-wdaqOsexRhQ" field="MEMO" name="PLAIN_TEXT_CONTENT" value="" show="false"/>
-    <elementParameter xmi:id="_FC2qzM5PEe-wdaqOsexRhQ" field="TABLE" name="HEADERS"/>
-    <elementParameter xmi:id="_FC2qzc5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2qzs5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64b5s9QEe-Revkyksemlg" componentName="cHttp" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="40">
+    <elementParameter xmi:id="_s64b589QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cHttp_1" show="false"/>
+    <elementParameter xmi:id="_s64b6M9QEe-Revkyksemlg" field="TEXT" name="URI" value="&quot;http://localhost:8093/p&quot;"/>
+    <elementParameter xmi:id="_s64b6c9QEe-Revkyksemlg" field="RADIO" name="CLIENT" value="true"/>
+    <elementParameter xmi:id="_s64b6s9QEe-Revkyksemlg" field="RADIO" name="SERVER" value="false"/>
+    <elementParameter xmi:id="_s64b689QEe-Revkyksemlg" field="CHECK" name="DISABLE_STREAM" value="false" show="false"/>
+    <elementParameter xmi:id="_s64b7M9QEe-Revkyksemlg" field="CHECK" name="SESSION_SUPPORT" value="false" show="false"/>
+    <elementParameter xmi:id="_s64b7c9QEe-Revkyksemlg" field="CHECK" name="CHUNKED" value="true" show="false"/>
+    <elementParameter xmi:id="_s64b7s9QEe-Revkyksemlg" field="CHECK" name="ENABLEJMX" value="false" show="false"/>
+    <elementParameter xmi:id="_s64b789QEe-Revkyksemlg" field="CHECK" name="MATCH_ON_URI_PREFIX" value="false" show="false"/>
+    <elementParameter xmi:id="_s64b8M9QEe-Revkyksemlg" field="CHECK" name="USE_CONTINUATION" value="true" show="false"/>
+    <elementParameter xmi:id="_s64b8c9QEe-Revkyksemlg" field="CHECK" name="TRACE_ENABLE" value="false" show="false"/>
+    <elementParameter xmi:id="_s64b8s9QEe-Revkyksemlg" field="CLOSED_LIST" name="METHOD" value="POST"/>
+    <elementParameter xmi:id="_s64b889QEe-Revkyksemlg" field="RADIO" name="PLAIN_TEXT" value="false"/>
+    <elementParameter xmi:id="_s64b9M9QEe-Revkyksemlg" field="RADIO" name="FORM_CONTENT" value="false"/>
+    <elementParameter xmi:id="_s64b9c9QEe-Revkyksemlg" field="RADIO" name="NO_CONTENT" value="true"/>
+    <elementParameter xmi:id="_s64b9s9QEe-Revkyksemlg" field="CLOSED_LIST" name="CONTENT_TYPE" value="application/json"/>
+    <elementParameter xmi:id="_s64b989QEe-Revkyksemlg" field="TEXT" name="MANUAL_CONTENT_TYPE" value="&quot;&quot;" show="false"/>
+    <elementParameter xmi:id="_s64b-M9QEe-Revkyksemlg" field="TABLE" name="PARAMETERS" show="false"/>
+    <elementParameter xmi:id="_s64b-c9QEe-Revkyksemlg" field="TEXT" name="ENCODER_CHARSET" value="UTF-8" show="false"/>
+    <elementParameter xmi:id="_s64b-s9QEe-Revkyksemlg" field="MEMO" name="PLAIN_TEXT_CONTENT" value="" show="false"/>
+    <elementParameter xmi:id="_s64b-89QEe-Revkyksemlg" field="TABLE" name="HEADERS"/>
+    <elementParameter xmi:id="_s64b_M9QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64b_c9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2qz85PEe-wdaqOsexRhQ" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="40">
-    <elementParameter xmi:id="_FC2q0M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
-    <elementParameter xmi:id="_FC2q0c5PEe-wdaqOsexRhQ" field="DIRECTORY" name="URI" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2q0s5PEe-wdaqOsexRhQ" field="CHECK" name="NOOP" value="true"/>
-    <elementParameter xmi:id="_FC2q085PEe-wdaqOsexRhQ" field="CHECK" name="FLATTEN" value="false"/>
-    <elementParameter xmi:id="_FC2q1M5PEe-wdaqOsexRhQ" field="CHECK" name="AUTOCREATE" value="true"/>
-    <elementParameter xmi:id="_FC2q1c5PEe-wdaqOsexRhQ" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
-    <elementParameter xmi:id="_FC2q1s5PEe-wdaqOsexRhQ" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2q185PEe-wdaqOsexRhQ" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
-    <elementParameter xmi:id="_FC2q2M5PEe-wdaqOsexRhQ" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
-    <elementParameter xmi:id="_FC2q2c5PEe-wdaqOsexRhQ" field="TABLE" name="ADVARGUMENTS"/>
-    <elementParameter xmi:id="_FC2q2s5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2q285PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64b_s9QEe-Revkyksemlg" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="360" posY="40">
+    <elementParameter xmi:id="_s64b_89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_s64cAM9QEe-Revkyksemlg" field="DIRECTORY" name="URI" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_s64cAc9QEe-Revkyksemlg" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_s64cAs9QEe-Revkyksemlg" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_s64cA89QEe-Revkyksemlg" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_s64cBM9QEe-Revkyksemlg" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_s64cBc9QEe-Revkyksemlg" field="ENCODING_TYPE" name="ENCODING" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_s64cBs9QEe-Revkyksemlg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter xmi:id="_s64cB89QEe-Revkyksemlg" field="TEXT" name="FILENAME" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_s64cCM9QEe-Revkyksemlg" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_s64cCc9QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64cCs9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <node xmi:id="_FC2q3M5PEe-wdaqOsexRhQ" componentName="cJsonParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="40">
-    <elementParameter xmi:id="_FC2q3c5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
-    <elementParameter xmi:id="_FC2q3s5PEe-wdaqOsexRhQ" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Jackson"/>
-    <elementParameter xmi:id="_FC2q385PEe-wdaqOsexRhQ" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
-    <elementParameter xmi:id="_FC2q4M5PEe-wdaqOsexRhQ" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
-    <elementParameter xmi:id="_FC2q4c5PEe-wdaqOsexRhQ" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter xmi:id="_FC2q4s5PEe-wdaqOsexRhQ" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  <node xmi:id="_s64cC89QEe-Revkyksemlg" componentName="cJsonParser" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="40">
+    <elementParameter xmi:id="_s64cDM9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
+    <elementParameter xmi:id="_s64cDc9QEe-Revkyksemlg" field="CLOSED_LIST" name="JSON_LIBRARY" value="org.apache.camel.model.dataformat.JsonLibrary.Jackson"/>
+    <elementParameter xmi:id="_s64cDs9QEe-Revkyksemlg" field="TEXT" name="UNMARSHAL_TYPE" value="java.util.Map.class"/>
+    <elementParameter xmi:id="_s64cD89QEe-Revkyksemlg" field="ROUTE_COMPONENT_TYPE" name="CUSTOM_REFERENCE" value="" show="false"/>
+    <elementParameter xmi:id="_s64cEM9QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64cEc9QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
   </node>
-  <connection xmi:id="_FC2q485PEe-wdaqOsexRhQ" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirect_3" target="cHttp_2">
-    <elementParameter xmi:id="_FC2q5M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  <node xmi:id="_s64cEs9QEe-Revkyksemlg" componentName="cProcessor" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="120">
+    <elementParameter xmi:id="_s64cE89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
+    <elementParameter xmi:id="_s64cFM9QEe-Revkyksemlg" field="MEMO_JAVA" name="CODE" value="/*&#xA;* Provide own codes to consume or translate the message exchanges.&#xA;* @param org.apache.camel.Exchange exchange&#xA;*&#xA;* Needed import statements must be added in Advanced settings&#xA;*/"/>
+    <elementParameter xmi:id="_s64cFc9QEe-Revkyksemlg" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_s64cFs9QEe-Revkyksemlg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_s64cF89QEe-Revkyksemlg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_s64cGM9QEe-Revkyksemlg" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cDirect_3" target="cProcessor_1">
+    <elementParameter xmi:id="_s64cGc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
   </connection>
-  <connection xmi:id="_FC2q5c5PEe-wdaqOsexRhQ" connectorName="ROUTE" label="route3" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cHttp_2" target="cLog_1">
-    <elementParameter xmi:id="_FC2q5s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
+  <connection xmi:id="_s64cGs9QEe-Revkyksemlg" connectorName="ROUTE" label="route3" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cHttp_2" target="cLog_1">
+    <elementParameter xmi:id="_s64cG89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route3" show="false"/>
   </connection>
-  <connection xmi:id="_FC2q585PEe-wdaqOsexRhQ" connectorName="ROUTE" label="route5" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cHttp_1" target="cDirect_2">
-    <elementParameter xmi:id="_FC2q6M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
+  <connection xmi:id="_s64cHM9QEe-Revkyksemlg" connectorName="ROUTE" label="route5" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cHttp_1" target="cDirect_2">
+    <elementParameter xmi:id="_s64cHc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route5" show="false"/>
   </connection>
-  <connection xmi:id="_FC2q6c5PEe-wdaqOsexRhQ" connectorName="ROUTE" label="route4" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cJsonParser_1">
-    <elementParameter xmi:id="_FC2q6s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
+  <connection xmi:id="_s64cHs9QEe-Revkyksemlg" connectorName="ROUTE" label="route4" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cJsonParser_1">
+    <elementParameter xmi:id="_s64cH89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route4" show="false"/>
   </connection>
-  <connection xmi:id="_FC2q685PEe-wdaqOsexRhQ" connectorName="ROUTE" label="route2" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonParser_1" target="cHttp_1">
-    <elementParameter xmi:id="_FC2q7M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
+  <connection xmi:id="_s64cIM9QEe-Revkyksemlg" connectorName="ROUTE" label="route2" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cJsonParser_1" target="cHttp_1">
+    <elementParameter xmi:id="_s64cIc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route2" show="false"/>
   </connection>
-  <subjob xmi:id="_FC2q7c5PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q7s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cSQLConnection_1" show="false"/>
+  <connection xmi:id="_s64cIs9QEe-Revkyksemlg" connectorName="ROUTE" label="route6" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cProcessor_1" target="cHttp_2">
+    <elementParameter xmi:id="_s64cI89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="route6" show="false"/>
+  </connection>
+  <subjob xmi:id="_s64cJM9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cJc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cSQLConnection_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q785PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q8M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
+  <subjob xmi:id="_s64cJs9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cJ89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cDirect_2" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q8c5PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q8s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
+  <subjob xmi:id="_s64cKM9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cKc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cDirect_3" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q885PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q9M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cHttp_2" show="false"/>
+  <subjob xmi:id="_s64cKs9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cK89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cHttp_2" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q9c5PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q9s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
+  <subjob xmi:id="_s64cLM9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cLc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cLog_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q985PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q-M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cHttp_1" show="false"/>
+  <subjob xmi:id="_s64cLs9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cL89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cHttp_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q-c5PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q-s5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  <subjob xmi:id="_s64cMM9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cMc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
   </subjob>
-  <subjob xmi:id="_FC2q-85PEe-wdaqOsexRhQ">
-    <elementParameter xmi:id="_FC2q_M5PEe-wdaqOsexRhQ" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
+  <subjob xmi:id="_s64cMs9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cM89QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cJsonParser_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_s64cNM9QEe-Revkyksemlg">
+    <elementParameter xmi:id="_s64cNc9QEe-Revkyksemlg" field="TEXT" name="UNIQUE_NAME" value="cProcessor_1" show="false"/>
   </subjob>
 </talendfile:ProcessType>
