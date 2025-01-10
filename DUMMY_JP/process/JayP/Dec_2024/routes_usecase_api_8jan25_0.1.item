@@ -509,7 +509,7 @@
         <nodes name="PaymentMethod" type="id_String" xpath="row2/PaymentMethod"/>
         <nodes name="OrderTime" type="id_Date" outgoingConnections="//@node.8/@nodeData/@connections.4" xpath="row2/OrderTime"/>
       </inputTrees>
-      <outputTrees name="out2">
+      <outputTrees activateCondensedTool="true" name="out2" allInOne="true">
         <nodes name="body" expression="" type="id_Document" xpath="out2/body">
           <children xsi:type="TalendXMLMap:OutputTreeNode" name="root" expression="" type="id_String" xpath="out2.body:/root" main="true">
             <children xsi:type="TalendXMLMap:OutputTreeNode" name="Order" expression="" type="id_String" xpath="out2.body:/root/Order" loop="true" main="true">
