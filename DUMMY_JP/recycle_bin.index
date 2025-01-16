@@ -89,6 +89,42 @@
   <deletedFolders>process/Person_ESB_Service_Pranita_V2</deletedFolders>
   <deletedFolders>process/Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType</deletedFolders>
   <deletedFolders>process/Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation</deletedFolders>
+  <deletedFolders>process/Pranita</deletedFolders>
+  <deletedFolders>process/Pranita/Course_task</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Cloud_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo/DataPrepartion</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo/DataStewardship</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo1</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2/ESB2PortType</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2/ESB2PortType/ESB2Operation</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_Cloud_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_TO_TalendDemo_28_9_2023</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_TO_TalendDemo_28_9_2023/Cloud_job</deletedFolders>
+  <deletedFolders>process/Pranita/Task</deletedFolders>
+  <deletedFolders>process/Pranita/Task/API</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Arbitration</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Grouping</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Merging</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Merging/a_attachment_tds</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Resolution</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/a_attachment_tds</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Componentsbasetask</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2/ESB2PortType</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2/ESB2PortType/ESB2Operation</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Functions</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Incremental</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Migration</deletedFolders>
+  <deletedFolders>process/Pranita/Task/SCD</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007/Predoole_SOAP_3007PortType</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007/Predoole_SOAP_3007PortType/Predoole_SOAP_3007Operation</deletedFolders>
   <deletedFolders>process/demo</deletedFolders>
   <deletedFolders>process/demo_jobs</deletedFolders>
   <deletedFolders>process/demo_jobs/Ch04helloWorld</deletedFolders>
@@ -138,6 +174,9 @@
   <deletedItems id="_zJa9cE_EEe-TA8KMLPXdmw" path="Mrunal" type="PROCESS"/>
   <deletedItems id="_YA5lsEW4Ee-jRLftcPihSQ" path="Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation" type="PROCESS"/>
   <deletedItems id="_lwG1wEW6Ee-jRLftcPihSQ" path="Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation" type="PROCESS"/>
+  <deletedItems id="_z6S9EETJEe-TTKtkRNn5iw" path="Pranita" type="PROCESS"/>
+  <deletedItems id="_WN0VMFg8Ee6Kq4wovtFs1w" path="Pranita/Replicate_Cloud_Demo" type="PROCESS"/>
+  <deletedItems id="_P685UE5rEe-Fgtmly-lmiw" path="Predoole_SOAP_3007/Predoole_SOAP_3007PortType/Predoole_SOAP_3007Operation" type="PROCESS"/>
   <deletedItems id="_ewwUcMv1Ee-PT9KKCohD5w" path="Jay" type="ROUTE"/>
   <deletedItems id="_7q2gkEmxEe-9L8dFXtjQEw" path="" type="SERVICES"/>
   <deletedItems id="_J6fskEmmEe-9L8dFXtjQEw" path="" type="SERVICES"/>
