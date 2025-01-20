@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
-  <TalendJSON:JSONFileConnection xmi:id="_UZE1QM8yEe-Revkyksemlg" name="route_format" dataPackage="_UZE1SM8yEe-Revkyksemlg" JSONFilePath="D:/J7/use case.json" Encoding="UTF-8" readbyMode="JSONPATH">
+  <TalendJSON:JSONFileConnection xmi:id="_UZE1QM8yEe-Revkyksemlg" name="route_format" dataPackage="_UZE1SM8yEe-Revkyksemlg _8XuPsNQAEe-bgfNSwtROWA" JSONFilePath="D:/J7/usecase.json" Encoding="UTF-8" readbyMode="JSONPATH">
     <schema xmi:id="_UZE1Qc8yEe-Revkyksemlg" LimitBoucle="50" AbsoluteXPathQuery="$.Order">
       <schemaTargets xmi:id="_UZE1Qs8yEe-Revkyksemlg" RelativeXPathQuery="OrderID" TagName="OrderID"/>
       <schemaTargets xmi:id="_UZE1Q88yEe-Revkyksemlg" RelativeXPathQuery="CustomerID" TagName="CustomerID"/>
@@ -18,6 +18,16 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UZE1Tc8yEe-Revkyksemlg" label="ProductName" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UZE1Ts8yEe-Revkyksemlg" label="PaymentMethod" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UZE1T88yEe-Revkyksemlg" label="OrderTime" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8XuPsNQAEe-bgfNSwtROWA" name="default" dataManager="_UZE1QM8yEe-Revkyksemlg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8XuPsdQAEe-bgfNSwtROWA" id="_6dhz4NQAEe-bgfNSwtROWA" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPstQAEe-bgfNSwtROWA" label="OrderID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPs9QAEe-bgfNSwtROWA" label="CustomerID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPtNQAEe-bgfNSwtROWA" label="ProductID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPtdQAEe-bgfNSwtROWA" label="ProductName" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPttQAEe-bgfNSwtROWA" label="PaymentMethod" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8XuPt9QAEe-bgfNSwtROWA" label="OrderTime" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
 </xmi:XMI>
