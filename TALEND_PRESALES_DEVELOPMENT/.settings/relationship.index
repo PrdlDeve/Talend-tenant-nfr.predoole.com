@@ -579,25 +579,13 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_PQolgBzdEe-rJtLV0JY11A",
+    "id" : "_BxBmYNiFEe-xQIfJb19BUw",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_hvH14BzkEe-rJtLV0JY11A",
+    "id" : "_T3sQ0NiFEe-xQIfJb19BUw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_PQolgBzdEe-rJtLV0JY11A - Plants",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_PQolgBzdEe-rJtLV0JY11A - Products",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_PQolgBzdEe-rJtLV0JY11A - Sales",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
