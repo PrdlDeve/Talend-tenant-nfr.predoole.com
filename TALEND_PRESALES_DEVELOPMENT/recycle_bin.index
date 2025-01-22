@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/Presales_megha/Pharma/Pharma</deletedFolders>
   <deletedItems id="_QK4z0DUyEe-Flaamec6BFw" path="Harsh/Demo_Job" type="PROCESS"/>
   <deletedItems id="_W1aPsD51Ee-X9IYs3E3LHQ" path="Megha_Testing" type="PROCESS"/>
   <deletedItems id="_ZSv8EB4nEem829dQshnU4Q" path="Megha_Testing" type="PROCESS"/>
+  <deletedItems id="_KtPdYBzeEe-rJtLV0JY11A" path="Presales_megha/Manufacture" type="PROCESS"/>
   <deletedItems id="_TGfYQCMpEe-b8t9hh6Yleg" path="Presales_megha/Presales_megha/Pharma" type="PROCESS"/>
   <deletedItems id="_c8UgYEXEEe-6X86RxDmxrQ" path="" type="SERVICES"/>
   <deletedItems id="_jlyHsEXEEe-6X86RxDmxrQ" path="" type="SERVICES"/>
