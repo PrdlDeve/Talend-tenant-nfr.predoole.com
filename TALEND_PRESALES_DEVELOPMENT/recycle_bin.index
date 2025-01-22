@@ -2,9 +2,18 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/Harsh</deletedFolders>
   <deletedFolders>process/Harsh/Demo_Job</deletedFolders>
+  <deletedFolders>process/Insurance</deletedFolders>
   <deletedFolders>process/Megha_Testing</deletedFolders>
+  <deletedFolders>process/PreSales_Suba</deletedFolders>
+  <deletedFolders>process/PreSales_Suba/Finance</deletedFolders>
+  <deletedFolders>process/PreSales_Suba/Pharma</deletedFolders>
+  <deletedFolders>process/Presales_megha</deletedFolders>
+  <deletedFolders>process/Presales_megha/Insurance</deletedFolders>
   <deletedFolders>process/Presales_megha/Pharma</deletedFolders>
   <deletedFolders>process/Presales_megha/Presales_megha</deletedFolders>
+  <deletedFolders>process/Stewardship_Jobs/Suba</deletedFolders>
+  <deletedFolders>process/Suba</deletedFolders>
+  <deletedFolders>process/Suba/PreSales_Suba</deletedFolders>
   <deletedItems id="_tOBSsEAxEe-V5t9uxa3YwQ" path="" type="PROCESS"/>
   <deletedItems id="_NKaSsDqTEe-l1clIeO4FhQ" path="Harsh/Demo_Job" type="PROCESS"/>
   <deletedItems id="_QK4z0DUyEe-Flaamec6BFw" path="Harsh/Demo_Job" type="PROCESS"/>
@@ -13,6 +22,16 @@
   <deletedItems id="_W1aPsD51Ee-X9IYs3E3LHQ" path="Megha_Testing" type="PROCESS"/>
   <deletedItems id="_ZSv8EB4nEem829dQshnU4Q" path="Megha_Testing" type="PROCESS"/>
   <deletedItems id="_r8nSQD-OEe-eI9uuammsdA" path="Megha_Testing" type="PROCESS"/>
+  <deletedItems id="_4RLp4Dj5Ee-Lf_L9zPWogQ" path="PreSales_Suba/Finance" type="PROCESS"/>
+  <deletedItems id="_4XbJ4Dj7Ee-Lf_L9zPWogQ" path="PreSales_Suba/Finance" type="PROCESS"/>
+  <deletedItems id="_6U-4IDm-Ee-KNs-Vfm0dmw" path="PreSales_Suba/Finance" type="PROCESS"/>
+  <deletedItems id="_-uTbYDXlEe-GmcrNhaVobQ" path="PreSales_Suba/Pharma" type="PROCESS"/>
+  <deletedItems id="_Ihrr4DXkEe-GmcrNhaVobQ" path="PreSales_Suba/Pharma" type="PROCESS"/>
+  <deletedItems id="_Vz9vYDXmEe-GmcrNhaVobQ" path="PreSales_Suba/Pharma" type="PROCESS"/>
+  <deletedItems id="_mrWjQDXmEe-GmcrNhaVobQ" path="PreSales_Suba/Pharma" type="PROCESS"/>
+  <deletedItems id="_SLkV8DnDEe-9Brt4mDM0JA" path="Presales_megha/Insurance" type="PROCESS"/>
+  <deletedItems id="_SNMtoDnDEe-9Brt4mDM0JA" path="Presales_megha/Insurance" type="PROCESS"/>
+  <deletedItems id="_SOj_kDnDEe-9Brt4mDM0JA" path="Presales_megha/Insurance" type="PROCESS"/>
   <deletedItems id="_TGfYQCMpEe-b8t9hh6Yleg" path="Presales_megha/Presales_megha/Pharma" type="PROCESS"/>
   <deletedItems id="_c8UgYEXEEe-6X86RxDmxrQ" path="" type="SERVICES"/>
   <deletedItems id="_jlyHsEXEEe-6X86RxDmxrQ" path="" type="SERVICES"/>
