@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:7WYlzgMctNnYytaJ9zV/vETcyIGkb+oFlUfq0WIf"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:BebzjFV4M+Ud9gLmP8VJy1QHsv6XLxfKVRFV2oF9"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -58,7 +58,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Laptop_User/Desktop/Talend/Talend_Workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:6dTv2t5L+WF/op4xrlKLfeBelvmz318FmhsHhNuV"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XWZfW0yR/NBfQQ8FSgvBho6ZO10FmiWiBMUedBnN"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -98,26 +98,24 @@
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
   </parameters>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="80">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_9AabAEQvEe-FgvMNFvOBnw"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;insurance_mm&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_MM&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Nf91swihUzBd8UStKYL+p6VY/9bTr21vcCHJ+mDPRcLWj/LzuDK55de3sg=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Underwriting&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;underwriting&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.Underwriting.UnderwritingID,&#10;&#9;&#9;dbo.Underwriting.PolicyID,&#10;&#9;&#9;dbo.Underwriting.ApplicantAge,&#10;&#9;&#9;dbo.Underwriting.ApplicantGender,&#10;&#9;&#9;dbo.Underwriting.RiskFactors,&#10;&#9;&#9;dbo.Underwriting.UnderwritingDecision&#10;FROM&#9;dbo.Underwriting&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select insurance_mm.underwriting.ApplicantAge,insurance_mm.underwriting.ApplicantGender,insurance_mm.underwriting.PolicyID,insurance_mm.underwriting.RiskFactors,insurance_mm.underwriting.UnderwritingDecision,insurance_mm.underwriting.UnderwritingID &#10;from insurance_mm.underwriting&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -126,89 +124,81 @@
     <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_ALWAYS_ENCRYPTED" value="false"/>
+    <elementParameter field="TEXT" name="KEYSTORE_PRINCIPAL_ID" show="false" value=""/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_SECRET" show="false" value=""/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="UnderwritingID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyID"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ApplicantAge"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ApplicantGender"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyID"/>
+      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="RiskFactors"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="UnderwritingDecision"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UnderwritingID"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Underwritings" name="tDBInput_1">
-      <column comment="" key="false" length="10" name="UnderwritingID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PolicyID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ApplicantAge" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ApplicantGender" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="RiskFactors" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="UnderwritingDecision" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="ApplicantAge" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ApplicantGender" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PolicyID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RiskFactors" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="UnderwritingDecision" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="UnderwritingID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="80">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDataPrepRun_2"/>
+  <node componentName="DataPrepRun" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="360" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDataPrepRun_1"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" show="false" value="Run"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" show="false" value="ZGF0YXByZXAjRGF0YVByZXAjUnVu"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" show="false" value="ZGF0YXByZXAjRGF0YVByZXAjZGF0YXN0b3JlI1ByZXBEYXRhU3RvcmU"/>
+    <elementParameter field="TEXT" name="VERSION" show="false" value="1"/>
+    <elementParameter field="TEXT" name="FAMILY" show="false" value="DataPrep"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" show="false" value="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HELP" show="false" value="HELP"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" show="false" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="LABEL" value="Megha_Insurance"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataStore.endpoint" value="AP"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.endpointURL" show="false" value="http://localhost"/>
+    <elementParameter field="TEXT" name="configuration.dataStore.endpointURL" show="false" value="&quot;http://localhost&quot;"/>
     <elementParameter field="TEXT" name="configuration.dataStore.passwordAuthentication.username" value="&quot;megha.m@nfr.predoole.com&quot;"/>
-    <elementParameter field="PASSWORD" name="configuration.dataStore.passwordAuthentication.password" value="enc:system.encryption.key.v1:2bNUGpB6GH2QZnf01a5uDjdLadp4K0u8GZ2KDrzP7l+PLXN05lVq12S+tjnceY584LxKYoHDseyBxTz6zNfuqXi2BKE8Iku0kS5lXS8qO+XKkZw1XxhmVbIkBpP5zQ=="/>
+    <elementParameter field="PASSWORD" name="configuration.dataStore.passwordAuthentication.password" value="enc:system.encryption.key.v1:QX3qwBJIh5gUIFxQUUZEZU+RiSZ7XrRGQ9Cn/mBJdUZ7YqYsYx65ckbCEyTjgiEMV333BJjNcWUCXMLAR7U9oPvp4gNcbtege2TJ510bdpNu+3mrlyCpu0w7RXnhAw=="/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.preparationIdentifier" value="32438dce-32c1-4b97-8249-c926a0870273"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.version" value="HEAD"/>
     <elementParameter field="TABLE" name="configuration.references.references"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.vaultEndPoint" show="false" value="http://localhost"/>
-    <elementParameter field="CHECK" name="configuration.dataStore.dictionary" value="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataStore.dictionaryConfig.dictionaryVersion" show="false" value="0"/>
-    <elementParameter field="TEXT" name="configuration.dataStore.dictionaryConfig.temporaryFolder" show="false" value="target/demoTmp"/>
+    <elementParameter field="TEXT" name="configuration.dataStore.vaultEndPoint" show="false" value="&quot;http://localhost&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataStore.dictionary" value="true"/>
+    <elementParameter field="PASSWORD" name="configuration.dataStore.dictionaryConfig.personalTokenAccess" value="enc:system.encryption.key.v1:XhTlKoXRfRk7xhDoLYpsDCz2qfoqDqHbRwKmZgFwx5X0snnPVXcyWEeB1OdScI7MRHjRGPWYNMr1p0b1mIGLadlzr+HKNWiU2AaFdi1Z5a5PjDcxjcJOrg2sAiW7vw=="/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataStore.dictionaryConfig.tenantId" value="&quot;1be09ed9-9c3d-4ba4-ba7e-d72cb373dc3e&quot;"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataStore.dictionaryConfig.dictionaryVersion" value="0"/>
+    <elementParameter field="TEXT" name="configuration.dataStore.dictionaryConfig.temporaryFolder" value="&quot;target/demoTmp&quot;"/>
     <elementParameter field="TECHNICAL" name="configuration.dataStore.__version" show="false" value="-1"/>
-    <metadata connector="FLOW" label="Underwritings" name="tDataPrepRun_2">
-      <column comment="" key="false" length="10" name="UnderwritingID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PolicyID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ApplicantAge" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="ApplicantGender" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="255" name="RiskFactors" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="UnderwritingDecision" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
+    <metadata connector="FLOW" name="tDataPrepRun_1">
+      <column comment="" key="false" length="-1" name="UnderwritingID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PolicyID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ApplicantAge" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ApplicantGender" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RiskFactors" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="UnderwritingDecision" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="600" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
@@ -238,102 +228,61 @@
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
       <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row2">
-        <nodes name="UnderwritingID" nullable="false" outgoingConnections="//@node.2/@nodeData/@connections.1" type="id_Integer" xpath="row2/UnderwritingID"/>
-        <nodes lookupOutgoingConnections="//@node.2/@nodeData/@connections.0" name="PolicyID" outgoingConnections="//@node.2/@nodeData/@connections.2" type="id_Integer" xpath="row2/PolicyID"/>
-        <nodes name="ApplicantAge" outgoingConnections="//@node.2/@nodeData/@connections.3" type="id_Integer" xpath="row2/ApplicantAge"/>
-        <nodes name="ApplicantGender" outgoingConnections="//@node.2/@nodeData/@connections.4" type="id_String" xpath="row2/ApplicantGender"/>
-        <nodes name="RiskFactors" outgoingConnections="//@node.2/@nodeData/@connections.5" type="id_String" xpath="row2/RiskFactors"/>
-        <nodes name="UnderwritingDecision" outgoingConnections="//@node.2/@nodeData/@connections.6" type="id_String" xpath="row2/UnderwritingDecision"/>
+        <nodes name="UnderwritingID" nullable="false" outgoingConnections="//@node.2/@nodeData/@connections.0" type="id_Integer" xpath="row2/UnderwritingID"/>
+        <nodes lookupOutgoingConnections="//@node.2/@nodeData/@connections.6" name="PolicyID" outgoingConnections="//@node.2/@nodeData/@connections.1" type="id_Integer" xpath="row2/PolicyID"/>
+        <nodes name="ApplicantAge" outgoingConnections="//@node.2/@nodeData/@connections.2" type="id_Integer" xpath="row2/ApplicantAge"/>
+        <nodes name="ApplicantGender" outgoingConnections="//@node.2/@nodeData/@connections.3" type="id_String" xpath="row2/ApplicantGender"/>
+        <nodes name="RiskFactors" outgoingConnections="//@node.2/@nodeData/@connections.4" type="id_String" xpath="row2/RiskFactors"/>
+        <nodes name="UnderwritingDecision" outgoingConnections="//@node.2/@nodeData/@connections.5" type="id_String" xpath="row2/UnderwritingDecision"/>
       </inputTrees>
       <inputTrees lookup="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row3">
-        <nodes expression="row2.PolicyID" lookupIncomingConnections="//@node.2/@nodeData/@connections.0" name="PolicyID" nullable="false" type="id_Integer" xpath="row3/PolicyID"/>
-        <nodes name="PolicyholderName" outgoingConnections="//@node.2/@nodeData/@connections.7" type="id_String" xpath="row3/PolicyholderName"/>
-        <nodes name="Address" type="id_String" xpath="row3/Address"/>
-        <nodes name="Email" outgoingConnections="//@node.2/@nodeData/@connections.8" type="id_String" xpath="row3/Email"/>
+        <nodes name="CoverageDetails" type="id_String" xpath="row3/CoverageDetails"/>
+        <nodes name="EffectiveDate" type="id_Date" xpath="row3/EffectiveDate"/>
+        <nodes name="Endorsements" type="id_String" xpath="row3/Endorsements"/>
+        <nodes name="ExpiryDate" type="id_Date" xpath="row3/ExpiryDate"/>
+        <nodes expression="row2.PolicyID" lookupIncomingConnections="//@node.2/@nodeData/@connections.6" name="PolicyID" nullable="false" type="id_Integer" xpath="row3/PolicyID"/>
+        <nodes name="PolicyNumber" type="id_String" xpath="row3/PolicyNumber"/>
+        <nodes lookupOutgoingConnections="//@node.2/@nodeData/@connections.7" name="PolicyholderID" type="id_Integer" xpath="row3/PolicyholderID"/>
+        <nodes name="PremiumAmount" type="id_BigDecimal" xpath="row3/PremiumAmount"/>
+      </inputTrees>
+      <inputTrees lookup="true" lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row4">
+        <nodes name="Address" type="id_String" xpath="row4/Address"/>
+        <nodes name="Email" outgoingConnections="//@node.2/@nodeData/@connections.9" type="id_String" xpath="row4/Email"/>
+        <nodes expression="row3.PolicyholderID" lookupIncomingConnections="//@node.2/@nodeData/@connections.7" name="PolicyholderID" nullable="false" type="id_Integer" xpath="row4/PolicyholderID"/>
+        <nodes name="PolicyholderName" outgoingConnections="//@node.2/@nodeData/@connections.8" type="id_String" xpath="row4/PolicyholderName"/>
       </inputTrees>
       <outputTrees name="out">
-        <nodes expression="row2.UnderwritingID" incomingConnections="//@node.2/@nodeData/@connections.1" name="UnderwritingID" type="id_Integer" xpath="out/UnderwritingID"/>
-        <nodes expression="row2.PolicyID" incomingConnections="//@node.2/@nodeData/@connections.2" name="PolicyID" type="id_Integer" xpath="out/PolicyID"/>
-        <nodes expression="row2.ApplicantAge" incomingConnections="//@node.2/@nodeData/@connections.3" name="ApplicantAge" type="id_Integer" xpath="out/ApplicantAge"/>
-        <nodes expression="row2.ApplicantGender" incomingConnections="//@node.2/@nodeData/@connections.4" name="ApplicantGender" type="id_String" xpath="out/ApplicantGender"/>
-        <nodes expression="row2.RiskFactors" incomingConnections="//@node.2/@nodeData/@connections.5" name="RiskFactors" type="id_String" xpath="out/RiskFactors"/>
-        <nodes expression="row2.UnderwritingDecision" incomingConnections="//@node.2/@nodeData/@connections.6" name="UnderwritingDecision" type="id_String" xpath="out/UnderwritingDecision"/>
-        <nodes expression="row3.PolicyholderName" incomingConnections="//@node.2/@nodeData/@connections.7" name="PolicyholderName" type="id_String" xpath="out/PolicyholderName"/>
-        <nodes expression="row3.Email" incomingConnections="//@node.2/@nodeData/@connections.8" name="Email" type="id_String" xpath="out/Email"/>
+        <nodes expression="row2.UnderwritingID" incomingConnections="//@node.2/@nodeData/@connections.0" name="UnderwritingID" type="id_Integer" xpath="out/UnderwritingID"/>
+        <nodes expression="row2.PolicyID" incomingConnections="//@node.2/@nodeData/@connections.1" name="PolicyID" type="id_Integer" xpath="out/PolicyID"/>
+        <nodes expression="row2.ApplicantAge" incomingConnections="//@node.2/@nodeData/@connections.2" name="ApplicantAge" type="id_Integer" xpath="out/ApplicantAge"/>
+        <nodes expression="row2.ApplicantGender" incomingConnections="//@node.2/@nodeData/@connections.3" name="ApplicantGender" type="id_String" xpath="out/ApplicantGender"/>
+        <nodes expression="row2.RiskFactors" incomingConnections="//@node.2/@nodeData/@connections.4" name="RiskFactors" type="id_String" xpath="out/RiskFactors"/>
+        <nodes expression="row2.UnderwritingDecision" incomingConnections="//@node.2/@nodeData/@connections.5" name="UnderwritingDecision" type="id_String" xpath="out/UnderwritingDecision"/>
+        <nodes expression="row4.PolicyholderName" incomingConnections="//@node.2/@nodeData/@connections.8" name="PolicyholderName" type="id_String" xpath="out/PolicyholderName"/>
+        <nodes expression="row4.Email" incomingConnections="//@node.2/@nodeData/@connections.9" name="Email" type="id_String" xpath="out/Email"/>
       </outputTrees>
       <varTables minimized="true" name="Var"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.1" target="//@node.2/@nodeData/@inputTrees.1/@nodes.0" xsi:type="TalendXMLMap:LookupConnection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.3" target="//@node.2/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.4" target="//@node.2/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
       <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.0/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.1/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.1/@nodes.3" target="//@node.2/@nodeData/@outputTrees.0/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.1" target="//@node.2/@nodeData/@inputTrees.1/@nodes.4" xsi:type="TalendXMLMap:LookupConnection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.1/@nodes.6" target="//@node.2/@nodeData/@inputTrees.2/@nodes.2" xsi:type="TalendXMLMap:LookupConnection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.2/@nodes.3" target="//@node.2/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.2/@nodeData/@inputTrees.2/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="360">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_9AabAEQvEe-FgvMNFvOBnw"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d9tlqm+y2N/hQGuNRbH/ChJy44OGe4/Xl7NNZr2/venv/xqErJ8XRZPY8Q=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Policyholder&quot;"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT dbo.Policyholder.PolicyholderID,&#10;&#9;&#9;dbo.Policyholder.PolicyholderName,&#10;&#9;&#9;dbo.Policyholder.Address,&#13;&#10;        dbo.Policyholder.Email&#10;FROM&#9;dbo.Policyholder&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
-    <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyID"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyholderName"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
-    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBInput_2">
-      <column comment="" defaultValue="" key="false" length="10" name="PolicyID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="PolicyholderName" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="255" name="Address" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="Email" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="880" posY="160">
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="840" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_E-9wgEQxEe-FgvMNFvOBnw"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;landing&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_MM&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mLnBGK1/W3uyXMhnJ6XL7CjdEMfbnGpqA8uADMK4seemM5zaxre5wbwtUA=="/>
@@ -353,6 +302,9 @@
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_ALWAYS_ENCRYPTED" value="false"/>
+    <elementParameter field="TEXT" name="KEYSTORE_PRINCIPAL_ID" show="false" value=""/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_SECRET" show="false" value=""/>
     <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
     <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
@@ -458,11 +410,125 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDataPrepRun_2">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;insurance_mm&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_MM&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pbLEkgGAlqKHEkQR+CGlAyMnzUFctW3LKvKz1VEx7VPJXDDe85aGBYpDjQ=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;policy&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select insurance_mm.policy.CoverageDetails,insurance_mm.policy.EffectiveDate,insurance_mm.policy.Endorsements,insurance_mm.policy.ExpiryDate,insurance_mm.policy.PolicyID,insurance_mm.policy.PolicyNumber,insurance_mm.policy.PolicyholderID,insurance_mm.policy.PremiumAmount &#10;from insurance_mm.policy&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_ALWAYS_ENCRYPTED" value="false"/>
+    <elementParameter field="TEXT" name="KEYSTORE_PRINCIPAL_ID" show="false" value=""/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_SECRET" show="false" value=""/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="CoverageDetails"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EffectiveDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Endorsements"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ExpiryDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyNumber"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyholderID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PremiumAmount"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_4">
+      <column comment="" key="false" length="255" name="CoverageDetails" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="EffectiveDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Endorsements" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="ExpiryDate" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PolicyID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PolicyNumber" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PolicyholderID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PremiumAmount" nullable="true" originalLength="-1" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;insurance_mm&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_MM&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d9tlqm+y2N/hQGuNRbH/ChJy44OGe4/Xl7NNZr2/venv/xqErJ8XRZPY8Q=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;policyholder&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select insurance_mm.policyholder.Address,insurance_mm.policyholder.Email,insurance_mm.policyholder.PolicyholderID,insurance_mm.policyholder.PolicyholderName &#10;from insurance_mm.policyholder&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_ALWAYS_ENCRYPTED" value="false"/>
+    <elementParameter field="TEXT" name="KEYSTORE_PRINCIPAL_ID" show="false" value=""/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_SECRET" show="false" value=""/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyholderID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PolicyholderName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="255" name="Address" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="Email" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="PolicyholderID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="PolicyholderName" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDataPrepRun_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDataPrepRun_2" offsetLabelX="0" offsetLabelY="0" source="tDataPrepRun_2" target="tXMLMap_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDataPrepRun_1" offsetLabelX="0" offsetLabelY="0" source="tDataPrepRun_1" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
@@ -470,22 +536,26 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tXMLMap_1">
+  <connection connectorName="FLOW" label="row3" lineStyle="8" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tXMLMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8d913579-4011-47de-b321-9b79bd1984a1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eNPmkQ9AdGIdy92cY0JkhPej2/pBnCK7QApB2bYQ8chP3Y82eKRZm8xnqdtB8I8d0b80aLgF+8nr&#13;
-HEjzZG489w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ccd030dd-9a4c-433c-aecb-3ce5cd9e0e54"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Mj2UljRVLV92SOjdLRW16wn2WoyU/WW2P/p0UgKbUPoLVXI4cK/ak4Pj4x+ASrnh/l/NpgMJjnwJ&#13;
-OgEY3ZXaMw==</DigestValue></Reference></SignedInfo><SignatureValue>XgXTa+how/w0uVe/pkIivSA3o4e1IRIHVeC0wMk19sOOatbX9GjK0l+ctxTX8J30FXr21zgUwlt/&#13;
-XMQ3GLvkpFIglFOI8VFQvWIcdDsAweMwnJSierzVJPq+Skz9K5ht7luR0GtbhuFf+gT12C5Ry1Js&#13;
-bySXwTROXKyn+Y14D5g/993qqimNMuCfDOJqab7AS9vMllSpw5b/VKvoxNkDzP2600B9YqYF0U8v&#13;
-luvMqZ4EzhDC1B2B5PDG4877LlnNwWFk7M5wTrWI05QhJFR0er+O31EHNVJ85+I7Y4Kvl7AslZtR&#13;
-9/Mw21TsVFxh77Px8BnIiHiHzcEZI4a9MYo9ew==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3cd4be97-7035-4e57-a4b6-610caf094c20"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Yd5G8445i2cn6Q3yTDu/328FGrOKeHDpFRu/jaelxdSM5VXA9/ojW9kRyCZggSpbBtiDIOH1KBWr&#13;
+6iapVRWmJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4f902419-ccad-43ed-b7db-d022a1dba1f8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y3KPwsGctvntbZQMZM2jPHkmRXgPlYOi/53qMI9dJxyiLvg5KhLTuqR6bYMv7NEu+bLjpYTn1nkP&#13;
+0aHvT+PKqQ==</DigestValue></Reference></SignedInfo><SignatureValue>DAcyLYmelaXhPMsc8Id6cFZ8BkCwCWBkeqOaunMcSeCJnpcpRkXBa3tU3753bkHAcuuSrplnUs9s&#13;
+sbYq6PHRgqLGxx83r5rT+SC8npw+02L9AY1OtH9Qd0IzenqKNmEUalUolvGPwxAqIaVikVTrDfud&#13;
+kR6/exVMJiKVzCExSeooJcjuqtOs7d0nDaUmvjrX1x2j5UEEmOlOq+rApAdtfOxzynxHNRcMMXFU&#13;
+gL0v8MhX5KzIOyH3P/GH1NlGGZxVJ/rZDx7XQeeyMloXKQcwlXdPuPuJmEMhl7KtG0C6yUMXld+7&#13;
+BecV+XE7ehNxl7bGB3+wlAWTMEJexjd70Vosyw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -507,4 +577,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ccd030dd-9a4c-433c-aecb-3ce5cd9e0e54" Target="#_8d913579-4011-47de-b321-9b79bd1984a1"><Timestamp>2024-09-25 05:47:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4f902419-ccad-43ed-b7db-d022a1dba1f8" Target="#_3cd4be97-7035-4e57-a4b6-610caf094c20"><Timestamp>2024-09-26 09:11:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

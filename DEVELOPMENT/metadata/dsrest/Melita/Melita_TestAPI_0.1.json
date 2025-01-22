@@ -1,0 +1,130 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Melita_TestAPI",
+    "description" : "No description",
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "paths" : {
+    "/customers" : {
+      "get" : {
+        "summary" : "Get list of customers",
+        "description" : "Loads the list of customers",
+        "responses" : {
+          "200" : {
+            "description" : "status 200",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Customers"
+                },
+                "example" : "{\n  \"Customer\": [\n    {\n      \"ID\": \"461140\",\n      \"NAME\": \"Jason\",\n      \"LAST_NAME\": \"HARRISON\",\n      \"EMAIL\": \"jharrison5z@vistaprint.com\",\n      \"JOB_TITLE\": \"Electrical Engineer\",\n      \"CREDITCARDNUMBER\": \"4343354898-76-9480\",\n      \"COMPANY\": \"Zoonder\",\n      \"CITY\": \"Portland\",\n      \"STATE\": \"\"\n    },\n    {\n      \"ID\": \"380630\",\n      \"NAME\": \"VICTOR\",\n      \"LAST_NAME\": \"COX\",\n      \"EMAIL\": \"vcoxg@virginia.edu\",\n      \"JOB_TITLE\": \"Librarian\",\n      \"CREDITCARDNUMBER\": \"300037746-83-0775\",\n      \"COMPANY\": \"Skalith\",\n      \"CITY\": \"Bend\",\n      \"STATE\": \"\"\n    }\n  ]\n}\n"
+              }
+            }
+          }
+        }
+      },
+      "post" : {
+        "summary" : "Create a customer",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "$ref" : "#/components/schemas/Customer"
+              },
+              "example" : "{\n\"ID\": \"461145\",\n\"NAME\": \"John\",\n\"LAST_NAME\": \"Smith\",\n\"EMAIL\": \"jsmith@vistaprint.com\",\n\"JOB_TITLE\": \"Electrical Engineer\",\n\"CREDITCARDNUMBER\": \"5461365891-21-8012\",\n\"COMPANY\": \"Zoonder\",\n\"CITY\": \"San Francisco\",\n\"STATE\": \"CA\"\n}\n\n"
+            }
+          }
+        },
+        "responses" : {
+          "201" : {
+            "description" : "Status 201",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Customer"
+                },
+                "example" : "{\n\"ID\": \"461145\",\n\"NAME\": \"John\",\n\"LAST_NAME\": \"Smith\",\n\"EMAIL\": \"jsmith@vistaprint.com\",\n\"JOB_TITLE\": \"Electrical Engineer\",\n\"CREDITCARDNUMBER\": \"5461365891-21-8012\",\n\"COMPANY\": \"Zoonder\",\n\"CITY\": \"San Francisco\",\n\"STATE\": \"CA\"\n}\n\n"
+              }
+            }
+          },
+          "409" : {
+            "description" : "Record could not be added",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Error"
+                },
+                "example" : "{\n\"ID\": \"461145\",\n\"errorCode\": \"23000\",\n\"errorMessage\": \"Duplicqate entry '461145' for key 'PRIMARY' Line 0\"\n}\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Customer" : {
+        "type" : "object",
+        "properties" : {
+          "ID" : {
+            "type" : "string"
+          },
+          "NAME" : {
+            "type" : "string"
+          },
+          "LAST_NAME" : {
+            "type" : "string"
+          },
+          "EMAIL" : {
+            "type" : "string"
+          },
+          "JOB_TITLE" : {
+            "type" : "string"
+          },
+          "CREDITCARDNUMBER" : {
+            "type" : "string"
+          },
+          "COMPANY" : {
+            "type" : "string"
+          },
+          "CITY" : {
+            "type" : "string"
+          },
+          "STATE" : {
+            "type" : "string"
+          }
+        },
+        "example" : "{\r\n\"ID\": \"461145\",\r\n\"NAME\": \"John\",\r\n\"LAST_NAME\": \"Smith\",\r\n\"EMAIL\": \"jsmith@vistaprint.com\",\r\n\"JOB_TITLE\": \"Electrical Engineer\",\r\n\"CREDITCARDNUMBER\": \"5461365891-21-8012\",\r\n\"COMPANY\": \"Zoonder\",\r\n\"CITY\": \"San Francisco\",\r\n\"STATE\": \"CA\"\r\n}"
+      },
+      "Customers" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string"
+        }
+      },
+      "Error" : {
+        "type" : "object",
+        "required" : [ "ID" ],
+        "properties" : {
+          "ID" : {
+            "type" : "string"
+          },
+          "errorCode" : {
+            "type" : "integer",
+            "format" : "int32",
+            "minimum" : 400,
+            "maximum" : 599
+          },
+          "errorMessage" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}
