@@ -15,6 +15,37 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_0katMNlrEe-6rstfrsjNZQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_SDasYNltEe-6rstfrsjNZQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_gSEysEWtEe-mhfigRoauIw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_kqr2gNo-Ee-CkKMrh9yFVw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_SDasYNltEe-6rstfrsjNZQ - Account",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_SDasYNltEe-6rstfrsjNZQ - Contact",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_gSEysEWtEe-mhfigRoauIw - Categories",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_2bZ3cDrPEe-2VeFhC29sBQ",
     "version" : "0.1",
     "type" : "job"
@@ -1179,21 +1210,6 @@
     "id" : "_P-FDIFleEe-zColVVpzJkQ",
     "version" : "Latest",
     "type" : "property"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_xoVUUMaYEe-pSovJbIfSAw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "built-in",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_ho5zgNb8Ee-vaYhBCVwIZQ",
-    "version" : "Latest",
-    "type" : "resource"
   } ]
 }, {
   "baseItem" : {
