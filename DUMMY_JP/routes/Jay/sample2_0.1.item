@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_EIbhQMmgEe-sOpdCp9IVyg" defaultContext="Default" jobType="Standard">
+  <context xmi:id="_EIbhQcmgEe-sOpdCp9IVyg" confirmationNeeded="false" hide="false" name="Default"/>
+  <parameters xmi:id="_EIbhQsmgEe-sOpdCp9IVyg">
+    <elementParameter xmi:id="_EIbhQ8mgEe-sOpdCp9IVyg" field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter xmi:id="_EIbhRMmgEe-sOpdCp9IVyg" field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter xmi:id="_EIbhRcmgEe-sOpdCp9IVyg" field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter xmi:id="_EIbhRsmgEe-sOpdCp9IVyg" field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhR8mgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhSMmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhScmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhSsmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhS8mgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhTMmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhTcmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhTsmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhT8mgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhUMmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhUcmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhUsmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhU8mgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter xmi:id="_EIbhVMmgEe-sOpdCp9IVyg" field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+  </parameters>
+  <node xmi:id="_EIbhVcmgEe-sOpdCp9IVyg" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="200" posY="120">
+    <elementParameter xmi:id="_EIbhVsmgEe-sOpdCp9IVyg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+    <elementParameter xmi:id="_EIbhV8mgEe-sOpdCp9IVyg" field="DIRECTORY" name="URI" value="&quot;D:/J2&quot;"/>
+    <elementParameter xmi:id="_EIbhWMmgEe-sOpdCp9IVyg" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_EIbhWcmgEe-sOpdCp9IVyg" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_EIbhWsmgEe-sOpdCp9IVyg" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_EIbhW8mgEe-sOpdCp9IVyg" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_EIbhXMmgEe-sOpdCp9IVyg" field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter xmi:id="_EIbhXcmgEe-sOpdCp9IVyg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter xmi:id="_EIbhXsmgEe-sOpdCp9IVyg" field="TEXT" name="FILENAME" value="&quot;Housing.csv&quot;"/>
+    <elementParameter xmi:id="_EIbhX8mgEe-sOpdCp9IVyg" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_EIbhYMmgEe-sOpdCp9IVyg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_EIbhYcmgEe-sOpdCp9IVyg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <node xmi:id="_EIbhYsmgEe-sOpdCp9IVyg" componentName="cFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
+    <elementParameter xmi:id="_EIbhY8mgEe-sOpdCp9IVyg" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+    <elementParameter xmi:id="_EIbhZMmgEe-sOpdCp9IVyg" field="DIRECTORY" name="URI" value="&quot;D:/J3&quot;"/>
+    <elementParameter xmi:id="_EIbhZcmgEe-sOpdCp9IVyg" field="CHECK" name="NOOP" value="true"/>
+    <elementParameter xmi:id="_EIbhZsmgEe-sOpdCp9IVyg" field="CHECK" name="FLATTEN" value="false"/>
+    <elementParameter xmi:id="_EIbhZ8mgEe-sOpdCp9IVyg" field="CHECK" name="AUTOCREATE" value="true"/>
+    <elementParameter xmi:id="_EIbhaMmgEe-sOpdCp9IVyg" field="TEXT" name="BUFFER_SIZE" value="&quot;128&quot;"/>
+    <elementParameter xmi:id="_EIbhacmgEe-sOpdCp9IVyg" field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter xmi:id="_EIbhasmgEe-sOpdCp9IVyg" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter xmi:id="_EIbha8mgEe-sOpdCp9IVyg" field="TEXT" name="FILENAME" value="&quot;housing.csv&quot;"/>
+    <elementParameter xmi:id="_EIbhbMmgEe-sOpdCp9IVyg" field="TABLE" name="ADVARGUMENTS"/>
+    <elementParameter xmi:id="_EIbhbcmgEe-sOpdCp9IVyg" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_EIbhbsmgEe-sOpdCp9IVyg" field="LABEL" name="ROUTE_BREAKPOINT_EXAMPLE" value="Example: Lauguages=Simple, Expression=&quot;${body} contains 'Camel'&quot;"/>
+  </node>
+  <connection xmi:id="_EIbhb8mgEe-sOpdCp9IVyg" connectorName="ROUTE" label="route1" lineStyle="14" offsetLabelX="0" offsetLabelY="0" source="cFile_1" target="cFile_2">
+    <elementParameter xmi:id="_EIbhcMmgEe-sOpdCp9IVyg" field="TEXT" name="UNIQUE_NAME" value="route1" show="false"/>
+  </connection>
+  <subjob xmi:id="_EIbhccmgEe-sOpdCp9IVyg">
+    <elementParameter xmi:id="_EIbhcsmgEe-sOpdCp9IVyg" field="TEXT" name="UNIQUE_NAME" value="cFile_1" show="false"/>
+  </subjob>
+  <subjob xmi:id="_EIbhc8mgEe-sOpdCp9IVyg">
+    <elementParameter xmi:id="_EIbhdMmgEe-sOpdCp9IVyg" field="TEXT" name="UNIQUE_NAME" value="cFile_2" show="false"/>
+  </subjob>
+</talendfile:ProcessType>

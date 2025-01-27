@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_MJnC8c2REe-wdaqOsexRhQ" servicePort="_MKLDoM2REe-wdaqOsexRhQ"/>
+  <Services:ServicePort xmi:id="_MKLDoM2REe-wdaqOsexRhQ" name="jp2PortType" id="_MKKckM2REe-wdaqOsexRhQ" serviceOperation="_MKLDoc2REe-wdaqOsexRhQ"/>
+  <Services:ServiceOperation xmi:id="_MKLDoc2REe-wdaqOsexRhQ" label="jp2Operation" name="jp2Operation" id="_MKKckc2REe-wdaqOsexRhQ"/>
+</xmi:XMI>

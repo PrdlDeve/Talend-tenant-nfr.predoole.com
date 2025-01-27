@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_J6qrsEmmEe-9L8dFXtjQEw" WSDLPath="C:/Users/Laptop_User/Desktop/sample.wsdl" servicePort="_J9xqEEmmEe-9L8dFXtjQEw"/>
+  <Services:ServicePort xmi:id="_J9xqEEmmEe-9L8dFXtjQEw" name="Hello_PortType" id="_J9mq8EmmEe-9L8dFXtjQEw" serviceOperation="_J9xqEUmmEe-9L8dFXtjQEw"/>
+  <Services:ServiceOperation xmi:id="_J9xqEUmmEe-9L8dFXtjQEw" label="sayHello-Hello_PortType_sayHello" name="sayHello" id="_J9mq8UmmEe-9L8dFXtjQEw" referenceJobId="_iGOQwEmmEe-9L8dFXtjQEw"/>
+</xmi:XMI>
