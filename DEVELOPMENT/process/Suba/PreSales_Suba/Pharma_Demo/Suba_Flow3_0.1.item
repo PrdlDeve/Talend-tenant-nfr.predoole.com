@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:eVQGa2H1rXAYpj34EpsyNnlERKRmuIIGXT7ctSWE"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:9EG0ssmSmNfeXEtZN85kC+Dp30pnd56J8Y9J8314"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -58,7 +58,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Predoole/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;E:/Talend_Studio_Workplace/studio/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:eWPLyo/Q1ux3hBJnm7FR3ck3B6OukkGiqjFVnqGV"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xxMmae7PIHV9cu3GRHivXifnjz2poNjcDVuJY2S2"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -108,10 +108,10 @@
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo_SS&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;Pharma_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Suba_Pharma_Demo&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IiyH2gUnR1uKqPtZ6tD89RzXbNZ9DLDKL0j81STK2Y8Fto/sFOZvuNLn"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vkruLAvqjZAXQ1nGVIiASPm6r10LTPT0i2fRJeeu+eAiCwzgIVlxbqAvGg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;sales&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -280,10 +280,10 @@
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Insurance_Demo_SS&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;Pharma_Demo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Suba_Pharma_Demo&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XfcB2Rtug+zGarDPK4VPckhfz1kD4CV90Sjbu5/qZ5scLjlcvnctdmsb"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Sf2EXRkip8TtJ6OXP5XKf1jkarmtOKjxn45PK9bvVKXZD7ZKiy82fP57ug=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;medications&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -349,7 +349,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Suba_Pharma_Demo&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FZ39PjKJMFBmAf+nqz4VUqKQpBkykGZVOjtOE/HY1BO8frodEN0mPVen"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GrDk7ui4FRmsJ5p9NBlwQKCnp2j9ojB9UftHiD6WaZZVGNJM8L2Fz2qjiA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Aggregated&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
@@ -397,7 +397,7 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
-    <elementParameter field="TEXT" name="LABEL" value="MSSQL_Pharma_demo"/>
+    <elementParameter field="TEXT" name="LABEL" value="&quot;Aggregated&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
       <column comment="" key="true" length="10" name="MedicationID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -435,7 +435,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;stage1&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Suba_Pharma_Demo&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G7LlloEHlC6TNubWCSmsUGZDeOh6ajaxyNbw2eJ8rpWUuacwVtnvKtSr"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hbSK4bXhKgSzO4HLQPfSl8AZxpmldSGgZ/XL6WwOyMSzf+cuwdUfl7eUwQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Aggregated&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -596,13 +596,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2983d79a-63ba-48f3-abba-2330325f9f72"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>G54NOgqY74+EeaqjsHNWBdhc9FUutISmOi4SNdHc75YvMlAIU9qUpv/NEsZBY4a+hgHdAzNWdXAU&#13;
-4wSW2nhtYw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d6d1399f-1af7-4510-972c-07d46bc29073"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NRpHXyQlvGBNiAJTy4XLoVobdUHbzGzrGckSOa7ZkHtmennf1q+SCDCtR7yebQXUJyWUBbaODEj9&#13;
-fIX88vz3Ww==</DigestValue></Reference></SignedInfo><SignatureValue>D9MvsrxzAzkfJ3opqQ8C+ocmXIkeLt3xsIIXc7LXWQJ5nIAZ4bOCW8P4NckkXdqFvPfp4xvC8CIH&#13;
-7QUMj7sTB7tIhTpHNHKiCAXK37zcm+Fjidl7cBcs8BSJhoMB4nOH1HO+1W4cCQbZK9lnMjPrvvyE&#13;
-JNIhrMq7HDSYk/A23gLgFmm/DdqW8M8ee1UQTPeQnvjP3CRY/O8tbnTkRqfJbVZpQOfmJBpsd1tK&#13;
-o1ZskvDy0kq3SzgLLY1n+WdbNiXfnB1E/8IG7NOJs1mYmZUkFhjpQ4JSNCw4g9zACmU6fN5kjuZU&#13;
-LFTqLyEN2eIhSPOB6vzBhhWR5sxTy5nxIi+VjQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_23aade5c-6360-4509-9c3d-a0d2688ea0b5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rdjom8Nm925uvXHJ30xykcO1yN0oyOd8+P+Y7LTbINjiabQyVP6DtSdvV04fDzDzCeP++SfouF60&#13;
+Hq7IV+lzHA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b60c2cff-b033-4828-99da-84c08f25a935"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kFwNm047b1OW+bImNwPFmpdux7gYdyVsj+1gWrstIK3RiEke32+a3yB/TmJuFbIHZtvdb3BqWIGH&#13;
+spl1FCp5FQ==</DigestValue></Reference></SignedInfo><SignatureValue>ANTI/lERKnlIktNxl0MUSKuUHG0FMyekONinvLKxQ/H5xft050hUKhAB1d4OBbsKI3XPzGlAfMdl&#13;
+cQUR49skw8Qyl5/MGk2T7L3HQg06QYs3yzDokODfalwZvpxg9E3nvlag7RyZcf6pvVEdnjNxbEib&#13;
+e/lH1YIlhwFNr0Hi69IW1FzZxyV97P+laXovfGepoxvH9uHNYKNoMQ0PlevksG5X++FV1RsGDWa+&#13;
+TvtHL8xtwUURf11sI9j9wDvXMvSFZqfRIaOyrtYiKLIAxub7ixY0vpCGdJFdbNDhe+VdhSDKzQqq&#13;
+GxULWJ8pBgeDQbZBmca7DmheLlS8fThoP4UGfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -624,4 +624,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d6d1399f-1af7-4510-972c-07d46bc29073" Target="#_2983d79a-63ba-48f3-abba-2330325f9f72"><Timestamp>2024-07-23 11:42:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b60c2cff-b033-4828-99da-84c08f25a935" Target="#_23aade5c-6360-4509-9c3d-a0d2688ea0b5"><Timestamp>2024-08-19 10:33:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

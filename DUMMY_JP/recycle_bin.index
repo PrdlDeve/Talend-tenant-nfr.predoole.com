@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/APIExample</deletedFolders>
+  <deletedFolders>process/APIExample/Hello_PortType</deletedFolders>
+  <deletedFolders>process/APIExample/Hello_PortType/sayHello</deletedFolders>
+  <deletedFolders>process/BhavikaB</deletedFolders>
+  <deletedFolders>process/CP</deletedFolders>
+  <deletedFolders>process/CP/BANKING</deletedFolders>
+  <deletedFolders>process/CP/Data_Preparation</deletedFolders>
+  <deletedFolders>process/CP/INCREMENTAL_LOAD</deletedFolders>
+  <deletedFolders>process/CP_Alpha</deletedFolders>
+  <deletedFolders>process/Cloud_Demo</deletedFolders>
+  <deletedFolders>process/DEMO_TEST</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/On_pre</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/On_pre/DataStewardshipdemo</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/On_pre/DataStewardshipdemo/Arbitation</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/On_pre/DataStewardshipdemo/Merging</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/On_pre/Increamental</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/cloud</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/cloud/Arbitation</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/cloud/Merging</deletedFolders>
+  <deletedFolders>process/DEMO_TEST/cloud/Resolution</deletedFolders>
+  <deletedFolders>process/ESB_Pranita</deletedFolders>
+  <deletedFolders>process/ESB_Pranita/ESB_PranitaPortType</deletedFolders>
+  <deletedFolders>process/ESB_Pranita/ESB_PranitaPortType/ESB_PranitaOperation</deletedFolders>
+  <deletedFolders>process/Harsh</deletedFolders>
+  <deletedFolders>process/Megha</deletedFolders>
+  <deletedFolders>process/Megha/Data_Quality</deletedFolders>
+  <deletedFolders>process/Megha/Data_Quality/Inconsistent_use_of_terminology</deletedFolders>
+  <deletedFolders>process/Megha/Data_Quality/Incorrect_CountryCode_and_Phone_No_length</deletedFolders>
+  <deletedFolders>process/Megha/Data_Quality/Missing_location_for_specific_orders</deletedFolders>
+  <deletedFolders>process/Megha/Data_Quality/Product_Name_Check</deletedFolders>
+  <deletedFolders>process/Megha/ESB_Academy</deletedFolders>
+  <deletedFolders>process/Megha/Presales_megha</deletedFolders>
+  <deletedFolders>process/Megha/Presales_megha/Manufacture</deletedFolders>
+  <deletedFolders>process/Megha/Presales_megha/Pharma</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_27_May_24</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_27_May_24/FINAL_DEMO</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_27_May_24/Finance_Mutual_Funds_Demo</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_27_May_24/Manufacture</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Demo_27_May_24/Pharma</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Qlik_demo_26_10_23</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Talend_Demo1</deletedFolders>
+  <deletedFolders>process/Megha/TalendDemo/Talend_Demo_14_03_24</deletedFolders>
+  <deletedFolders>process/Megha/Talend_Academy_API_Services</deletedFolders>
+  <deletedFolders>process/Megha/Talend_PreSales_Session</deletedFolders>
+  <deletedFolders>process/Megha/Talend_demo</deletedFolders>
+  <deletedFolders>process/Megha/Talend_demo/Partition_Jobs</deletedFolders>
+  <deletedFolders>process/Megha/Talend_demo/Transformation</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Audit_Framework</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Data_Migration</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Data_stewardship_test</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Demo_job_04_10_23</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Demo_job_04_10_23/Data_stewardship</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Incremental_load</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Interval_Match</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Parallel_regular_time_test</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Remove_duplicates</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/Replacement_Job</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/SCD</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/SCD/SCD1</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/SCD/SCD2</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/SCD/SCD3</deletedFolders>
+  <deletedFolders>process/Megha/Test_Jobs/validation_check_jobs</deletedFolders>
+  <deletedFolders>process/Megha/udemy_test_jobs</deletedFolders>
+  <deletedFolders>process/Melita</deletedFolders>
+  <deletedFolders>process/Melita/Melita_API</deletedFolders>
+  <deletedFolders>process/Melita/Melita_API/Melita_APIPortType</deletedFolders>
+  <deletedFolders>process/Melita/Melita_API/Melita_APIPortType/Melita_APIOperation</deletedFolders>
+  <deletedFolders>process/Melita/Melita_API_Testing</deletedFolders>
+  <deletedFolders>process/Melita/Melita_TestAPI</deletedFolders>
+  <deletedFolders>process/Melita/Melita_TestAPI/Melita_TestAPIPortType</deletedFolders>
+  <deletedFolders>process/Melita/Melita_TestAPI/Melita_TestAPIPortType/Melita_TestAPIOperation</deletedFolders>
+  <deletedFolders>process/Mrunal</deletedFolders>
+  <deletedFolders>process/Mrunal/API</deletedFolders>
+  <deletedFolders>process/Mrunal/API/ESB_Student_service</deletedFolders>
+  <deletedFolders>process/Mrunal/API/ESB_Student_service/ESB_Student_servicePortType</deletedFolders>
+  <deletedFolders>process/Mrunal/API/ESB_Student_service/ESB_Student_servicePortType/ESB_Student_serviceOperation</deletedFolders>
+  <deletedFolders>process/Mrunal/ESB</deletedFolders>
+  <deletedFolders>process/Mrunal/ESB/Creating_the_Books_and_Movies_Jobs</deletedFolders>
+  <deletedFolders>process/Mrunal/ESB/Creating_the_Books_and_Movies_Jobs/Creating_the_Books_and_Movies_Jobs</deletedFolders>
+  <deletedFolders>process/Mrunal/ESB/esb2nd</deletedFolders>
+  <deletedFolders>process/Mrunal/Mrunal</deletedFolders>
+  <deletedFolders>process/Mrunal/Mrunal/Talend_catalog</deletedFolders>
+  <deletedFolders>process/Mrunal/Mrunal/Talend_catalog/Mrunal</deletedFolders>
+  <deletedFolders>process/Mrunal/Mrunal/Talend_catalog/Mrunal/Talend_catalog</deletedFolders>
+  <deletedFolders>process/Person_ESB_Service_Pranita_V2</deletedFolders>
+  <deletedFolders>process/Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType</deletedFolders>
+  <deletedFolders>process/Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation</deletedFolders>
+  <deletedFolders>process/Pranita</deletedFolders>
+  <deletedFolders>process/Pranita/Course_task</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Cloud_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo/DataPrepartion</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo/DataStewardship</deletedFolders>
+  <deletedFolders>process/Pranita/DEMO/Talend_Demo1</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2/ESB2PortType</deletedFolders>
+  <deletedFolders>process/Pranita/ESB2/ESB2PortType/ESB2Operation</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_Cloud_Demo</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_TO_TalendDemo_28_9_2023</deletedFolders>
+  <deletedFolders>process/Pranita/Replicate_TO_TalendDemo_28_9_2023/Cloud_job</deletedFolders>
+  <deletedFolders>process/Pranita/Task</deletedFolders>
+  <deletedFolders>process/Pranita/Task/API</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Arbitration</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Grouping</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Merging</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Merging/a_attachment_tds</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/Resolution</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Cloud/StewardShip/a_attachment_tds</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Componentsbasetask</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2/ESB2PortType</deletedFolders>
+  <deletedFolders>process/Pranita/Task/ESB/ESB2/ESB2PortType/ESB2Operation</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Functions</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Incremental</deletedFolders>
+  <deletedFolders>process/Pranita/Task/Migration</deletedFolders>
+  <deletedFolders>process/Pranita/Task/SCD</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007/Predoole_SOAP_3007PortType</deletedFolders>
+  <deletedFolders>process/Predoole_SOAP_3007/Predoole_SOAP_3007PortType/Predoole_SOAP_3007Operation</deletedFolders>
+  <deletedFolders>process/demo</deletedFolders>
+  <deletedFolders>process/demo_jobs</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch04helloWorld</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch05Interface</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch06firstJob</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch07processFiles</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch08properties</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch09processDatabases</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch10processOtherFormats</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch13dataQuality</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch15orchestration</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch16logging</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch17documentation</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch18deployment</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch20useCases</deletedFolders>
+  <deletedFolders>process/demo_jobs/Ch22bonus</deletedFolders>
+  <deletedFolders>process/demo_jobs/ch12transformations</deletedFolders>
+  <deletedFolders>process/demo_jobs/ch12transformations/Ch11variables</deletedFolders>
+  <deletedFolders>process/demo_jobs/ch14fileManagement</deletedFolders>
+  <deletedFolders>routes/mrunal</deletedFolders>
+  <deletedFolders>routes/mrunal/Creating_Route_to_call_DI_Jobs</deletedFolders>
+  <deletedItems id="_en9MEDntEe-L17apX-73jA" path="CP/BANKING" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_YNYo4EXAEe-sVOhStmC0iQ" path="Manufactures" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_OS3O8E_QEe-TA8KMLPXdmw" path="Mrunal" type="METADATA_FILE_DELIMITED"/>
+  <deletedItems id="_-ArWcEQ1Ee-cR8XD0SHwvA" path="" type="PROCESS"/>
+  <deletedItems id="_eP_i4KZoEe-rKsVXLV5Y_Q" path="" type="PROCESS"/>
+  <deletedItems id="_qWcoIKMXEe-TZNWgPp2X3w" path="" type="PROCESS"/>
+  <deletedItems id="_v3SagE2kEe-B3u2o0o0QuA" path="" type="PROCESS"/>
+  <deletedItems id="_2bZ3cDrPEe-2VeFhC29sBQ" path="CP/BANKING" type="PROCESS"/>
+  <deletedItems id="_n_9pwD0NEe-NpZk8oYKmZg" path="CP/BANKING" type="PROCESS"/>
+  <deletedItems id="_U3h1wDqbEe-L17apX-73jA" path="CP/INCREMENTAL_LOAD" type="PROCESS"/>
+  <deletedItems id="_zTQAkEpuEe-88u6Xexx5pA" path="CP_Alpha" type="PROCESS"/>
+  <deletedItems id="_cl8wMLLPEe-2FPOcJWNV7A" path="JayP/Dec_2024" type="PROCESS"/>
+  <deletedItems id="_OwPZAEXAEe-sVOhStmC0iQ" path="Megha/Presales_megha/Manufacture" type="PROCESS"/>
+  <deletedItems id="_9PLucBNpEe-Z9bWIUD3MLg" path="Megha/Talend_Academy_API_Services" type="PROCESS"/>
+  <deletedItems id="_RhL64ET1Ee-sd-SulZwQPA" path="Megha/Talend_Academy_API_Services" type="PROCESS"/>
+  <deletedItems id="_28VxoE2kEe-B3u2o0o0QuA" path="Melita" type="PROCESS"/>
+  <deletedItems id="_3CSqsEfoEe-AhZ3I-r6X6g" path="Melita" type="PROCESS"/>
+  <deletedItems id="_JW6tUETjEe-mhfigRoauIw" path="Melita" type="PROCESS"/>
+  <deletedItems id="_NLZ00E2lEe-GmIguiYMgIA" path="Melita" type="PROCESS"/>
+  <deletedItems id="_UzOQ8Ef2Ee-VW-tM56dK-g" path="Melita" type="PROCESS"/>
+  <deletedItems id="_c-LkEE40Ee-GmIguiYMgIA" path="Melita/Melita_API/Melita_APIPortType/Melita_APIOperation" type="PROCESS"/>
+  <deletedItems id="_dvXT8E41Ee-GmIguiYMgIA" path="Melita/Melita_API_Testing" type="PROCESS"/>
+  <deletedItems id="_tWdaEE40Ee-GmIguiYMgIA" path="Melita/Melita_API_Testing" type="PROCESS"/>
+  <deletedItems id="_PF3SUEmzEe-9L8dFXtjQEw" path="Melita/Melita_TestAPI/Melita_TestAPIPortType/Melita_TestAPIOperation" type="PROCESS"/>
+  <deletedItems id="_1NyS4E8JEe-YDL1X7n5Jkw" path="Mrunal" type="PROCESS"/>
+  <deletedItems id="_zJa9cE_EEe-TA8KMLPXdmw" path="Mrunal" type="PROCESS"/>
+  <deletedItems id="_YA5lsEW4Ee-jRLftcPihSQ" path="Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation" type="PROCESS"/>
+  <deletedItems id="_lwG1wEW6Ee-jRLftcPihSQ" path="Person_ESB_Service_Pranita_V2/Person_ESB_Service_Pranita_V2PortType/Person_ESB_Service_Pranita_V2Operation" type="PROCESS"/>
+  <deletedItems id="_z6S9EETJEe-TTKtkRNn5iw" path="Pranita" type="PROCESS"/>
+  <deletedItems id="_WN0VMFg8Ee6Kq4wovtFs1w" path="Pranita/Replicate_Cloud_Demo" type="PROCESS"/>
+  <deletedItems id="_P685UE5rEe-Fgtmly-lmiw" path="Predoole_SOAP_3007/Predoole_SOAP_3007PortType/Predoole_SOAP_3007Operation" type="PROCESS"/>
+  <deletedItems id="_ewwUcMv1Ee-PT9KKCohD5w" path="Jay" type="ROUTE"/>
+  <deletedItems id="_qqT_ENb7Ee-vaYhBCVwIZQ" path="json" type="ROUTINES"/>
+  <deletedItems id="_pKgZMNb7Ee-vaYhBCVwIZQ" path="" type="ROUTINESJAR"/>
+  <deletedItems id="_7q2gkEmxEe-9L8dFXtjQEw" path="" type="SERVICES"/>
+  <deletedItems id="_J6fskEmmEe-9L8dFXtjQEw" path="" type="SERVICES"/>
+</recyclebin:RecycleBin>

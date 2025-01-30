@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_9QVQ4EQwEe-FgvMNFvOBnw" name="Financelanding" id="_9PimsEQwEe-FgvMNFvOBnw" label="Financelanding" dataPackage="_rDXxMEQwEe-FgvMNFvOBnw" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=Finance_Demo_SS;" dbVersionString="MSSQL_PROP" Port="1433" Username="qdimainuser" Password="enc:system.encryption.key.v1:nKGkV6ntXDV8logHBZgBCtA4ihSuj5ZnkwIbxRdnWTRhfZa/nseOAw==" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Finance_Demo_SS" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="landing" supportNLS="false">
+    <taggedValue xmi:id="_rA1akUQwEe-FgvMNFvOBnw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_rBapYEQwEe-FgvMNFvOBnw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_rBapYUQwEe-FgvMNFvOBnw" tag="Status" value=""/>
+    <taggedValue xmi:id="_rBapYkQwEe-FgvMNFvOBnw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_rBapY0QwEe-FgvMNFvOBnw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_rBapZEQwEe-FgvMNFvOBnw" tag="Description" value=""/>
+    <taggedValue xmi:id="_rBapZUQwEe-FgvMNFvOBnw" tag="Author" value=""/>
+    <taggedValue xmi:id="_rBapZkQwEe-FgvMNFvOBnw" tag="otherParameter"/>
+    <taggedValue xmi:id="_rCLeYEQwEe-FgvMNFvOBnw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_rCLeYUQwEe-FgvMNFvOBnw" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_rCLeYkQwEe-FgvMNFvOBnw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_rA1akkQwEe-FgvMNFvOBnw" key="CONN_PARA_KEY_USERNAME" value="qdimainuser"/>
+    <parameters xmi:id="_96hdYEQwEe-FgvMNFvOBnw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_rDXxMEQwEe-FgvMNFvOBnw" name="Finance_Demo_SS" dataManager="_9QVQ4EQwEe-FgvMNFvOBnw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_CrWvL0QxEe-FgvMNFvOBnw" name="landing"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

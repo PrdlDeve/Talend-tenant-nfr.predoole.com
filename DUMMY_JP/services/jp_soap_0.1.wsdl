@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="jp_soap"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="jp_soapOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="jp_soapOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="jp_soapOperationRequest">
+		<wsdl:part name="parameters" element="tns:jp_soapOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="jp_soapOperationResponse">
+		<wsdl:part name="parameters" element="tns:jp_soapOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="jp_soapPortType">
+		<wsdl:operation name="jp_soapOperation">
+			<wsdl:input message="tns:jp_soapOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:jp_soapOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="jp_soapBinding" type="tns:jp_soapPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="jp_soapOperation">
+			<soap:operation soapAction="http://www.talend.org/service/jp_soapOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="jp_soap">
+		<wsdl:port name="jp_soapPort" binding="tns:jp_soapBinding">
+			<soap:address location="http://localhost:8090/services/jp_soap" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
