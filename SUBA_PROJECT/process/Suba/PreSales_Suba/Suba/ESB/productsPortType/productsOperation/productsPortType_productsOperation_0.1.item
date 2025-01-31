@@ -103,8 +103,20 @@
   </parameters>
   <node componentName="tESBProviderRequest" componentVersion="0.100" offsetLabelX="0" offsetLabelY="0" posX="40" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tESBProviderRequest_1" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tESBProviderRequest" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.100 (ALPHA)" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="ESB/Web Services" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tESBProviderRequest" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Talend-Studio\Talend-Studio-20240527_1700-V8.0.1\configuration\lib\java" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ks3gAN-dEe-3e-G8itLJrw - _kvcS4N-dEe-3e-G8itLJrw - _kvcS4d-dEe-3e-G8itLJrw" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
-    <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/Laptop_User/Downloads/Talend-Studio/Talend-Studio-20240527_1700-V8.0.1/workspace/Talend-tenant-nfr.predoole.com-216387385/DUMMY_JP/services/products_0.1.wsdl" show="false"/>
+    <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/Laptop_User/Downloads/Talend-Studio/Talend-Studio-20240527_1700-V8.0.1/workspace/Talend-tenant-nfr.predoole.com-216387385/SUBA_PROJECT/services/products_0.1.wsdl" show="false"/>
     <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8090/services/products" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="products" show="false"/>
