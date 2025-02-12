@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_LzxxoK7sEe-7wL_jd_vtxw" name="jay_MySQL" id="_BlXc4K7sEe-7wL_jd_vtxw" label="jay_MySQL" dataPackage="_L5WOIK7sEe-7wL_jd_vtxw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://98.70.40.229:3306/jay_db?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="Aarti" Password="enc:system.encryption.key.v1:nz2vGf2TdU9Vi18okdFLTSgk4IeplexOqVUknAtG9aTTbLXCMYNPNRc=" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="jay_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_Lzy_wK7sEe-7wL_jd_vtxw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_L0rJgK7sEe-7wL_jd_vtxw" tag="package filter" value=""/>
@@ -14,5 +14,9 @@
     <taggedValue xmi:id="_L2cEEq7sEe-7wL_jd_vtxw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_Lzy_wa7sEe-7wL_jd_vtxw" key="CONN_PARA_KEY_USERNAME" value="Aarti"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_L5WOIK7sEe-7wL_jd_vtxw" name="jay_db" dataManager="_LzxxoK7sEe-7wL_jd_vtxw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_L5WOIK7sEe-7wL_jd_vtxw" name="jay_db" dataManager="_LzxxoK7sEe-7wL_jd_vtxw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_vDbW4OkvEe-fdZkOhC4CCA" name="customers" id="_vDZhsOkvEe-fdZkOhC4CCA" label="customers" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_vDb98OkvEe-fdZkOhC4CCA" name="employees" id="_vDZhsekvEe-fdZkOhC4CCA" label="employees" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_vDb98ekvEe-fdZkOhC4CCA" name="transactions" id="_vDZhsukvEe-fdZkOhC4CCA" label="transactions" tableType="TABLE"/>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
