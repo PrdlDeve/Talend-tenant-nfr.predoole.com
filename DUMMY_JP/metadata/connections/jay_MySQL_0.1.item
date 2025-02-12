@@ -34,6 +34,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_xIdJvOkvEe-fdZkOhC4CCA" name="AreaOfResidence" id="AreaOfResidence" label="AreaOfResidence" length="100" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_xIdJvekvEe-fdZkOhC4CCA" tag="Comment" value=""/>
+        <taggedValue xmi:id="_3oQz0OkxEe-fdZkOhC4CCA" tag="Content Type" value="Nominal"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_xIdJvukvEe-fdZkOhC4CCA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_xIdJv-kvEe-fdZkOhC4CCA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
@@ -43,5 +44,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_4tDjkOkvEe-fdZkOhC4CCA" kind="Usage" supplier="_LzxxoK7sEe-7wL_jd_vtxw">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/gg_0.1.ana#_4vvEIOkvEe-fdZkOhC4CCA"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/sj_0.1.ana#_2h6PwOkxEe-fdZkOhC4CCA"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
