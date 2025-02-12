@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_FVaQgOK0Ee-QVKVt133WYQ" name="postgre_cdc_conn" id="_5NrCoOKzEe-QVKVt133WYQ" label="postgre_cdc_conn" dataPackage="_FZ5H4OK0Ee-QVKVt133WYQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Jay_Demo?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:dHI21oUhDcdeKcij7T9RthC9if1KF1OHJzaHgvWts3s9j9HGmJbTwbc=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Jay_Demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public" supportNLS="false">
+    <taggedValue xmi:id="_FVaQgeK0Ee-QVKVt133WYQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_FW76gOK0Ee-QVKVt133WYQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_FXBaEOK0Ee-QVKVt133WYQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_FXBaEeK0Ee-QVKVt133WYQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_FXBaEuK0Ee-QVKVt133WYQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_FXBaE-K0Ee-QVKVt133WYQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_FXBaFOK0Ee-QVKVt133WYQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_FXBaFeK0Ee-QVKVt133WYQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_FYR-UOK0Ee-QVKVt133WYQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_FYR-UeK0Ee-QVKVt133WYQ" tag="DB ProductVersion" value="14.12"/>
+    <taggedValue xmi:id="_FYR-UuK0Ee-QVKVt133WYQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_FVaQguK0Ee-QVKVt133WYQ" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_FZ5H4OK0Ee-QVKVt133WYQ" name="Jay_Demo" dataManager="_FVaQgOK0Ee-QVKVt133WYQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_FZ5H4eK0Ee-QVKVt133WYQ" name="public">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_ZK8QgOK0Ee-QVKVt133WYQ" name="TSUBSCRIBERS" id="_ZK2w8OK0Ee-QVKVt133WYQ" label="TSUBSCRIBERS" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_ZK8QgeK0Ee-QVKVt133WYQ" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_ZK8QguK0Ee-QVKVt133WYQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ZK8Qg-K0Ee-QVKVt133WYQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ZK8QhOK0Ee-QVKVt133WYQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ZK8QheK0Ee-QVKVt133WYQ" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_ZK8QhuK0Ee-QVKVt133WYQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ZK8Qh-K0Ee-QVKVt133WYQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ZK8QiOK0Ee-QVKVt133WYQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_ZK8QieK0Ee-QVKVt133WYQ" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="29" precision="6" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_ZK8QiuK0Ee-QVKVt133WYQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_ZK8Qi-K0Ee-QVKVt133WYQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_ZK8QjOK0Ee-QVKVt133WYQ" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

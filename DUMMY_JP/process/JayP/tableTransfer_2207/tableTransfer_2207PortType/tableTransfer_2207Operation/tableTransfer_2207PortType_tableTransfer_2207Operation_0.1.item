@@ -106,7 +106,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_492M4EfyEe-vWOlXPFNZ9Q - _4_rY4EfyEe-vWOlXPFNZ9Q - _4_rY4UfyEe-vWOlXPFNZ9Q" show="false"/>
     <elementParameter field="CHECK" name="KEEPLISTENING" value="true"/>
-    <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/Laptop_User/Downloads/Talend-Studio/Talend-Studio-20240527_1700-V8.0.1/workspace/Talend_15_12_2023-1921442151/DEVELOPMENT/services/tableTransfer_2207_0.1.wsdl" show="false"/>
+    <elementParameter field="TEXT" name="WSDL_LOCATION" value="C:/Users/Laptop_User/Downloads/Talend-Studio/Talend-Studio-20240527_1700-V8.0.1/workspace/Talend-tenant-nfr.predoole.com-216387385/DUMMY_JP/services/tableTransfer_2207_0.1.wsdl" show="false"/>
     <elementParameter field="TEXT" name="ENDPOINT_URI" value="http://localhost:8090/services/tableTransfer_2207" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NS" value="http://www.talend.org/service/" show="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAME" value="tableTransfer_2207" show="false"/>
@@ -196,8 +196,8 @@
     <elementParameter field="PASSWORD" name="KEYSTORE_SECRET" value="" show="false"/>
     <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="TRIM_COLUMN">
-      <elementValue elementRef="SCHEMA_COLUMN" value="out"/>
-      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="out" id="0"/>
+      <elementValue elementRef="TRIM" value="false" id="1"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
     <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" value="30" show="false"/>
@@ -259,9 +259,9 @@
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tXMLMap_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="out"/>
-      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
-      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="out" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
