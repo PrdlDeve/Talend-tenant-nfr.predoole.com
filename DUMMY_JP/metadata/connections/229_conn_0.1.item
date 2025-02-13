@@ -47,6 +47,16 @@
       <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ1-nREe-fdZkOhC4CCA" name="Talend_Sample" id="_JGSJuenREe-fdZkOhC4CCA" label="Talend_Sample" tableType="TABLE"/>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ2OnREe-fdZkOhC4CCA" name="Transactions" id="_JGSJuunREe-fdZkOhC4CCA" label="Transactions" tableType="TABLE"/>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ2enREe-fdZkOhC4CCA" name="Website" id="_JGSJu-nREe-fdZkOhC4CCA" label="Website" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQB7gOnREe-fdZkOhC4CCA" name="syncobj_0x3033383834383238" label="syncobj_0x3033383834383238" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCikOnREe-fdZkOhC4CCA" name="syncobj_0x3339464434303737" label="syncobj_0x3339464434303737" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCikenREe-fdZkOhC4CCA" name="syncobj_0x3832343442354643" label="syncobj_0x3832343442354643" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCikunREe-fdZkOhC4CCA" name="syncobj_0x3846313543353136" label="syncobj_0x3846313543353136" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCik-nREe-fdZkOhC4CCA" name="syncobj_0x4132444539343833" label="syncobj_0x4132444539343833" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCilOnREe-fdZkOhC4CCA" name="syncobj_0x4333444134383341" label="syncobj_0x4333444134383341" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCilenREe-fdZkOhC4CCA" name="syncobj_0x4534334643313836" label="syncobj_0x4534334643313836" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCilunREe-fdZkOhC4CCA" name="syncobj_0x4534413835433642" label="syncobj_0x4534413835433642" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCil-nREe-fdZkOhC4CCA" name="syncobj_0x4645303045343438" label="syncobj_0x4645303045343438" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_JQCimOnREe-fdZkOhC4CCA" name="sysextendedarticlesview" label="sysextendedarticlesview" tableType="VIEW"/>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_yQRbMOnQEe-fdZkOhC4CCA" kind="Usage" supplier="_FnRdwKDjEe-Nee7K9MFJsQ">
