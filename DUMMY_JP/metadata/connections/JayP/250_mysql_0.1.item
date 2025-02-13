@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_5PpVoMwXEe-PT9KKCohD5w" name="250_mysql" id="_G1zewMwXEe-PT9KKCohD5w" label="250_mysql" dataPackage="_5UGX0MwXEe-PT9KKCohD5w" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://98.70.40.229:3306/jay_db?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="Aarti" Password="enc:system.encryption.key.v1:Eo5/abMW5zwHliV1eBKpwNk3ffUlLdJPGjzuW/cvBuMwqgDtgMsBkT8=" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="jay_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_5PpVoMwXEe-PT9KKCohD5w" name="250_mysql" supplierDependency="_uI_d8OnqEe-fdZkOhC4CCA" id="_G1zewMwXEe-PT9KKCohD5w" label="250_mysql" dataPackage="_5UGX0MwXEe-PT9KKCohD5w" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://98.70.40.229:3306/jay_db?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="Aarti" Password="enc:system.encryption.key.v1:Eo5/abMW5zwHliV1eBKpwNk3ffUlLdJPGjzuW/cvBuMwqgDtgMsBkT8=" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="jay_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
     <taggedValue xmi:id="_5PpVocwXEe-PT9KKCohD5w" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_5Qx-EMwXEe-PT9KKCohD5w" tag="package filter" value=""/>
     <taggedValue xmi:id="_5Qx-EcwXEe-PT9KKCohD5w" tag="Status" value=""/>
@@ -17,26 +17,29 @@
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_5UGX0MwXEe-PT9KKCohD5w" name="jay_db" dataManager="_5PpVoMwXEe-PT9KKCohD5w">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_G-HQwMwYEe-PT9KKCohD5w" name="employees" id="_G-GpsMwYEe-PT9KKCohD5w" label="employees" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQwcwYEe-PT9KKCohD5w" name="Emp_id" label="Emp_id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQwcwYEe-PT9KKCohD5w" name="Emp_id" id="Emp_id" label="Emp_id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_G-HQwswYEe-PT9KKCohD5w" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQw8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQxMwYEe-PT9KKCohD5w" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQxcwYEe-PT9KKCohD5w" name="Emp_name" label="Emp_name" length="50" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQxcwYEe-PT9KKCohD5w" name="Emp_name" id="Emp_name" label="Emp_name" length="50" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_G-HQxswYEe-PT9KKCohD5w" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQx8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQyMwYEe-PT9KKCohD5w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQycwYEe-PT9KKCohD5w" name="Salary" label="Salary" length="10" sourceType="INT" talendType="id_Integer">
+      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQycwYEe-PT9KKCohD5w" name="Salary" id="Salary" label="Salary" length="10" sourceType="INT" talendType="id_Integer">
         <taggedValue xmi:id="_G-HQyswYEe-PT9KKCohD5w" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQy8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQzMwYEe-PT9KKCohD5w" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQzcwYEe-PT9KKCohD5w" name="Branch" label="Branch" length="50" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_G-HQzcwYEe-PT9KKCohD5w" name="Branch" id="Branch" label="Branch" length="50" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_G-HQzswYEe-PT9KKCohD5w" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQz8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQ0MwYEe-PT9KKCohD5w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uI_d8OnqEe-fdZkOhC4CCA" kind="Usage" supplier="_5PpVoMwXEe-PT9KKCohD5w">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/empl_250_MySQL_0.1.ana#_uJAsEOnqEe-fdZkOhC4CCA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
