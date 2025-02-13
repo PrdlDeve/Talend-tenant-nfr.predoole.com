@@ -11,17 +11,137 @@
     <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
   </context>
   <results xmi:id="_yQSCR-nQEe-fdZkOhC4CCA">
-    <resultMetadata xmi:id="_yQSCSOnQEe-fdZkOhC4CCA"/>
-    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_yQSCSenQEe-fdZkOhC4CCA">
+    <resultMetadata xmi:id="_yQSCSOnQEe-fdZkOhC4CCA" executionDate="2025-02-13T11:39:25.699+0530" executionDuration="3017" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_yQSCSenQEe-fdZkOhC4CCA" computed="true" tableCount="30" keyCount="16" indexCount="47" viewCount="10" tableRowCount="10127" viewRowCount="9" catalogCount="1">
       <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
       <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
-      <schemaIndicators xmi:id="_yQSCSunQEe-fdZkOhC4CCA">
-        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/229_conn_0.1.item#_rRvi0enQEe-fdZkOhC4CCA"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
-      </schemaIndicators>
-      <catalogIndicators xmi:id="_yQSCS-nQEe-fdZkOhC4CCA">
+      <catalogIndicators xmi:id="_FVTLUOnREe-fdZkOhC4CCA" tableCount="30" keyCount="16" indexCount="47" viewCount="10" tableRowCount="10127" viewRowCount="9" schemaCount="1">
         <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/229_conn_0.1.item#_rRvi0OnQEe-fdZkOhC4CCA"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+        <schemaIndicators xmi:id="_FVTLUenREe-fdZkOhC4CCA" tableCount="30" keyCount="16" indexCount="47" viewCount="10" tableRowCount="10127" viewRowCount="9">
+          <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/229_conn_0.1.item#_rRvi0enQEe-fdZkOhC4CCA"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          <tableIndicators xmi:id="_FVTLUunREe-fdZkOhC4CCA" rowCount="16" tableName="attrep_truncation_safeguard" keyCount="3" indexCount="3">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLU-nREe-fdZkOhC4CCA" rowCount="2" tableName="Country" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLVOnREe-fdZkOhC4CCA" tableName="Customer" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLVenREe-fdZkOhC4CCA" rowCount="5" tableName="customer_history">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLVunREe-fdZkOhC4CCA" rowCount="2" tableName="customers">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLV-nREe-fdZkOhC4CCA" rowCount="1" tableName="Date" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLWOnREe-fdZkOhC4CCA" rowCount="1" tableName="DVD_Release" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLWenREe-fdZkOhC4CCA" tableName="MSpeer_conflictdetectionconfigrequest" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLWunREe-fdZkOhC4CCA" tableName="MSpeer_conflictdetectionconfigresponse" indexCount="3">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLW-nREe-fdZkOhC4CCA" tableName="MSpeer_lsns" keyCount="1" indexCount="7">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLXOnREe-fdZkOhC4CCA" tableName="MSpeer_originatorid_history" indexCount="5">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLXenREe-fdZkOhC4CCA" tableName="MSpeer_request">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLXunREe-fdZkOhC4CCA" tableName="MSpeer_response">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLX-nREe-fdZkOhC4CCA" tableName="MSpeer_topologyrequest">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLYOnREe-fdZkOhC4CCA" tableName="MSpeer_topologyresponse">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLYenREe-fdZkOhC4CCA" tableName="MSpub_identity_range" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLYunREe-fdZkOhC4CCA" rowCount="5" tableName="order_history" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLY-nREe-fdZkOhC4CCA" rowCount="4" tableName="orders" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLZOnREe-fdZkOhC4CCA" rowCount="2" tableName="Region" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLZenREe-fdZkOhC4CCA" rowCount="68" tableName="sysarticlecolumns" indexCount="2">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLZunREe-fdZkOhC4CCA" rowCount="9" tableName="sysarticles" indexCount="2">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLZ-nREe-fdZkOhC4CCA" tableName="sysarticleupdates" indexCount="2">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLaOnREe-fdZkOhC4CCA" rowCount="1" tableName="syspublications" indexCount="3">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLaenREe-fdZkOhC4CCA" rowCount="1" tableName="sysreplservers" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLaunREe-fdZkOhC4CCA" tableName="sysschemaarticles" indexCount="2">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLa-nREe-fdZkOhC4CCA" rowCount="9" tableName="syssubscriptions" indexCount="4">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLbOnREe-fdZkOhC4CCA" tableName="systranschemas" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLbenREe-fdZkOhC4CCA" rowCount="10000" tableName="Talend_Sample">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLbunREe-fdZkOhC4CCA" tableName="Transactions" keyCount="2" indexCount="2">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <tableIndicators xmi:id="_FVTLb-nREe-fdZkOhC4CCA" rowCount="1" tableName="Website" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <viewIndicators xmi:id="_FVTLcOnREe-fdZkOhC4CCA" tableName="syncobj_0x3033383834383238">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLcenREe-fdZkOhC4CCA" tableName="syncobj_0x3339464434303737">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLcunREe-fdZkOhC4CCA" tableName="syncobj_0x3832343442354643">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLc-nREe-fdZkOhC4CCA" tableName="syncobj_0x3846313543353136">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLdOnREe-fdZkOhC4CCA" tableName="syncobj_0x4132444539343833">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLdenREe-fdZkOhC4CCA" tableName="syncobj_0x4333444134383341">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLdunREe-fdZkOhC4CCA" tableName="syncobj_0x4534334643313836">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLd-nREe-fdZkOhC4CCA" tableName="syncobj_0x4534413835433642">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLeOnREe-fdZkOhC4CCA" tableName="syncobj_0x4645303045343438">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+          <viewIndicators xmi:id="_FVTLeenREe-fdZkOhC4CCA" rowCount="9" tableName="sysextendedarticlesview">
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+        </schemaIndicators>
       </catalogIndicators>
     </indicators>
   </results>
