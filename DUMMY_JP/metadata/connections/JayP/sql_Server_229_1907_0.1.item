@@ -39,6 +39,27 @@
           <sqlDataType xmi:id="_PDuX78wWEe-PT9KKCohD5w" name="IMAGE" javaDataType="-4" nullable="columnNullable"/>
         </feature>
       </ownedElement>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeUOnXEe-fdZkOhC4CCA" name="Alphabetical list of products" label="Alphabetical list of products" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeUenXEe-fdZkOhC4CCA" name="Category Sales for 1997" label="Category Sales for 1997" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeUunXEe-fdZkOhC4CCA" name="Current Product List" label="Current Product List" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeU-nXEe-fdZkOhC4CCA" name="Customer and Suppliers by City" label="Customer and Suppliers by City" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeVOnXEe-fdZkOhC4CCA" name="Invoices" label="Invoices" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeVenXEe-fdZkOhC4CCA" name="Order Details Extended" label="Order Details Extended" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeVunXEe-fdZkOhC4CCA" name="Order Subtotals" label="Order Subtotals" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeV-nXEe-fdZkOhC4CCA" name="Orders Qry" label="Orders Qry" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeWOnXEe-fdZkOhC4CCA" name="Product Sales for 1997" label="Product Sales for 1997" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeWenXEe-fdZkOhC4CCA" name="Products Above Average Price" label="Products Above Average Price" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeWunXEe-fdZkOhC4CCA" name="Products by Category" label="Products by Category" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeW-nXEe-fdZkOhC4CCA" name="Quarterly Orders" label="Quarterly Orders" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeXOnXEe-fdZkOhC4CCA" name="Sales by Category" label="Sales by Category" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeXenXEe-fdZkOhC4CCA" name="Sales Totals by Amount" label="Sales Totals by Amount" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeXunXEe-fdZkOhC4CCA" name="Summary of Sales by Quarter" label="Summary of Sales by Quarter" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeX-nXEe-fdZkOhC4CCA" name="Summary of Sales by Year" label="Summary of Sales by Year" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeYOnXEe-fdZkOhC4CCA" name="syncobj_0x3135393535393046" label="syncobj_0x3135393535393046" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeYenXEe-fdZkOhC4CCA" name="syncobj_0x3938313834364642" label="syncobj_0x3938313834364642" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeYunXEe-fdZkOhC4CCA" name="syncobj_0x4343353036443542" label="syncobj_0x4343353036443542" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeY-nXEe-fdZkOhC4CCA" name="syncobj_0x4546324343413536" label="syncobj_0x4546324343413536" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_adfeZOnXEe-fdZkOhC4CCA" name="sysextendedarticlesview" label="sysextendedarticlesview" tableType="VIEW"/>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_I9AHQOnQEe-fdZkOhC4CCA" kind="Usage" supplier="_tQDsEEWtEe-mhfigRoauIw">
