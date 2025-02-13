@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_FnRdwKDjEe-Nee7K9MFJsQ" name="229_conn" supplierDependency="_yQRbMOnQEe-fdZkOhC4CCA" id="_9w9BwKDiEe-Nee7K9MFJsQ" label="229_conn" dataPackage="_rRvi0OnQEe-fdZkOhC4CCA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.40.229:1433;DatabaseName=Jay_3;" dbVersionString="MSSQL_PROP" Port="1433" Username="User1" Password="enc:system.encryption.key.v1:3mrLdbxA/aq2T0u8xmmtfXJVv/J4JtoTVWx1wBHWQj+P09OvE1ClbQ==" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="Jay_3" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
     <taggedValue xmi:id="_FnRdwaDjEe-Nee7K9MFJsQ" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_FpUFIKDjEe-Nee7K9MFJsQ" tag="package filter" value=""/>
@@ -16,7 +16,38 @@
     <parameters xmi:id="_lwoDoOnQEe-fdZkOhC4CCA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_rRvi0OnQEe-fdZkOhC4CCA" name="Jay_3" dataManager="_FnRdwKDjEe-Nee7K9MFJsQ">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_rRvi0enQEe-fdZkOhC4CCA" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_rRvi0enQEe-fdZkOhC4CCA" name="dbo">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJvOnREe-fdZkOhC4CCA" name="attrep_truncation_safeguard" id="_JGRikOnREe-fdZkOhC4CCA" label="attrep_truncation_safeguard" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJvenREe-fdZkOhC4CCA" name="Country" id="_JGRikenREe-fdZkOhC4CCA" label="Country" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJvunREe-fdZkOhC4CCA" name="Customer" id="_JGSJoOnREe-fdZkOhC4CCA" label="Customer" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJv-nREe-fdZkOhC4CCA" name="customer_history" id="_JGSJoenREe-fdZkOhC4CCA" label="customer_history" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJwOnREe-fdZkOhC4CCA" name="customers" id="_JGSJounREe-fdZkOhC4CCA" label="customers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJwenREe-fdZkOhC4CCA" name="Date" id="_JGSJo-nREe-fdZkOhC4CCA" label="Date" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJwunREe-fdZkOhC4CCA" name="DVD_Release" id="_JGSJpOnREe-fdZkOhC4CCA" label="DVD_Release" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJw-nREe-fdZkOhC4CCA" name="MSpeer_conflictdetectionconfigrequest" id="_JGSJpenREe-fdZkOhC4CCA" label="MSpeer_conflictdetectionconfigrequest" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJxOnREe-fdZkOhC4CCA" name="MSpeer_conflictdetectionconfigresponse" id="_JGSJpunREe-fdZkOhC4CCA" label="MSpeer_conflictdetectionconfigresponse" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJxenREe-fdZkOhC4CCA" name="MSpeer_lsns" id="_JGSJp-nREe-fdZkOhC4CCA" label="MSpeer_lsns" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJxunREe-fdZkOhC4CCA" name="MSpeer_originatorid_history" id="_JGSJqOnREe-fdZkOhC4CCA" label="MSpeer_originatorid_history" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJx-nREe-fdZkOhC4CCA" name="MSpeer_request" id="_JGSJqenREe-fdZkOhC4CCA" label="MSpeer_request" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJyOnREe-fdZkOhC4CCA" name="MSpeer_response" id="_JGSJqunREe-fdZkOhC4CCA" label="MSpeer_response" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJyenREe-fdZkOhC4CCA" name="MSpeer_topologyrequest" id="_JGSJq-nREe-fdZkOhC4CCA" label="MSpeer_topologyrequest" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJyunREe-fdZkOhC4CCA" name="MSpeer_topologyresponse" id="_JGSJrOnREe-fdZkOhC4CCA" label="MSpeer_topologyresponse" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJy-nREe-fdZkOhC4CCA" name="MSpub_identity_range" id="_JGSJrenREe-fdZkOhC4CCA" label="MSpub_identity_range" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJzOnREe-fdZkOhC4CCA" name="order_history" id="_JGSJrunREe-fdZkOhC4CCA" label="order_history" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJzenREe-fdZkOhC4CCA" name="orders" id="_JGSJr-nREe-fdZkOhC4CCA" label="orders" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJzunREe-fdZkOhC4CCA" name="Region" id="_JGSJsOnREe-fdZkOhC4CCA" label="Region" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJz-nREe-fdZkOhC4CCA" name="sysarticlecolumns" id="_JGSJsenREe-fdZkOhC4CCA" label="sysarticlecolumns" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ0OnREe-fdZkOhC4CCA" name="sysarticles" id="_JGSJsunREe-fdZkOhC4CCA" label="sysarticles" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ0enREe-fdZkOhC4CCA" name="sysarticleupdates" id="_JGSJs-nREe-fdZkOhC4CCA" label="sysarticleupdates" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ0unREe-fdZkOhC4CCA" name="syspublications" id="_JGSJtOnREe-fdZkOhC4CCA" label="syspublications" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ0-nREe-fdZkOhC4CCA" name="sysreplservers" id="_JGSJtenREe-fdZkOhC4CCA" label="sysreplservers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ1OnREe-fdZkOhC4CCA" name="sysschemaarticles" id="_JGSJtunREe-fdZkOhC4CCA" label="sysschemaarticles" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ1enREe-fdZkOhC4CCA" name="syssubscriptions" id="_JGSJt-nREe-fdZkOhC4CCA" label="syssubscriptions" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ1unREe-fdZkOhC4CCA" name="systranschemas" id="_JGSJuOnREe-fdZkOhC4CCA" label="systranschemas" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ1-nREe-fdZkOhC4CCA" name="Talend_Sample" id="_JGSJuenREe-fdZkOhC4CCA" label="Talend_Sample" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ2OnREe-fdZkOhC4CCA" name="Transactions" id="_JGSJuunREe-fdZkOhC4CCA" label="Transactions" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_JGSJ2enREe-fdZkOhC4CCA" name="Website" id="_JGSJu-nREe-fdZkOhC4CCA" label="Website" tableType="TABLE"/>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_yQRbMOnQEe-fdZkOhC4CCA" kind="Usage" supplier="_FnRdwKDjEe-Nee7K9MFJsQ">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/db_analysis_0.1.ana#_yQSCQOnQEe-fdZkOhC4CCA"/>
