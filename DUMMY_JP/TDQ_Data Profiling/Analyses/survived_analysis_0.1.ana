@@ -68,6 +68,16 @@
           <sqlGenericExpression xmi:id="_zVofyOnbEe-fdZkOhC4CCA" body="SELECT SUM(double(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_F3K_8OnqEe-fdZkOhC4CCA">
+        <parameters xmi:id="_F3K_8enqEe-fdZkOhC4CCA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAdOnMEe-fdZkOhC4CCA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_F3K_8unqEe-fdZkOhC4CCA">
+        <parameters xmi:id="_F3K_8-nqEe-fdZkOhC4CCA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAdOnMEe-fdZkOhC4CCA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
+      </indicators>
     </results>
     <parameters xmi:id="_29tXienMEe-fdZkOhC4CCA" dataFilter="_3QDrwenMEe-fdZkOhC4CCA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_3QB2kOnMEe-fdZkOhC4CCA" confirmationNeeded="false" hide="false" name="Default"/>
