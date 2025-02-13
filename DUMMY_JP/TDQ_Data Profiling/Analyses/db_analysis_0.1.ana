@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_yQSCQOnQEe-fdZkOhC4CCA" name="db_analysis" creationDate="2025-02-13T11:37:20.675+0530">
+  <clientDependency href="../../metadata/connections/229_conn_0.1.item#_yQRbMOnQEe-fdZkOhC4CCA"/>
+  <taggedValue xmi:id="_yQSCQenQEe-fdZkOhC4CCA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_yQSCQunQEe-fdZkOhC4CCA" tag="Author" value="jay.p@talend.com"/>
+  <taggedValue xmi:id="_yQSCQ-nQEe-fdZkOhC4CCA" tag="Purpose"/>
+  <taggedValue xmi:id="_yQSCROnQEe-fdZkOhC4CCA" tag="Description"/>
+  <taggedValue xmi:id="_yQSCRenQEe-fdZkOhC4CCA" tag="Version" value="0.1"/>
+  <context xmi:id="_yQSCRunQEe-fdZkOhC4CCA">
+    <connection href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
+    <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
+  </context>
+  <results xmi:id="_yQSCR-nQEe-fdZkOhC4CCA">
+    <resultMetadata xmi:id="_yQSCSOnQEe-fdZkOhC4CCA"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_yQSCSenQEe-fdZkOhC4CCA">
+      <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+      <schemaIndicators xmi:id="_yQSCSunQEe-fdZkOhC4CCA">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/229_conn_0.1.item#_rRvi0enQEe-fdZkOhC4CCA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+      </schemaIndicators>
+      <catalogIndicators xmi:id="_yQSCS-nQEe-fdZkOhC4CCA">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/229_conn_0.1.item#_rRvi0OnQEe-fdZkOhC4CCA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      </catalogIndicators>
+    </indicators>
+  </results>
+  <parameters xmi:id="_yQSCTOnQEe-fdZkOhC4CCA" analysisType="Connection Analysis"/>
+</dataquality.analysis:Analysis>
