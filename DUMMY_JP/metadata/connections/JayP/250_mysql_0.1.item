@@ -13,6 +13,7 @@
     <taggedValue xmi:id="_5S3BscwXEe-PT9KKCohD5w" tag="DB ProductVersion" value="8.0.36"/>
     <taggedValue xmi:id="_5S3BsswXEe-PT9KKCohD5w" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_5PpVoswXEe-PT9KKCohD5w" key="CONN_PARA_KEY_USERNAME" value="Aarti"/>
+    <parameters xmi:id="_2f3TAOnOEe-fdZkOhC4CCA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_5UGX0MwXEe-PT9KKCohD5w" name="jay_db" dataManager="_5PpVoMwXEe-PT9KKCohD5w">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_G-HQwMwYEe-PT9KKCohD5w" name="employees" id="_G-GpsMwYEe-PT9KKCohD5w" label="employees" tableType="TABLE">
