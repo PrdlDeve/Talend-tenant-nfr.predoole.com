@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_uJAsEOnqEe-fdZkOhC4CCA" name="empl_250_MySQL" creationDate="2025-02-13T14:42:59.982+0530">
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_uJAsEOnqEe-fdZkOhC4CCA" name="empl_250_MySQL" creationDate="2025-02-13T14:42:59.982+0530">
   <clientDependency href="../../metadata/connections/JayP/250_mysql_0.1.item#_uI_d8OnqEe-fdZkOhC4CCA"/>
   <clientDependency href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_4vw5UukvEe-fdZkOhC4CCA"/>
   <taggedValue xmi:id="_uJAsEenqEe-fdZkOhC4CCA" tag="Status" value="development"/>
@@ -12,14 +12,29 @@
     <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwMwYEe-PT9KKCohD5w"/>
   </context>
   <results xmi:id="_uJAsF-nqEe-fdZkOhC4CCA">
-    <resultMetadata xmi:id="_uJAsGOnqEe-fdZkOhC4CCA"/>
-    <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_uJAsGenqEe-fdZkOhC4CCA">
+    <resultMetadata xmi:id="_uJAsGOnqEe-fdZkOhC4CCA" executionDate="2025-02-13T14:43:29.225+0530" executionDuration="347" message="Query not executed for indicator: &quot;Demo DQ Rule&quot; SQL query: SELECT COUNT(*) FROM `jay_db`.`employees`   WHERE (example != ''). Exception: Unknown column 'example' in 'where clause'" executionNumber="1"/>
+    <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_uJAsGenqEe-fdZkOhC4CCA" count="10000" computed="true">
       <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwMwYEe-PT9KKCohD5w"/>
       <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_yf3-oOnqEe-fdZkOhC4CCA" body="SELECT COUNT(*) FROM `jay_db`.`employees` " language="MySQL"/>
+      <builtInIndicatorDefinition xmi:id="_yfkcoOnqEe-fdZkOhC4CCA" name="Row Count" label="Row Count">
+        <taggedValue xmi:id="_yfkcoenqEe-fdZkOhC4CCA" tag="Description" value="counts the number of rows"/>
+        <taggedValue xmi:id="_yfkcounqEe-fdZkOhC4CCA" tag="Purpose" value="evaluates the number of records"/>
+        <sqlGenericExpression xmi:id="_yfkco-nqEe-fdZkOhC4CCA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+      </builtInIndicatorDefinition>
     </indicators>
-    <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_uJAsGunqEe-fdZkOhC4CCA">
+    <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_uJAsGunqEe-fdZkOhC4CCA" count="10000">
       <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwMwYEe-PT9KKCohD5w"/>
       <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_hXIKcA-ZEd6qupbF9NyF4w"/>
+      <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_yf3-oenqEe-fdZkOhC4CCA" body="SELECT COUNT(*) FROM `jay_db`.`employees`   WHERE (example != '')" language="MySQL"/>
+      <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_yfwp4OnqEe-fdZkOhC4CCA" name="Demo DQ Rule" criticalityLevel="1" whereExpression="example != ''">
+        <taggedValue xmi:id="_yfwp4enqEe-fdZkOhC4CCA" tag="Author" value="xqliu"/>
+        <taggedValue xmi:id="_yfwp4unqEe-fdZkOhC4CCA" tag="Description" value="demo"/>
+        <taggedValue xmi:id="_yfwp4-nqEe-fdZkOhC4CCA" tag="Purpose" value="demo"/>
+        <taggedValue xmi:id="_yfwp5OnqEe-fdZkOhC4CCA" tag="Status" value="Draft"/>
+        <taggedValue xmi:id="_yfwp5enqEe-fdZkOhC4CCA" tag="Validation_Status" value="true"/>
+        <sqlGenericExpression xmi:id="_yfwp5unqEe-fdZkOhC4CCA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+      </builtInIndicatorDefinition>
     </indicators>
   </results>
   <parameters xmi:id="_uJAsG-nqEe-fdZkOhC4CCA" analysisType="Table Analysis"/>
