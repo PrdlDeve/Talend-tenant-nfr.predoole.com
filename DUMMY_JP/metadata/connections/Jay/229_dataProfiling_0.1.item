@@ -31,7 +31,18 @@
           <sqlDataType xmi:id="_oGb11-q_Ee-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
         </feature>
       </ownedElement>
-      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMuq0Ee-tMLU8ePLI8g" name="Current Product List" label="Current Product List" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMuq0Ee-tMLU8ePLI8g" name="Current Product List" label="Current Product List" tableType="VIEW">
+        <feature xsi:type="relational:TdColumn" xmi:id="_3lH78OrAEe-tMLU8ePLI8g" name="ProductID" label="ProductID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_3lH78erAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3lH78urAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3lH78-rAEe-tMLU8ePLI8g" name="INT IDENTITY" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3lH79OrAEe-tMLU8ePLI8g" name="ProductName" label="ProductName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_3lH79erAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3lH79urAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3lH79-rAEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+      </ownedElement>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCM-q0Ee-tMLU8ePLI8g" name="Customer and Suppliers by City" label="Customer and Suppliers by City" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNOq0Ee-tMLU8ePLI8g" name="Invoices" label="Invoices" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNeq0Ee-tMLU8ePLI8g" name="Order Details Extended" label="Order Details Extended" tableType="VIEW"/>
