@@ -85,6 +85,43 @@
           <sqlGenericExpression xmi:id="_8K9tOeqVEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:BoxIndicator" xmi:id="_e7ZAYOqwEe-tMLU8ePLI8g">
+        <parameters xmi:id="_e7ZAYeqwEe-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
+        <IQR xmi:id="_e7ZAYuqwEe-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
+          <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_e7ZAY-qwEe-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
+          </lowerValue>
+          <upperValue xsi:type="dataquality.indicators:UpperQuartileIndicator" xmi:id="_e7ZAZOqwEe-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Upper_Quartile_0.1.definition#_ccI49RF2Ed2PKb6nEJEvhw"/>
+          </upperValue>
+        </IQR>
+        <rangeIndicator xmi:id="_e7ZAZeqwEe-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
+          <lowerValue xmi:id="_e7ZAZuqwEe-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
+          </lowerValue>
+          <upperValue xmi:id="_e7ZAZ-qwEe-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Maximum_0.1.definition#_ccJgARF2Ed2PKb6nEJEvhw"/>
+          </upperValue>
+        </rangeIndicator>
+        <meanIndicator xmi:id="_e7ZAaOqwEe-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
+        </meanIndicator>
+        <medianIndicator xmi:id="_e7ZAaeqwEe-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
+        </medianIndicator>
+      </indicators>
       <indicators xsi:type="dataquality.indicators:BoxIndicator" xmi:id="_1q2PJuqVEe-tMLU8ePLI8g">
         <parameters xmi:id="_1q2PJ-qVEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQycwYEe-PT9KKCohD5w"/>
