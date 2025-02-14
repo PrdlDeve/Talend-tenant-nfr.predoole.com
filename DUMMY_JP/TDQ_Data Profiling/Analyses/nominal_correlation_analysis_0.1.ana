@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_FZO28Oq_Ee-tMLU8ePLI8g" name="nominal_correlation_analysis" creationDate="2025-02-14T16:03:09.037+0530">
+  <taggedValue xmi:id="_FZO28eq_Ee-tMLU8ePLI8g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_FZO28uq_Ee-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
+  <taggedValue xmi:id="_FZO28-q_Ee-tMLU8ePLI8g" tag="Purpose"/>
+  <taggedValue xmi:id="_FZO29Oq_Ee-tMLU8ePLI8g" tag="Description"/>
+  <taggedValue xmi:id="_FZO29eq_Ee-tMLU8ePLI8g" tag="Version" value="0.1"/>
+  <context xmi:id="_FZO29uq_Ee-tMLU8ePLI8g"/>
+  <results xmi:id="_FZO29-q_Ee-tMLU8ePLI8g">
+    <resultMetadata xmi:id="_FZO2-Oq_Ee-tMLU8ePLI8g"/>
+    <indicators xsi:type="dataquality.indicators.columnset:WeakCorrelationIndicator" xmi:id="_FZO2-eq_Ee-tMLU8ePLI8g">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Correlation/Multiple_Column_Correlation_0.1.definition#_vf0k4PkbEd2z55b7dTkWFw"/>
+      <rowCountIndicator xmi:id="_FZO2-uq_Ee-tMLU8ePLI8g"/>
+      <uniqueCountIndicator xmi:id="_FZO2--q_Ee-tMLU8ePLI8g"/>
+      <distinctCountIndicator xmi:id="_FZO2_Oq_Ee-tMLU8ePLI8g"/>
+      <duplicateCountIndicator xmi:id="_FZO2_eq_Ee-tMLU8ePLI8g"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_FZO2_uq_Ee-tMLU8ePLI8g" analysisType="Column Correlation Analysis"/>
+</dataquality.analysis:Analysis>
