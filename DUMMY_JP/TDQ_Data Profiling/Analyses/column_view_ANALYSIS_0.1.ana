@@ -35,7 +35,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpLOq0Ee-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_c2Cgp-q0Ee-tMLU8ePLI8g">
-      <resultMetadata xmi:id="_c2CgqOq0Ee-tMLU8ePLI8g" executionDate="2025-02-14T14:58:26.375+0530" executionDuration="6166" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <resultMetadata xmi:id="_c2CgqOq0Ee-tMLU8ePLI8g" executionDate="2025-02-14T15:02:18.605+0530" executionDuration="13439" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dMxlouq0Ee-tMLU8ePLI8g" count="834" computed="true">
         <parameters xmi:id="_dMxlo-q0Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo4Oq0Ee-tMLU8ePLI8g"/>
@@ -1490,20 +1490,55 @@
           <sqlGenericExpression xmi:id="_1-2_N-q0Ee-tMLU8ePLI8g" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_dHB4EOq2Ee-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_dHB4EOq2Ee-tMLU8ePLI8g" computed="true" mode="ACED0005740012536176652D612D6C6F74204D61726B657473">
         <parameters xmi:id="_dHB4Eeq2Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_la6Z0Oq2Ee-tMLU8ePLI8g" body="SELECT TOP 1   &quot;ShipName&quot;, COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Orders Qry&quot; m  GROUP BY &quot;ShipName&quot; ORDER BY COUNT(*) DESC " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_lUnkkOq2Ee-tMLU8ePLI8g" name="Mode" label="Mode">
+          <taggedValue xmi:id="_lUoLoOq2Ee-tMLU8ePLI8g" tag="Description" value="computes the mode (most probable value). For numerical data or continuous data, bins can be set in the parameters of this indicator. It is different from the average and from the median. Generalization of it is an histogram. It is good for addressing categorical attributes"/>
+          <taggedValue xmi:id="_lUoLoeq2Ee-tMLU8ePLI8g" tag="Purpose" value="evaluates the most frequent value"/>
+          <sqlGenericExpression xmi:id="_lUoLouq2Ee-tMLU8ePLI8g" body="SELECT  &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY COUNT(*) DESC " language="SQL"/>
+          <sqlGenericExpression xmi:id="_lUoLo-q2Ee-tMLU8ePLI8g" body="SELECT  &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY COUNT(*) DESC " language="Oracle"/>
+          <sqlGenericExpression xmi:id="_lUoLpOq2Ee-tMLU8ePLI8g" body="SELECT  &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY COUNT(*) DESC " language="DB2"/>
+          <sqlGenericExpression xmi:id="_lUoLpeq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_lUoLpuq2Ee-tMLU8ePLI8g" body="SELECT  &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="AS/400"/>
+          <sqlGenericExpression xmi:id="_lUoLp-q2Ee-tMLU8ePLI8g" body="SELECT  &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC " language="Hive" version=""/>
+          <sqlGenericExpression xmi:id="_lUoLqOq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
+        </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_dHB4Euq2Ee-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_dHB4Euq2Ee-tMLU8ePLI8g" count="834" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A740012536176652D612D6C6F74204D61726B6574737372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000001F740008426F6E20617070277371007E0003000000000000001174001048494C4152494F4E2D41626173746F737371007E0003000000000000001274000E4672616E6B656E76657273616E647371007E0003000000000000000F740013426572676C756E647320736E6162626BC3B67071007E000974000C45726E73742048616E64656C7371007E0003000000000000001E74000A515549434B2D53746F707371007E0003000000000000001C74001C48756E677279204F776C20416C6C2D4E696768742047726F636572737371007E0003000000000000001374001A526174746C65736E616B652043616E796F6E2047726F6365727971007E000974000F466F6C6B206F63682066C3A420484271007E001278">
         <parameters xmi:id="_dHB4E-q2Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_la6Z0eq2Ee-tMLU8ePLI8g" body="SELECT TOP 10  &quot;ShipName&quot;, COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Orders Qry&quot; t  GROUP BY &quot;ShipName&quot; ORDER BY c DESC" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_lVWkYOq2Ee-tMLU8ePLI8g" name="Frequency Table" label="Frequency Table">
+          <taggedValue xmi:id="_lVWkYeq2Ee-tMLU8ePLI8g" tag="Description" value="counts the number of records for each distinct record"/>
+          <taggedValue xmi:id="_lVWkYuq2Ee-tMLU8ePLI8g" tag="Purpose" value="evaluates the most frequent records"/>
+          <sqlGenericExpression xmi:id="_lVWkY-q2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="SQL"/>
+          <sqlGenericExpression xmi:id="_lVWkZOq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_lVWkZeq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_lVWkZuq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY COUNT(*) DESC" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_lVWkZ-q2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="DB2"/>
+          <sqlGenericExpression xmi:id="_lVWkaOq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c DESC" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_lVWkaeq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
+        </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_dHB4FOq2Ee-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_dHB4FOq2Ee-tMLU8ePLI8g" count="834" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74001A42C3B36C69646F20436F6D6964617320707265706172616461737372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000000374001D4C61756768696E6720426163636875732057696E652043656C6C61727371007E000574001447524F53454C4C412D52657374617572616E74657371007E0003000000000000000274000F54686520437261636B657220426F7871007E0005740013416C6672656473204675747465726B697374657371007E0003000000000000000174001A43656E74726F20636F6D65726369616C204D6F6374657A756D6171007E000B7400134672616E636520726573746175726174696F6E71007E000574000B4E6F7274682F536F75746871007E00057400144C617A79204B204B6F756E7472792053746F726571007E0008740015436F6E736F6C69646174656420486F6C64696E677371007E000578">
         <parameters xmi:id="_dHB4Feq2Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_la6Z0uq2Ee-tMLU8ePLI8g" body="SELECT TOP 10  &quot;ShipName&quot;, COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Orders Qry&quot; t  GROUP BY &quot;ShipName&quot; ORDER BY c ASC" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_lYCsAOq2Ee-tMLU8ePLI8g" name="Low Frequency Table" label="Low Frequency Table">
+          <taggedValue xmi:id="_lYCsAeq2Ee-tMLU8ePLI8g" tag="Description" value="counts the number of records for each distinct record"/>
+          <taggedValue xmi:id="_lYCsAuq2Ee-tMLU8ePLI8g" tag="Purpose" value="evaluates the less frequent records"/>
+          <sqlGenericExpression xmi:id="_lYCsA-q2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c ASC" language="SQL"/>
+          <sqlGenericExpression xmi:id="_lYCsBOq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c ASC" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_lYCsBeq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c ASC" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_lYCsBuq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) AS c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c ASC" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_lYCsB-q2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> ORDER BY c ASC" language="DB2"/>
+          <sqlGenericExpression xmi:id="_lYCsCOq2Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c ASC" language="Informix"/>
+        </builtInIndicatorDefinition>
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dMyM3-q0Ee-tMLU8ePLI8g" count="834" computed="true">
         <parameters xmi:id="_dMyM4Oq0Ee-tMLU8ePLI8g"/>
