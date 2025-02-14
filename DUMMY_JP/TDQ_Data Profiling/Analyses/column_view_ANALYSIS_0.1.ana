@@ -998,7 +998,7 @@
         <parameters xmi:id="_ycMJ0uq0Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo-Oq0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
-        <IQR xmi:id="_ycMJ0-q0Ee-tMLU8ePLI8g">
+        <IQR xmi:id="_ycMJ0-q0Ee-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo-Oq0Ee-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
           <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_ycMJ1Oq0Ee-tMLU8ePLI8g" count="834" computed="true" value="1.0" datatype="4">
@@ -1034,7 +1034,7 @@
             </builtInIndicatorDefinition>
           </upperValue>
         </IQR>
-        <rangeIndicator xmi:id="_ycMJ1uq0Ee-tMLU8ePLI8g">
+        <rangeIndicator xmi:id="_ycMJ1uq0Ee-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo-Oq0Ee-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
           <lowerValue xmi:id="_ycMJ1-q0Ee-tMLU8ePLI8g" count="834" computed="true" value="1" datatype="4">
@@ -1176,6 +1176,16 @@
           <sqlGenericExpression xmi:id="_10I8-Oq0Ee-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c ASC" language="Informix"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_BLsOkOq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_BLsOkeq2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo-Oq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternLowFreqIndicator" xmi:id="_BLsOkuq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_BLsOk-q2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo-Oq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Low_Frequency_Table_0.1.definition#_OCTbwJR_Ed2XO-JvLwVAwg"/>
+      </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dMyMx-q0Ee-tMLU8ePLI8g" count="834" computed="true">
         <parameters xmi:id="_dMyMyOq0Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
@@ -1242,6 +1252,43 @@
           <sqlGenericExpression xmi:id="_14kxCOq0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
           <sqlGenericExpression xmi:id="_14kxCeq0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BoxIndicator" xmi:id="_BLsOlOq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_BLsOleq2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
+        <IQR xmi:id="_BLsOluq2Ee-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
+          <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_BLsOl-q2Ee-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
+          </lowerValue>
+          <upperValue xsi:type="dataquality.indicators:UpperQuartileIndicator" xmi:id="_BLsOmOq2Ee-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Upper_Quartile_0.1.definition#_ccI49RF2Ed2PKb6nEJEvhw"/>
+          </upperValue>
+        </IQR>
+        <rangeIndicator xmi:id="_BLsOmeq2Ee-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
+          <lowerValue xmi:id="_BLsOmuq2Ee-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
+          </lowerValue>
+          <upperValue xmi:id="_BLsOm-q2Ee-tMLU8ePLI8g">
+            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Maximum_0.1.definition#_ccJgARF2Ed2PKb6nEJEvhw"/>
+          </upperValue>
+        </rangeIndicator>
+        <meanIndicator xmi:id="_BLsOnOq2Ee-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
+        </meanIndicator>
+        <medianIndicator xmi:id="_BLsOneq2Ee-tMLU8ePLI8g">
+          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
+        </medianIndicator>
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dMyM0uq0Ee-tMLU8ePLI8g" count="834" computed="true">
         <parameters xmi:id="_dMyM0-q0Ee-tMLU8ePLI8g"/>
