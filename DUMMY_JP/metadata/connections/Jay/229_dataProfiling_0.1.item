@@ -212,6 +212,7 @@
         </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_2xQZl-rBEe-tMLU8ePLI8g" name="ProductName" id="ProductName" label="ProductName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_2xQZmOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_FtWlcOrCEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZmerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZmurBEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
         </feature>

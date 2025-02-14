@@ -13,6 +13,7 @@
       <connection href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xQZk-rBEe-tMLU8ePLI8g"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xPygOrBEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xQZl-rBEe-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_FZO29-q_Ee-tMLU8ePLI8g">
       <resultMetadata xmi:id="_FZO2-Oq_Ee-tMLU8ePLI8g" executionDate="2025-02-14T16:23:49.185+0530" executionDuration="53" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
@@ -21,6 +22,7 @@
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_zc5XwOq_Ee-tMLU8ePLI8g" body="SELECT &quot;ProductID&quot;,&quot;OrderID&quot;,COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Order Details Extended&quot;  GROUP BY &quot;ProductID&quot;,&quot;OrderID&quot;" language="SQL"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xQZk-rBEe-tMLU8ePLI8g"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xPygOrBEe-tMLU8ePLI8g"/>
+        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_2xQZl-rBEe-tMLU8ePLI8g"/>
         <rowCountIndicator xmi:id="_FZO2-uq_Ee-tMLU8ePLI8g" count="2155" computed="true">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_zZrrsOq_Ee-tMLU8ePLI8g" name="Row Count" label="Row Count">
