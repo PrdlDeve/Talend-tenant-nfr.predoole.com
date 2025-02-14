@@ -14,6 +14,17 @@
     <context xmi:id="_29tXhunMEe-fdZkOhC4CCA">
       <connection href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAcOnMEe-fdZkOhC4CCA"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAdOnMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAc-nMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAdenMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAdunMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAd-nMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAeOnMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAeenMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAeunMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAe-nMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAfOnMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAfenMEe-fdZkOhC4CCA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/titanic_analysis_0.1.item#_tPJAfunMEe-fdZkOhC4CCA"/>
     </context>
     <results xmi:id="_29tXh-nMEe-fdZkOhC4CCA">
       <resultMetadata xmi:id="_29tXiOnMEe-fdZkOhC4CCA" executionDate="2025-02-13T14:38:50.911+0530" executionDuration="175" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
