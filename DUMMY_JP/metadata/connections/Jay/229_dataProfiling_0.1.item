@@ -198,37 +198,39 @@
         </feature>
       </ownedElement>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNeq0Ee-tMLU8ePLI8g" name="Order Details Extended" label="Order Details Extended" tableType="VIEW">
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xPygOrBEe-tMLU8ePLI8g" name="OrderID" label="OrderID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xPygOrBEe-tMLU8ePLI8g" name="OrderID" id="OrderID" label="OrderID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
           <taggedValue xmi:id="_2xQZkOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_4YfdIOrBEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZkerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZkurBEe-tMLU8ePLI8g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZk-rBEe-tMLU8ePLI8g" name="ProductID" label="ProductID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZk-rBEe-tMLU8ePLI8g" name="ProductID" id="ProductID" label="ProductID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
           <taggedValue xmi:id="_2xQZlOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_4ZC2wOrBEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZlerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZlurBEe-tMLU8ePLI8g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZl-rBEe-tMLU8ePLI8g" name="ProductName" label="ProductName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZl-rBEe-tMLU8ePLI8g" name="ProductName" id="ProductName" label="ProductName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_2xQZmOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZmerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZmurBEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZm-rBEe-tMLU8ePLI8g" name="UnitPrice" label="UnitPrice" length="19" sourceType="VARBINARY" talendType="id_Object" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZm-rBEe-tMLU8ePLI8g" name="UnitPrice" id="UnitPrice" label="UnitPrice" length="19" sourceType="VARBINARY" talendType="id_Object" nullable="false">
           <taggedValue xmi:id="_2xQZnOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZnerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZnurBEe-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZn-rBEe-tMLU8ePLI8g" name="Quantity" label="Quantity" length="5" sourceType="SMALLINT" talendType="id_Short" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZn-rBEe-tMLU8ePLI8g" name="Quantity" id="Quantity" label="Quantity" length="5" sourceType="SMALLINT" talendType="id_Short" nullable="false">
           <taggedValue xmi:id="_2xQZoOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZoerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZourBEe-tMLU8ePLI8g" name="SMALLINT" numericPrecisionRadix="10" javaDataType="5"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZo-rBEe-tMLU8ePLI8g" name="Discount" label="Discount" length="24" sourceType="REAL" talendType="id_Float" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZo-rBEe-tMLU8ePLI8g" name="Discount" id="Discount" label="Discount" length="24" sourceType="REAL" talendType="id_Float" nullable="false">
           <taggedValue xmi:id="_2xQZpOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZperBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZpurBEe-tMLU8ePLI8g" name="REAL" numericPrecisionRadix="2" javaDataType="7"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZp-rBEe-tMLU8ePLI8g" name="ExtendedPrice" label="ExtendedPrice" length="19" sourceType="VARBINARY" talendType="id_Object">
+        <feature xsi:type="relational:TdColumn" xmi:id="_2xQZp-rBEe-tMLU8ePLI8g" name="ExtendedPrice" id="ExtendedPrice" label="ExtendedPrice" length="19" sourceType="VARBINARY" talendType="id_Object">
           <taggedValue xmi:id="_2xQZqOrBEe-tMLU8ePLI8g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_2xQZqerBEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_2xQZqurBEe-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
