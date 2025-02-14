@@ -17,7 +17,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQycwYEe-PT9KKCohD5w"/>
     </context>
     <results xmi:id="_c0VeB-qUEe-tMLU8ePLI8g">
-      <resultMetadata xmi:id="_c0VeCOqUEe-tMLU8ePLI8g" executionDate="2025-02-14T14:11:10.187+0530" executionDuration="1667" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+      <resultMetadata xmi:id="_c0VeCOqUEe-tMLU8ePLI8g" executionDate="2025-02-14T14:16:41.148+0530" executionDuration="876" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_1q2PIOqVEe-tMLU8ePLI8g" count="10000" computed="true">
         <parameters xmi:id="_1q2PIeqVEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
