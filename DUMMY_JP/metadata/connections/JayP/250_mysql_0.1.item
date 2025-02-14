@@ -19,6 +19,7 @@
     <ownedElement xsi:type="relational:TdTable" xmi:id="_G-HQwMwYEe-PT9KKCohD5w" name="employees" id="_G-GpsMwYEe-PT9KKCohD5w" label="employees" tableType="TABLE">
       <feature xsi:type="relational:TdColumn" xmi:id="_G-HQwcwYEe-PT9KKCohD5w" name="Emp_id" id="Emp_id" label="Emp_id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_G-HQwswYEe-PT9KKCohD5w" tag="Comment" value=""/>
+        <taggedValue xmi:id="_eGebUOqUEe-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQw8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQxMwYEe-PT9KKCohD5w" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
       </feature>
@@ -41,5 +42,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_uI_d8OnqEe-fdZkOhC4CCA" kind="Usage" supplier="_5PpVoMwXEe-PT9KKCohD5w">
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/empl_250_MySQL_0.1.ana#_uJAsEOnqEe-fdZkOhC4CCA"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Emp_id_analysis_0.1.ana#_c0VeAOqUEe-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
