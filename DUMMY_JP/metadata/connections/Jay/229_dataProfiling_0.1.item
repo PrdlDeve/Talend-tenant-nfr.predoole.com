@@ -37,6 +37,38 @@
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQuq0Ee-tMLU8ePLI8g" name="syncobj_0x4343353036443542" label="syncobj_0x4343353036443542" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQ-q0Ee-tMLU8ePLI8g" name="syncobj_0x4546324343413536" label="syncobj_0x4546324343413536" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCROq0Ee-tMLU8ePLI8g" name="sysextendedarticlesview" label="sysextendedarticlesview" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsjeq0Ee-tMLU8ePLI8g" name="attrep_truncation_safeguard" id="_A9fFYOq0Ee-tMLU8ePLI8g" label="attrep_truncation_safeguard" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsjuq0Ee-tMLU8ePLI8g" name="Branch_Empls" id="_A9fFYeq0Ee-tMLU8ePLI8g" label="Branch_Empls" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsj-q0Ee-tMLU8ePLI8g" name="Categories" id="_A9fFYuq0Ee-tMLU8ePLI8g" label="Categories" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fskOq0Ee-tMLU8ePLI8g" name="Categories2" id="_A9fscOq0Ee-tMLU8ePLI8g" label="Categories2" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fskeq0Ee-tMLU8ePLI8g" name="Customers" id="_A9fsceq0Ee-tMLU8ePLI8g" label="Customers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fskuq0Ee-tMLU8ePLI8g" name="Employees" id="_A9fscuq0Ee-tMLU8ePLI8g" label="Employees" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsk-q0Ee-tMLU8ePLI8g" name="jhsrh" id="_A9fsc-q0Ee-tMLU8ePLI8g" label="jhsrh" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fslOq0Ee-tMLU8ePLI8g" name="MSpeer_conflictdetectionconfigrequest" id="_A9fsdOq0Ee-tMLU8ePLI8g" label="MSpeer_conflictdetectionconfigrequest" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsleq0Ee-tMLU8ePLI8g" name="MSpeer_conflictdetectionconfigresponse" id="_A9fsdeq0Ee-tMLU8ePLI8g" label="MSpeer_conflictdetectionconfigresponse" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsluq0Ee-tMLU8ePLI8g" name="MSpeer_lsns" id="_A9fsduq0Ee-tMLU8ePLI8g" label="MSpeer_lsns" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsl-q0Ee-tMLU8ePLI8g" name="MSpeer_originatorid_history" id="_A9fsd-q0Ee-tMLU8ePLI8g" label="MSpeer_originatorid_history" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsmOq0Ee-tMLU8ePLI8g" name="MSpeer_request" id="_A9fseOq0Ee-tMLU8ePLI8g" label="MSpeer_request" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsmeq0Ee-tMLU8ePLI8g" name="MSpeer_response" id="_A9fseeq0Ee-tMLU8ePLI8g" label="MSpeer_response" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsmuq0Ee-tMLU8ePLI8g" name="MSpeer_topologyrequest" id="_A9fseuq0Ee-tMLU8ePLI8g" label="MSpeer_topologyrequest" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsm-q0Ee-tMLU8ePLI8g" name="MSpeer_topologyresponse" id="_A9fse-q0Ee-tMLU8ePLI8g" label="MSpeer_topologyresponse" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsnOq0Ee-tMLU8ePLI8g" name="MSpub_identity_range" id="_A9fsfOq0Ee-tMLU8ePLI8g" label="MSpub_identity_range" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsneq0Ee-tMLU8ePLI8g" name="Order Details" id="_A9fsfeq0Ee-tMLU8ePLI8g" label="Order Details" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsnuq0Ee-tMLU8ePLI8g" name="Orders" id="_A9fsfuq0Ee-tMLU8ePLI8g" label="Orders" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsn-q0Ee-tMLU8ePLI8g" name="Products" id="_A9fsf-q0Ee-tMLU8ePLI8g" label="Products" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsoOq0Ee-tMLU8ePLI8g" name="Region" id="_A9fsgOq0Ee-tMLU8ePLI8g" label="Region" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsoeq0Ee-tMLU8ePLI8g" name="Shippers" id="_A9fsgeq0Ee-tMLU8ePLI8g" label="Shippers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsouq0Ee-tMLU8ePLI8g" name="SOAP" id="_A9fsguq0Ee-tMLU8ePLI8g" label="SOAP" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fso-q0Ee-tMLU8ePLI8g" name="Suppliers" id="_A9fsg-q0Ee-tMLU8ePLI8g" label="Suppliers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fspOq0Ee-tMLU8ePLI8g" name="sysarticlecolumns" id="_A9fshOq0Ee-tMLU8ePLI8g" label="sysarticlecolumns" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fspeq0Ee-tMLU8ePLI8g" name="sysarticles" id="_A9fsheq0Ee-tMLU8ePLI8g" label="sysarticles" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fspuq0Ee-tMLU8ePLI8g" name="sysarticleupdates" id="_A9fshuq0Ee-tMLU8ePLI8g" label="sysarticleupdates" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsp-q0Ee-tMLU8ePLI8g" name="syspublications" id="_A9fsh-q0Ee-tMLU8ePLI8g" label="syspublications" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsqOq0Ee-tMLU8ePLI8g" name="sysreplservers" id="_A9fsiOq0Ee-tMLU8ePLI8g" label="sysreplservers" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsqeq0Ee-tMLU8ePLI8g" name="sysschemaarticles" id="_A9fsieq0Ee-tMLU8ePLI8g" label="sysschemaarticles" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsquq0Ee-tMLU8ePLI8g" name="syssubscriptions" id="_A9fsiuq0Ee-tMLU8ePLI8g" label="syssubscriptions" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsq-q0Ee-tMLU8ePLI8g" name="systranschemas" id="_A9fsi-q0Ee-tMLU8ePLI8g" label="systranschemas" tableType="TABLE"/>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_A9fsrOq0Ee-tMLU8ePLI8g" name="Territories" id="_A9fsjOq0Ee-tMLU8ePLI8g" label="Territories" tableType="TABLE"/>
     </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
