@@ -371,7 +371,23 @@
           <sqlDataType xmi:id="_G0xpL-q0Ee-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
       </ownedElement>
-      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOOq0Ee-tMLU8ePLI8g" name="Product Sales for 1997" label="Product Sales for 1997" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOOq0Ee-tMLU8ePLI8g" name="Product Sales for 1997" label="Product Sales for 1997" tableType="VIEW">
+        <feature xsi:type="relational:TdColumn" xmi:id="_XTShYOrCEe-tMLU8ePLI8g" name="CategoryName" label="CategoryName" length="15" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_XTTIcOrCEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XTTIcerCEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XTTIcurCEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_XTTIc-rCEe-tMLU8ePLI8g" name="ProductName" label="ProductName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_XTTIdOrCEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XTTIderCEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XTTIdurCEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_XTTId-rCEe-tMLU8ePLI8g" name="ProductSales" label="ProductSales" length="19" sourceType="VARBINARY" talendType="id_Object">
+          <taggedValue xmi:id="_XTTIeOrCEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_XTTIeerCEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_XTTIeurCEe-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOeq0Ee-tMLU8ePLI8g" name="Products Above Average Price" label="Products Above Average Price" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOuq0Ee-tMLU8ePLI8g" name="Products by Category" label="Products by Category" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCO-q0Ee-tMLU8ePLI8g" name="Quarterly Orders" label="Quarterly Orders" tableType="VIEW"/>
