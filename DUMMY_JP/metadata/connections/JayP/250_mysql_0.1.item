@@ -30,11 +30,13 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_G-HQycwYEe-PT9KKCohD5w" name="Salary" id="Salary" label="Salary" length="10" sourceType="INT" talendType="id_Integer">
         <taggedValue xmi:id="_G-HQyswYEe-PT9KKCohD5w" tag="Comment" value=""/>
+        <taggedValue xmi:id="_dgFUQOqVEe-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQy8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQzMwYEe-PT9KKCohD5w" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_G-HQzcwYEe-PT9KKCohD5w" name="Branch" id="Branch" label="Branch" length="50" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_G-HQzswYEe-PT9KKCohD5w" tag="Comment" value=""/>
+        <taggedValue xmi:id="_dgFUQeqVEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_G-HQz8wYEe-PT9KKCohD5w" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_G-HQ0MwYEe-PT9KKCohD5w" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
