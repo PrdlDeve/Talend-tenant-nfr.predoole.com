@@ -22,7 +22,18 @@
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCM-q0Ee-tMLU8ePLI8g" name="Customer and Suppliers by City" label="Customer and Suppliers by City" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNOq0Ee-tMLU8ePLI8g" name="Invoices" label="Invoices" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNeq0Ee-tMLU8ePLI8g" name="Order Details Extended" label="Order Details Extended" tableType="VIEW"/>
-      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNuq0Ee-tMLU8ePLI8g" name="Order Subtotals" label="Order Subtotals" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNuq0Ee-tMLU8ePLI8g" name="Order Subtotals" label="Order Subtotals" tableType="VIEW">
+        <feature xsi:type="relational:TdColumn" xmi:id="_DZyIsOq0Ee-tMLU8ePLI8g" name="OrderID" label="OrderID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_DZyIseq0Ee-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_DZyIsuq0Ee-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_DZyIs-q0Ee-tMLU8ePLI8g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_DZyItOq0Ee-tMLU8ePLI8g" name="Subtotal" label="Subtotal" length="19" sourceType="VARBINARY" talendType="id_Object">
+          <taggedValue xmi:id="_DZyIteq0Ee-tMLU8ePLI8g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_DZyItuq0Ee-tMLU8ePLI8g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_DZyIt-q0Ee-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCN-q0Ee-tMLU8ePLI8g" name="Orders Qry" label="Orders Qry" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOOq0Ee-tMLU8ePLI8g" name="Product Sales for 1997" label="Product Sales for 1997" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOeq0Ee-tMLU8ePLI8g" name="Products Above Average Price" label="Products Above Average Price" tableType="VIEW"/>
