@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_u5LfUOqbEe-tMLU8ePLI8g" name="229_dataProfiling" id="_UuG5kOqbEe-tMLU8ePLI8g" label="229_dataProfiling" dataPackage="_vH20gOqbEe-tMLU8ePLI8g" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.40.229:1433;DatabaseName=Jay_2;" dbVersionString="MSSQL_PROP" Port="1433" Username="User1" Password="enc:system.encryption.key.v1:l7Y2Q1CxHQSPB6XRviwtc8vZsPMla40pDqIqSfowYMzxSdmglYr2Yg==" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="Jay_2" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
     <taggedValue xmi:id="_u5LfUeqbEe-tMLU8ePLI8g" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_vALfMOqbEe-tMLU8ePLI8g" tag="package filter" value=""/>
@@ -15,6 +15,28 @@
     <parameters xmi:id="_u5LfUuqbEe-tMLU8ePLI8g" key="CONN_PARA_KEY_USERNAME" value="User1"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_vH20gOqbEe-tMLU8ePLI8g" name="Jay_2" dataManager="_u5LfUOqbEe-tMLU8ePLI8g">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_vH20geqbEe-tMLU8ePLI8g" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_vH20geqbEe-tMLU8ePLI8g" name="dbo">
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMOq0Ee-tMLU8ePLI8g" name="Alphabetical list of products" label="Alphabetical list of products" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMeq0Ee-tMLU8ePLI8g" name="Category Sales for 1997" label="Category Sales for 1997" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMuq0Ee-tMLU8ePLI8g" name="Current Product List" label="Current Product List" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCM-q0Ee-tMLU8ePLI8g" name="Customer and Suppliers by City" label="Customer and Suppliers by City" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNOq0Ee-tMLU8ePLI8g" name="Invoices" label="Invoices" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNeq0Ee-tMLU8ePLI8g" name="Order Details Extended" label="Order Details Extended" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCNuq0Ee-tMLU8ePLI8g" name="Order Subtotals" label="Order Subtotals" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCN-q0Ee-tMLU8ePLI8g" name="Orders Qry" label="Orders Qry" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOOq0Ee-tMLU8ePLI8g" name="Product Sales for 1997" label="Product Sales for 1997" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOeq0Ee-tMLU8ePLI8g" name="Products Above Average Price" label="Products Above Average Price" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCOuq0Ee-tMLU8ePLI8g" name="Products by Category" label="Products by Category" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCO-q0Ee-tMLU8ePLI8g" name="Quarterly Orders" label="Quarterly Orders" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCPOq0Ee-tMLU8ePLI8g" name="Sales by Category" label="Sales by Category" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCPeq0Ee-tMLU8ePLI8g" name="Sales Totals by Amount" label="Sales Totals by Amount" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCPuq0Ee-tMLU8ePLI8g" name="Summary of Sales by Quarter" label="Summary of Sales by Quarter" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCP-q0Ee-tMLU8ePLI8g" name="Summary of Sales by Year" label="Summary of Sales by Year" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQOq0Ee-tMLU8ePLI8g" name="syncobj_0x3135393535393046" label="syncobj_0x3135393535393046" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQeq0Ee-tMLU8ePLI8g" name="syncobj_0x3938313834364642" label="syncobj_0x3938313834364642" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQuq0Ee-tMLU8ePLI8g" name="syncobj_0x4343353036443542" label="syncobj_0x4343353036443542" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCQ-q0Ee-tMLU8ePLI8g" name="syncobj_0x4546324343413536" label="syncobj_0x4546324343413536" tableType="VIEW"/>
+      <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCROq0Ee-tMLU8ePLI8g" name="sysextendedarticlesview" label="sysextendedarticlesview" tableType="VIEW"/>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
