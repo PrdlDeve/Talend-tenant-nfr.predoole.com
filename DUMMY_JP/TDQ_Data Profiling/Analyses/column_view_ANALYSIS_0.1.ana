@@ -1313,7 +1313,7 @@
         <parameters xmi:id="_BLsOleq2Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
-        <IQR xmi:id="_BLsOluq2Ee-tMLU8ePLI8g">
+        <IQR xmi:id="_BLsOluq2Ee-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
           <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_BLsOl-q2Ee-tMLU8ePLI8g" count="834" computed="true" value="13.41" datatype="3">
@@ -1349,7 +1349,7 @@
             </builtInIndicatorDefinition>
           </upperValue>
         </IQR>
-        <rangeIndicator xmi:id="_BLsOmeq2Ee-tMLU8ePLI8g">
+        <rangeIndicator xmi:id="_BLsOmeq2Ee-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xo_Oq0Ee-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
           <lowerValue xmi:id="_BLsOmuq2Ee-tMLU8ePLI8g" count="834" computed="true" value="0.0200" datatype="3">
@@ -1489,6 +1489,21 @@
           <sqlGenericExpression xmi:id="_1-2_Nuq0Ee-tMLU8ePLI8g" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
           <sqlGenericExpression xmi:id="_1-2_N-q0Ee-tMLU8ePLI8g" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_dHB4EOq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_dHB4Eeq2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_dHB4Euq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_dHB4E-q2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_dHB4FOq2Ee-tMLU8ePLI8g">
+        <parameters xmi:id="_dHB4Feq2Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_G0xpAOq0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_dMyM3-q0Ee-tMLU8ePLI8g" count="834" computed="true">
         <parameters xmi:id="_dMyM4Oq0Ee-tMLU8ePLI8g"/>
