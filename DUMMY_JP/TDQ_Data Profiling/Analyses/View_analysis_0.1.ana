@@ -14,10 +14,17 @@
       <analysedElements xsi:type="relational:TdView" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_AsrCN-q0Ee-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_JFdSF-q0Ee-tMLU8ePLI8g">
-      <resultMetadata xmi:id="_JFdSGOq0Ee-tMLU8ePLI8g"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JFdSGeq0Ee-tMLU8ePLI8g">
+      <resultMetadata xmi:id="_JFdSGOq0Ee-tMLU8ePLI8g" executionDate="2025-02-14T14:46:27.731+0530" executionDuration="124" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JFdSGeq0Ee-tMLU8ePLI8g" count="834" computed="true">
+        <parameters xmi:id="_WVlEUOq0Ee-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdView" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_AsrCN-q0Ee-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Xs2ZQOq0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Orders Qry&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_Xst2YOq0Ee-tMLU8ePLI8g" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_Xst2Yeq0Ee-tMLU8ePLI8g" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_Xst2Yuq0Ee-tMLU8ePLI8g" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_Xst2Y-q0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
       </indicators>
     </results>
     <parameters xmi:id="_JFdSGuq0Ee-tMLU8ePLI8g" dataFilter="_WLQqsOq0Ee-tMLU8ePLI8g" analysisType="Table Analysis"/>
