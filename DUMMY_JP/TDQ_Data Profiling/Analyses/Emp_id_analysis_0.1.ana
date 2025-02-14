@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_c0VeAOqUEe-tMLU8ePLI8g" name="Emp_id_analysis" creationDate="2025-02-14T10:57:58.109+0530" defaultContext="Default">
     <clientDependency href="../../metadata/connections/JayP/250_mysql_0.1.item#_uI_d8OnqEe-fdZkOhC4CCA"/>
     <taggedValue xmi:id="_c0VeAeqUEe-tMLU8ePLI8g" tag="Status" value="development"/>
@@ -17,6 +17,16 @@
     </context>
     <results xmi:id="_c0VeB-qUEe-tMLU8ePLI8g">
       <resultMetadata xmi:id="_c0VeCOqUEe-tMLU8ePLI8g"/>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_2nAx4OqUEe-tMLU8ePLI8g">
+        <parameters xmi:id="_2nAx4eqUEe-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_2nAx4uqUEe-tMLU8ePLI8g">
+        <parameters xmi:id="_2nAx4-qUEe-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/JayP/250_mysql_0.1.item#_G-HQwcwYEe-PT9KKCohD5w"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
     </results>
     <parameters xmi:id="_c0VeCeqUEe-tMLU8ePLI8g" dataFilter="_eGpacOqUEe-tMLU8ePLI8g" analysisType="Multiple Column Analysis"/>
     <contextType xmi:id="_eGPKwOqUEe-tMLU8ePLI8g" confirmationNeeded="false" hide="false" name="Default"/>
