@@ -18,13 +18,15 @@
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_vH20geqbEe-tMLU8ePLI8g" name="dbo">
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMOq0Ee-tMLU8ePLI8g" name="Alphabetical list of products" label="Alphabetical list of products" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCMeq0Ee-tMLU8ePLI8g" name="Category Sales for 1997" label="Category Sales for 1997" tableType="VIEW">
-        <feature xsi:type="relational:TdColumn" xmi:id="_oGb10Oq_Ee-tMLU8ePLI8g" name="CategoryName" label="CategoryName" length="15" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_oGb10Oq_Ee-tMLU8ePLI8g" name="CategoryName" id="CategoryName" label="CategoryName" length="15" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_oGb10eq_Ee-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pdUwQOq_Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_oGb10uq_Ee-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_oGb10-q_Ee-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_oGb11Oq_Ee-tMLU8ePLI8g" name="CategorySales" label="CategorySales" length="19" sourceType="VARBINARY" talendType="id_Object">
+        <feature xsi:type="relational:TdColumn" xmi:id="_oGb11Oq_Ee-tMLU8ePLI8g" name="CategorySales" id="CategorySales" label="CategorySales" length="19" sourceType="VARBINARY" talendType="id_Object">
           <taggedValue xmi:id="_oGb11eq_Ee-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pd27wOq_Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_oGb11uq_Ee-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_oGb11-q_Ee-tMLU8ePLI8g" name="MONEY" numericPrecision="4" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
         </feature>
@@ -332,5 +334,6 @@
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_JFcD8Oq0Ee-tMLU8ePLI8g" kind="Usage" supplier="_u5LfUOqbEe-tMLU8ePLI8g">
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/View_analysis_0.1.ana#_JFdSEOq0Ee-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/column_view_ANALYSIS_0.1.ana#_c2CgoOq0Ee-tMLU8ePLI8g"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/nominal_correlation_analysis_0.1.ana#_FZO28Oq_Ee-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
