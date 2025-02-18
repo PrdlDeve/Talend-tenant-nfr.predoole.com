@@ -2,8 +2,8 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_I_NqcO3FEe-tMLU8ePLI8g" name="column_Jay_2_analysis" creationDate="2025-02-18T12:24:03.926+0530" defaultContext="Default">
     <clientDependency href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
-    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_uB6IwO2_Ee-tMLU8ePLI8g"/>
     <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_uCTxYO2_Ee-tMLU8ePLI8g"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_28vuEO3FEe-tMLU8ePLI8g"/>
     <taggedValue xmi:id="_I_Nqce3FEe-tMLU8ePLI8g" tag="Status" value="development"/>
     <taggedValue xmi:id="_I_Nqcu3FEe-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
     <taggedValue xmi:id="_I_Nqc-3FEe-tMLU8ePLI8g" tag="Purpose" value=""/>
@@ -89,19 +89,19 @@
           <sqlGenericExpression xmi:id="_hsTPQO3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ut42QO3FEe-tMLU8ePLI8g" name="Uppercased Single Word">
-        <parameters xmi:id="_ut42Qe3FEe-tMLU8ePLI8g">
-          <dataValidDomain xmi:id="_ut42Qu3FEe-tMLU8ePLI8g">
-            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ut42Q-3FEe-tMLU8ePLI8g" name="Starts with uppercase">
+        <parameters xmi:id="_ut42RO3FEe-tMLU8ePLI8g">
+          <dataValidDomain xmi:id="_ut42Re3FEe-tMLU8ePLI8g">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
           </dataValidDomain>
         </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ut42Q-3FEe-tMLU8ePLI8g" name="Starts with uppercase">
-        <parameters xmi:id="_ut42RO3FEe-tMLU8ePLI8g">
-          <dataValidDomain xmi:id="_ut42Re3FEe-tMLU8ePLI8g">
-            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_28U3UO3FEe-tMLU8ePLI8g" name="Blank text">
+        <parameters xmi:id="_28U3Ue3FEe-tMLU8ePLI8g">
+          <dataValidDomain xmi:id="_28U3Uu3FEe-tMLU8ePLI8g">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Blank_text_0.1.pattern#_N7yi0Gk3Ed2I1bT57-sHUw"/>
           </dataValidDomain>
         </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
