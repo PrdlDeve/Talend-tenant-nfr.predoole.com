@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_pNEugO3EEe-tMLU8ePLI8g" name="view_Jay_2_analysis" creationDate="2025-02-18T12:20:30.631+0530">
+  <taggedValue xmi:id="_pNEuge3EEe-tMLU8ePLI8g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_pNEugu3EEe-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
+  <taggedValue xmi:id="_pNEug-3EEe-tMLU8ePLI8g" tag="Purpose"/>
+  <taggedValue xmi:id="_pNEuhO3EEe-tMLU8ePLI8g" tag="Description"/>
+  <taggedValue xmi:id="_pNEuhe3EEe-tMLU8ePLI8g" tag="Version" value="0.1"/>
+  <context xmi:id="_pNEuhu3EEe-tMLU8ePLI8g"/>
+  <results xmi:id="_pNEuh-3EEe-tMLU8ePLI8g">
+    <resultMetadata xmi:id="_pNEuiO3EEe-tMLU8ePLI8g"/>
+    <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_pNEuie3EEe-tMLU8ePLI8g">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
+      <rowCountIndicator xmi:id="_pNEuiu3EEe-tMLU8ePLI8g"/>
+      <uniqueCountIndicator xmi:id="_pNEui-3EEe-tMLU8ePLI8g"/>
+      <distinctCountIndicator xmi:id="_pNEujO3EEe-tMLU8ePLI8g"/>
+      <duplicateCountIndicator xmi:id="_pNEuje3EEe-tMLU8ePLI8g"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_pNEuju3EEe-tMLU8ePLI8g" analysisType="Column Set Analysis"/>
+</dataquality.analysis:Analysis>
