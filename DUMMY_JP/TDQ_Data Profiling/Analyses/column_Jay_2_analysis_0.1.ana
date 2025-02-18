@@ -89,18 +89,18 @@
           <sqlGenericExpression xmi:id="_hsTPQO3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ePfxO-3FEe-tMLU8ePLI8g" name="Uppercased Single Word">
-        <parameters xmi:id="_ePfxPO3FEe-tMLU8ePLI8g">
-          <dataValidDomain xmi:id="_ePfxPe3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ut42QO3FEe-tMLU8ePLI8g" name="Uppercased Single Word">
+        <parameters xmi:id="_ut42Qe3FEe-tMLU8ePLI8g">
+          <dataValidDomain xmi:id="_ut42Qu3FEe-tMLU8ePLI8g">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Uppercased_Single_Word_0.1.pattern#_FyTwIHnTEd2weu9skTiCqA"/>
           </dataValidDomain>
         </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ePfxPu3FEe-tMLU8ePLI8g" name="Starts with uppercase">
-        <parameters xmi:id="_ePfxP-3FEe-tMLU8ePLI8g">
-          <dataValidDomain xmi:id="_ePfxQO3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_ut42Q-3FEe-tMLU8ePLI8g" name="Starts with uppercase">
+        <parameters xmi:id="_ut42RO3FEe-tMLU8ePLI8g">
+          <dataValidDomain xmi:id="_ut42Re3FEe-tMLU8ePLI8g">
             <patterns href="../../TDQ_Libraries/Patterns/Regex/text/Starts_with_uppercase_0.1.pattern#_53rX8AMvEeKk6OZDw5mXOQ"/>
           </dataValidDomain>
         </parameters>
