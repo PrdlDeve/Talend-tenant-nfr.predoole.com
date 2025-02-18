@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_ynJjoO3BEe-tMLU8ePLI8g" name="dbo_analysis" creationDate="2025-02-18T12:00:05.273+0530">
+  <clientDependency href="../../metadata/connections/229_conn_0.1.item#_yQRbMOnQEe-fdZkOhC4CCA"/>
+  <taggedValue xmi:id="_ynJjoe3BEe-tMLU8ePLI8g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ynJjou3BEe-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
+  <taggedValue xmi:id="_ynJjo-3BEe-tMLU8ePLI8g" tag="Purpose"/>
+  <taggedValue xmi:id="_ynJjpO3BEe-tMLU8ePLI8g" tag="Description"/>
+  <taggedValue xmi:id="_ynJjpe3BEe-tMLU8ePLI8g" tag="Version" value="0.1"/>
+  <context xmi:id="_ynJjpu3BEe-tMLU8ePLI8g">
+    <connection href="../../metadata/connections/229_conn_0.1.item#_FnRdwKDjEe-Nee7K9MFJsQ"/>
+    <analysedElements xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/229_conn_0.1.item#_rRvi0enQEe-fdZkOhC4CCA"/>
+  </context>
+  <results xmi:id="_ynJjp-3BEe-tMLU8ePLI8g">
+    <resultMetadata xmi:id="_ynJjqO3BEe-tMLU8ePLI8g"/>
+    <indicators xsi:type="dataquality.indicators.schema:SchemaIndicator" xmi:id="_ynJjqe3BEe-tMLU8ePLI8g">
+      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/229_conn_0.1.item#_rRvi0enQEe-fdZkOhC4CCA"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_ynJjqu3BEe-tMLU8ePLI8g" analysisType="Schema Analysis"/>
+</dataquality.analysis:Analysis>
