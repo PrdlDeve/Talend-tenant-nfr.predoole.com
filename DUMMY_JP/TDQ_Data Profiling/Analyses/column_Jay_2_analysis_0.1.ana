@@ -19,8 +19,8 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_I_Nqd-3FEe-tMLU8ePLI8g">
-      <resultMetadata xmi:id="_I_NqeO3FEe-tMLU8ePLI8g" executionDate="2025-02-18T12:31:11.407+0530" message="Unsupported use of regular expressions on this database. Remove all Pattern indicators from this analysis, please." executionNumber="4"/>
-      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ePfxMe3FEe-tMLU8ePLI8g">
+      <resultMetadata xmi:id="_I_NqeO3FEe-tMLU8ePLI8g" executionDate="2025-02-18T12:32:11.908+0530" executionDuration="3602" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ePfxMe3FEe-tMLU8ePLI8g" count="999" computed="true">
         <parameters xmi:id="_ePfxMu3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
@@ -31,7 +31,7 @@
           <sqlGenericExpression xmi:id="_hrnSw-3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ePfxM-3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ePfxM-3FEe-tMLU8ePLI8g" count="999" computed="true">
         <parameters xmi:id="_ePfxNO3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
@@ -42,7 +42,7 @@
           <sqlGenericExpression xmi:id="_hryR4-3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ePfxNe3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ePfxNe3FEe-tMLU8ePLI8g" count="999" computed="true" distinctValueCount="999">
         <parameters xmi:id="_ePfxNu3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -53,7 +53,7 @@
           <sqlGenericExpression xmi:id="_hr8C4-3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ePfxN-3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ePfxN-3FEe-tMLU8ePLI8g" count="999" computed="true" uniqueValueCount="999">
         <parameters xmi:id="_ePfxOO3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -70,7 +70,7 @@
           <sqlGenericExpression xmi:id="_hsHpGe3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ePfxOe3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ePfxOe3FEe-tMLU8ePLI8g" count="999" computed="true" duplicateValueCount="0">
         <parameters xmi:id="_ePfxOu3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -87,7 +87,7 @@
           <sqlGenericExpression xmi:id="_hsTPQO3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:BenfordLawFrequencyIndicator" xmi:id="_HGupYO3GEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:BenfordLawFrequencyIndicator" xmi:id="_HGupYO3GEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F400000000000187708000000200000000A740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000007400013271007E00057400013371007E00057400013471007E00057400013571007E00057400013671007E00057400013771007E0005740007696E76616C69647371007E000300000000000003E77400013871007E00057400013971007E000578">
         <parameters xmi:id="_HGupYe3GEe-tMLU8ePLI8g" topN="50"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Fraud Detection/Benford_Law_Frequency_0.1.definition#_yRkFIezIEeG0fbygDv6UrQ"/>
@@ -112,89 +112,302 @@
         <parameters xmi:id="_PMKfce3GEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
-        <averageLengthIndicator xmi:id="_PMKfcu3GEe-tMLU8ePLI8g">
+        <averageLengthIndicator xmi:id="_PMKfcu3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="6414.0">
           <parameters xmi:id="_PMKfc-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfdO3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-PUO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&quot;Emp_name&quot;)), COUNT(&quot;Emp_name&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RkfowO3GEe-tMLU8ePLI8g" name="Average Length" label="Average Length">
+            <taggedValue xmi:id="_Rkfowe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null and blank values when computing the average length."/>
+            <taggedValue xmi:id="_Rkfowu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_Rkfow-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RkfoxO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Rkfoxe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Rkfoxu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_Rkfox-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RkfoyO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Rkfoye3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Rkfoyu3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Rkfoy-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )), COUNT( &lt;%=__COLUMN_NAMES__%> ) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RkfozO3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Rkfoze3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Rkfozu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Rkfoz-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </averageLengthIndicator>
-        <maxLengthIndicator xmi:id="_PMKfde3GEe-tMLU8ePLI8g">
+        <maxLengthIndicator xmi:id="_PMKfde3GEe-tMLU8ePLI8g" computed="true" length="10">
           <parameters xmi:id="_PMKfdu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfd-3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-PUe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RkxVkO3GEe-tMLU8ePLI8g" name="Maximal Length" label="Maximal Length">
+            <taggedValue xmi:id="_RkxVke3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
+            <taggedValue xmi:id="_RkxVku3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_RkxVk-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RkxVlO3GEe-tMLU8ePLI8g" body="SELECT MAX( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle" modificationDate=""/>
+            <sqlGenericExpression xmi:id="_RkxVle3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RkxVlu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RkxVl-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RkxVmO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive" modificationDate=""/>
+            <sqlGenericExpression xmi:id="_RkxVme3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RkxVmu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' )  &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RkxVm-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RkxVnO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RkxVne3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RkxVnu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RkxVn-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthIndicator>
-        <minLengthIndicator xmi:id="_PMKfeO3GEe-tMLU8ePLI8g">
+        <minLengthIndicator xmi:id="_PMKfeO3GEe-tMLU8ePLI8g" computed="true" length="4">
           <parameters xmi:id="_PMKfee3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfeu3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2YO3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RlB0QO3GEe-tMLU8ePLI8g" name="Minimal Length" label="Minimal Length">
+            <taggedValue xmi:id="_RlB0Qe3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
+            <taggedValue xmi:id="_RlB0Qu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_RlB0Q-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RlB0RO3GEe-tMLU8ePLI8g" body="SELECT MIN( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RlB0Re3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RlB0Ru3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RlB0R-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RlB0SO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RlB0Se3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RlB0Su3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RlB0S-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RlB0TO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (1=1) AND (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RlB0Te3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RlB0Tu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RlB0T-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthIndicator>
-        <minLengthWithBlankIndicator xmi:id="_PMKfe-3GEe-tMLU8ePLI8g">
+        <minLengthWithBlankIndicator xmi:id="_PMKfe-3GEe-tMLU8ePLI8g" computed="true" length="4">
           <parameters xmi:id="_PMKffO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKffe3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Z-3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RoJZsO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank" label="Minimal Length With Blank">
+            <taggedValue xmi:id="_RoJZse3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null values when computing the minimal length."/>
+            <taggedValue xmi:id="_RoJZsu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RoJZs-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RoJZtO3GEe-tMLU8ePLI8g" body="SELECT MIN( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RoJZte3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RoJZtu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RoJZt-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RoJZuO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RoJZue3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RoJZuu3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RoJZu-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RoJZvO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RoJZve3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RoJZvu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithBlankIndicator>
-        <minLengthWithNullIndicator xmi:id="_PMKffu3GEe-tMLU8ePLI8g">
+        <minLengthWithNullIndicator xmi:id="_PMKffu3GEe-tMLU8ePLI8g" computed="true" length="4">
           <parameters xmi:id="_PMKff-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfgO3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2aO3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_Roc7sO3GEe-tMLU8ePLI8g" name="Minimal Length With Null" label="Minimal Length With Null">
+            <taggedValue xmi:id="_Roc7se3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the blank values when computing the minimal length."/>
+            <taggedValue xmi:id="_Roc7su3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_Roc7s-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_Roc7tO3GEe-tMLU8ePLI8g" body="SELECT MIN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Roc7te3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Roc7tu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_Roc7t-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_Roc7uO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Roc7ue3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Roc7uu3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Roc7u-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_Roc7vO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Roc7ve3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Roc7vu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Roc7v-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithNullIndicator>
-        <minLengthWithBlankNullIndicator xmi:id="_PMKfge3GEe-tMLU8ePLI8g">
+        <minLengthWithBlankNullIndicator xmi:id="_PMKfge3GEe-tMLU8ePLI8g" computed="true" length="4">
           <parameters xmi:id="_PMKfgu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfg-3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2ae3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_Roxr0O3GEe-tMLU8ePLI8g" name="Minimal Length With Blank and Null" label="Minimal Length With Blank and Null">
+            <taggedValue xmi:id="_Roxr0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field."/>
+            <taggedValue xmi:id="_Roxr0u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record"/>
+            <sqlGenericExpression xmi:id="_Roxr0-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_Roxr1O3GEe-tMLU8ePLI8g" body="SELECT MIN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Roxr1e3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Roxr1u3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_Roxr1-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_Roxr2O3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Roxr2e3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Roxr2u3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Roxr2-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_Roxr3O3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Roxr3e3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Roxr3u3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Roxr3-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithBlankNullIndicator>
-        <maxLengthWithBlankIndicator xmi:id="_PMKfhO3GEe-tMLU8ePLI8g">
+        <maxLengthWithBlankIndicator xmi:id="_PMKfhO3GEe-tMLU8ePLI8g" computed="true" length="10">
           <parameters xmi:id="_PMKfhe3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfhu3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2ZO3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RnD0kO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank" label="Maximal Length With Blank">
+            <taggedValue xmi:id="_RnD0ke3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null values when computing the maximal length."/>
+            <taggedValue xmi:id="_RnD0ku3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RnD0k-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RnD0lO3GEe-tMLU8ePLI8g" body="SELECT MAX( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RnD0le3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RnD0lu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RnD0l-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RnD0mO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RnD0me3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RnD0mu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RnD0m-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RnD0nO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RnD0ne3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RnD0nu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithBlankIndicator>
-        <maxLengthWithNullIndicator xmi:id="_PMKfh-3GEe-tMLU8ePLI8g">
+        <maxLengthWithNullIndicator xmi:id="_PMKfh-3GEe-tMLU8ePLI8g" computed="true" length="10">
           <parameters xmi:id="_PMKfiO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfie3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Ze3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RncPEO3GEe-tMLU8ePLI8g" name="Maximal Length With Null" label="Maximal Length With Null">
+            <taggedValue xmi:id="_RncPEe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the blank values when computing the maximal length."/>
+            <taggedValue xmi:id="_RncPEu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_RncPE-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RncPFO3GEe-tMLU8ePLI8g" body="SELECT MAX(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RncPFe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RncPFu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RncPF-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RncPGO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive" version=""/>
+            <sqlGenericExpression xmi:id="_RncPGe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RncPGu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RncPG-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RncPHO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RncPHe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RncPHu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RncPH-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithNullIndicator>
-        <maxLengthWithBlankNullIndicator xmi:id="_PMKfiu3GEe-tMLU8ePLI8g">
+        <maxLengthWithBlankNullIndicator xmi:id="_PMKfiu3GEe-tMLU8ePLI8g" computed="true" length="10">
           <parameters xmi:id="_PMKfi-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfjO3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Zu3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RnyNUO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank and Null" label="Maximal Length With Blank and Null">
+            <taggedValue xmi:id="_Rny0YO3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field."/>
+            <taggedValue xmi:id="_Rny0Ye3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record"/>
+            <sqlGenericExpression xmi:id="_Rny0Yu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_Rny0Y-3GEe-tMLU8ePLI8g" body="SELECT MAX(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Rny0ZO3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Rny0Ze3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_Rny0Zu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_Rny0Z-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Rny0aO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Rny0ae3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Rny0au3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_Rny0a-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Rny0bO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Rny0be3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Rny0bu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithBlankNullIndicator>
-        <avgLengthWithBlankIndicator xmi:id="_PMKfje3GEe-tMLU8ePLI8g">
+        <avgLengthWithBlankIndicator xmi:id="_PMKfje3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="6414.0">
           <parameters xmi:id="_PMKfju3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfj-3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Ye3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&quot;Emp_name&quot;)) )=0  THEN '' ELSE  &quot;Emp_name&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RlQdwO3GEe-tMLU8ePLI8g" name="Average Length With Blank" label="Average Length With Blank">
+            <taggedValue xmi:id="_RlQdwe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null values when computing the average length."/>
+            <taggedValue xmi:id="_RlQdwu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RlQdw-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RlQdxO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RlQdxe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) )=0  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RlQdxu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RlQdx-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RlQdyO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RlQdye3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RlQdyu3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN   CHAR_LENGTH( LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) ) =0  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RlQdy-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RlQdzO3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RlQdze3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RlQdzu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithBlankIndicator>
-        <avgLengthWithNullIndicator xmi:id="_PMKfkO3GEe-tMLU8ePLI8g">
+        <avgLengthWithNullIndicator xmi:id="_PMKfkO3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="6414.0">
           <parameters xmi:id="_PMKfke3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfku3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Yu3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RmZtQO3GEe-tMLU8ePLI8g" name="Average Length With Null" label="Average Length With Null">
+            <taggedValue xmi:id="_RmZtQe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the blank values when computing the average length."/>
+            <taggedValue xmi:id="_RmZtQu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_RmZtQ-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RmZtRO3GEe-tMLU8ePLI8g" body="SELECT SUM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RmZtRe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RmZtRu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RmZtR-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RmZtSO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RmZtSe3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RmZtSu3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RmZtS-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RmZtTO3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RmZtTe3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RmZtTu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RmZtT-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithNullIndicator>
-        <avgLengthWithBlankNullIndicator xmi:id="_PMKfk-3GEe-tMLU8ePLI8g">
+        <avgLengthWithBlankNullIndicator xmi:id="_PMKfk-3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="6414.0">
           <parameters xmi:id="_PMKflO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfle3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Y-3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END )) )=0  THEN '' ELSE   CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END  END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RmudYO3GEe-tMLU8ePLI8g" name="Average Length With Blank and Null" label="Average Length With Blank and Null">
+            <taggedValue xmi:id="_RmudYe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field."/>
+            <taggedValue xmi:id="_RmudYu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record"/>
+            <sqlGenericExpression xmi:id="_RmudY-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RmudZO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RmudZe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) )=0  THEN '' ELSE   CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END  END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RmudZu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RmudZ-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RmudaO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Rmudae3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Rmudau3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN   CHAR_LENGTH( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) ) =0  THEN '' ELSE   CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END  END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Rmuda-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RmudbO3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Rmudbe3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Rmudbu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Rmudb-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithBlankNullIndicator>
       </indicators>
       <indicators xsi:type="dataquality.indicators:BoxIndicator" xmi:id="_ePfxQe3FEe-tMLU8ePLI8g">
@@ -204,7 +417,7 @@
         <IQR xmi:id="_ePfxQ-3FEe-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
-          <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_ePfxRO3FEe-tMLU8ePLI8g">
+          <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_ePfxRO3FEe-tMLU8ePLI8g" computed="true" value="56221.0" datatype="4">
             <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
             <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hx9yYO3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 250 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR ORDER BY &quot;Salary&quot; ASC " language="Microsoft SQL Server"/>
@@ -220,7 +433,7 @@
               <sqlGenericExpression xmi:id="_hu0-2e3FEe-tMLU8ePLI8g" body=" SELECT PERCENTILE_CONT(0.25) WITHIN GROUP (ORDER BY &lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
             </builtInIndicatorDefinition>
           </lowerValue>
-          <upperValue xsi:type="dataquality.indicators:UpperQuartileIndicator" xmi:id="_ePfxRe3FEe-tMLU8ePLI8g">
+          <upperValue xsi:type="dataquality.indicators:UpperQuartileIndicator" xmi:id="_ePfxRe3FEe-tMLU8ePLI8g" computed="true" value="85899.0" datatype="4">
             <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
             <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Upper_Quartile_0.1.definition#_ccI49RF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hySigO3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 750 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR ORDER BY &quot;Salary&quot; ASC " language="Microsoft SQL Server"/>
@@ -240,7 +453,7 @@
         <rangeIndicator xmi:id="_ePfxRu3FEe-tMLU8ePLI8g" computed="true">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
-          <lowerValue xmi:id="_ePfxR-3FEe-tMLU8ePLI8g">
+          <lowerValue xmi:id="_ePfxR-3FEe-tMLU8ePLI8g" computed="true" value="40003" datatype="4">
             <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
             <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0e3FEe-tMLU8ePLI8g" body="SELECT MIN(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
@@ -250,7 +463,7 @@
               <sqlGenericExpression xmi:id="_hs5sM-3FEe-tMLU8ePLI8g" body="SELECT MIN(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
             </builtInIndicatorDefinition>
           </lowerValue>
-          <upperValue xmi:id="_ePfxSO3FEe-tMLU8ePLI8g">
+          <upperValue xmi:id="_ePfxSO3FEe-tMLU8ePLI8g" computed="true" value="99899" datatype="4">
             <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
             <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Maximum_0.1.definition#_ccJgARF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0u3FEe-tMLU8ePLI8g" body="SELECT MAX(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
@@ -261,7 +474,7 @@
             </builtInIndicatorDefinition>
           </upperValue>
         </rangeIndicator>
-        <meanIndicator xmi:id="_ePfxSe3FEe-tMLU8ePLI8g">
+        <meanIndicator xmi:id="_ePfxSe3FEe-tMLU8ePLI8g" count="999" computed="true" sumStr="70591745">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwNe4O3FEe-tMLU8ePLI8g" body="SELECT SUM(&quot;Salary&quot;), COUNT(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
@@ -276,7 +489,7 @@
             <sqlGenericExpression xmi:id="_hsdASO3FEe-tMLU8ePLI8g" body="SELECT SUM(double(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
           </builtInIndicatorDefinition>
         </meanIndicator>
-        <medianIndicator xmi:id="_ePfxSu3FEe-tMLU8ePLI8g">
+        <medianIndicator xmi:id="_ePfxSu3FEe-tMLU8ePLI8g" computed="true" median="70387.0">
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0O3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 500 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR" language="Microsoft SQL Server"/>
@@ -296,7 +509,7 @@
           </builtInIndicatorDefinition>
         </medianIndicator>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_ePfxS-3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_ePfxS-3FEe-tMLU8ePLI8g" computed="true" mode="ACED000574000B54616C6C61686173736565">
         <parameters xmi:id="_ePfxTO3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
@@ -313,7 +526,7 @@
           <sqlGenericExpression xmi:id="_hvWjSe3FEe-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_ePfxTe3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_ePfxTe3FEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74000B54616C6C616861737365657372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000001F74000A446573204D6F696E65737371007E0003000000000000001A74000853616E74612046657371007E0003000000000000001874000D4F6B6C61686F6D61204369747971007E0009740008436F6C756D6269617371007E000300000000000000177400094E61736876696C6C657371007E0003000000000000001D74000644656E7665727371007E0003000000000000001C74000848617274666F726471007E00097400074C616E73696E6771007E000E7400094672616E6B666F72747371007E0003000000000000001978">
         <parameters xmi:id="_ePfxTu3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
@@ -330,7 +543,7 @@
           <sqlGenericExpression xmi:id="_hvklue3FEe-tMLU8ePLI8g" body="SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__GROUP_BY_ALIAS__%> ORDER BY c DESC" language="Informix"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_ePfxT-3FEe-tMLU8ePLI8g">
+      <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_ePfxT-3FEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74000843686579656E6E657372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000000C740006546F70656B617371007E0003000000000000000E7400065069657272657371007E0003000000000000000F7400074F6C796D7069617371007E0003000000000000001074000752616C6569676871007E000574000B4261746F6E20526F75676571007E000B74000A4D6F6E74676F6D6572797371007E0003000000000000000D74000B436172736F6E204369747971007E000774000648656C656E6171007E000B740006426F73746F6E71007E000778">
         <parameters xmi:id="_ePfxUO3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
@@ -350,89 +563,302 @@
         <parameters xmi:id="_PMKfl-3GEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
-        <averageLengthIndicator xmi:id="_PMKfmO3GEe-tMLU8ePLI8g">
+        <averageLengthIndicator xmi:id="_PMKfmO3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="8416.0">
           <parameters xmi:id="_PMKfme3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfmu3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&quot;Branch&quot;)), COUNT(&quot;Branch&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RpF04O3GEe-tMLU8ePLI8g" name="Average Length" label="Average Length">
+            <taggedValue xmi:id="_RpF04e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null and blank values when computing the average length."/>
+            <taggedValue xmi:id="_RpF04u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_RpGb8O3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RpGb8e3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RpGb8u3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RpGb8-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RpGb9O3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RpGb9e3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RpGb9u3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RpGb9-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RpGb-O3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )), COUNT( &lt;%=__COLUMN_NAMES__%> ) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RpGb-e3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RpGb-u3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RpGb--3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RpGb_O3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </averageLengthIndicator>
-        <maxLengthIndicator xmi:id="_PMKfm-3GEe-tMLU8ePLI8g">
+        <maxLengthIndicator xmi:id="_PMKfm-3GEe-tMLU8ePLI8g" computed="true" length="14">
           <parameters xmi:id="_PMKfnO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfne3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RpdoUO3GEe-tMLU8ePLI8g" name="Maximal Length" label="Maximal Length">
+            <taggedValue xmi:id="_RpdoUe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
+            <taggedValue xmi:id="_RpdoUu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_RpdoU-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RpdoVO3GEe-tMLU8ePLI8g" body="SELECT MAX( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle" modificationDate=""/>
+            <sqlGenericExpression xmi:id="_RpdoVe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RpdoVu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RpdoV-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RpdoWO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive" modificationDate=""/>
+            <sqlGenericExpression xmi:id="_RpdoWe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RpdoWu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' )  &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RpdoW-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RpdoXO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RpdoXe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RpdoXu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RpdoX-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthIndicator>
-        <minLengthIndicator xmi:id="_PMKfnu3GEe-tMLU8ePLI8g">
+        <minLengthIndicator xmi:id="_PMKfnu3GEe-tMLU8ePLI8g" computed="true" length="5">
           <parameters xmi:id="_PMKfn-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfoO3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIu3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RpxxYO3GEe-tMLU8ePLI8g" name="Minimal Length" label="Minimal Length">
+            <taggedValue xmi:id="_RpxxYe3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
+            <taggedValue xmi:id="_RpxxYu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-null and non-blank values"/>
+            <sqlGenericExpression xmi:id="_RpxxY-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RpxxZO3GEe-tMLU8ePLI8g" body="SELECT MIN( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RpxxZe3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RpxxZu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RpxxZ-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RpxxaO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Rpxxae3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Rpxxau3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Rpxxa-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) AND ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RpxxbO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (1=1) AND (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Rpxxbe3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Rpxxbu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Rpxxb-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) AND (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthIndicator>
-        <minLengthWithBlankIndicator xmi:id="_PMKfoe3GEe-tMLU8ePLI8g">
+        <minLengthWithBlankIndicator xmi:id="_PMKfoe3GEe-tMLU8ePLI8g" computed="true" length="5">
           <parameters xmi:id="_PMKfou3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfo-3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKe3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RsE3cO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank" label="Minimal Length With Blank">
+            <taggedValue xmi:id="_RsE3ce3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null values when computing the minimal length."/>
+            <taggedValue xmi:id="_RsE3cu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RsE3c-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RsE3dO3GEe-tMLU8ePLI8g" body="SELECT MIN( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RsE3de3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RsE3du3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RsE3d-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RsE3eO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RsE3ee3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RsE3eu3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RsE3e-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RsE3fO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RsE3fe3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RsE3fu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithBlankIndicator>
-        <minLengthWithNullIndicator xmi:id="_PMKfpO3GEe-tMLU8ePLI8g">
+        <minLengthWithNullIndicator xmi:id="_PMKfpO3GEe-tMLU8ePLI8g" computed="true" length="5">
           <parameters xmi:id="_PMKfpe3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfpu3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKu3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RscD0O3GEe-tMLU8ePLI8g" name="Minimal Length With Null" label="Minimal Length With Null">
+            <taggedValue xmi:id="_RscD0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the blank values when computing the minimal length."/>
+            <taggedValue xmi:id="_RscD0u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_RscD0-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RscD1O3GEe-tMLU8ePLI8g" body="SELECT MIN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RscD1e3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RscD1u3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RscD1-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RscD2O3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RscD2e3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RscD2u3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RscD2-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RscD3O3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RscD3e3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RscD3u3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RscD3-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithNullIndicator>
-        <minLengthWithBlankNullIndicator xmi:id="_PMKfp-3GEe-tMLU8ePLI8g">
+        <minLengthWithBlankNullIndicator xmi:id="_PMKfp-3GEe-tMLU8ePLI8g" computed="true" length="5">
           <parameters xmi:id="_PMKfqO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfqe3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPK-3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RssigO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank and Null" label="Minimal Length With Blank and Null">
+            <taggedValue xmi:id="_Rssige3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field."/>
+            <taggedValue xmi:id="_Rssigu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the smallest textual record"/>
+            <sqlGenericExpression xmi:id="_Rssig-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RssihO3GEe-tMLU8ePLI8g" body="SELECT MIN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_Rssihe3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_Rssihu3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_Rssih-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RssiiO3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_Rssiie3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_Rssiiu3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_Rssii-3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RssijO3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_Rssije3GEe-tMLU8ePLI8g" body="SELECT MIN(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_Rssiju3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_Rssij-3GEe-tMLU8ePLI8g" body="SELECT MIN(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </minLengthWithBlankNullIndicator>
-        <maxLengthWithBlankIndicator xmi:id="_PMKfqu3GEe-tMLU8ePLI8g">
+        <maxLengthWithBlankIndicator xmi:id="_PMKfqu3GEe-tMLU8ePLI8g" computed="true" length="14">
           <parameters xmi:id="_PMKfq-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfrO3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJu3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RrGAAO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank" label="Maximal Length With Blank">
+            <taggedValue xmi:id="_RrGAAe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null values when computing the maximal length."/>
+            <taggedValue xmi:id="_RrGAAu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RrGAA-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RrGABO3GEe-tMLU8ePLI8g" body="SELECT MAX( LENGTH(&lt;%=__COLUMN_NAMES__%>) ) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RrGABe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RrGABu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RrGAB-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RrGACO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RrGACe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RrGACu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RrGAC-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( &lt;%=__COLUMN_NAMES__%> )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RrGADO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RrGADe3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RrGADu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(&lt;%=__COLUMN_NAMES__%>)) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithBlankIndicator>
-        <maxLengthWithNullIndicator xmi:id="_PMKfre3GEe-tMLU8ePLI8g">
+        <maxLengthWithNullIndicator xmi:id="_PMKfre3GEe-tMLU8ePLI8g" computed="true" length="14">
           <parameters xmi:id="_PMKfru3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfr-3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJ-3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RrclUO3GEe-tMLU8ePLI8g" name="Maximal Length With Null" label="Maximal Length With Null">
+            <taggedValue xmi:id="_RrclUe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the blank values when computing the maximal length."/>
+            <taggedValue xmi:id="_RrclUu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_RrclU-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RrclVO3GEe-tMLU8ePLI8g" body="SELECT MAX(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RrclVe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RrclVu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RrclV-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RrclWO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive" version=""/>
+            <sqlGenericExpression xmi:id="_RrclWe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RrclWu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RrclW-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RrclXO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RrclXe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RrclXu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RrclX-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithNullIndicator>
-        <maxLengthWithBlankNullIndicator xmi:id="_PMKfsO3GEe-tMLU8ePLI8g">
+        <maxLengthWithBlankNullIndicator xmi:id="_PMKfsO3GEe-tMLU8ePLI8g" computed="true" length="14">
           <parameters xmi:id="_PMKfse3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfsu3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKO3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RrxVcO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank and Null" label="Maximal Length With Blank and Null">
+            <taggedValue xmi:id="_RrxVce3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field."/>
+            <taggedValue xmi:id="_RrxVcu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the length of the longest textual record"/>
+            <sqlGenericExpression xmi:id="_RrxVc-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RrxVdO3GEe-tMLU8ePLI8g" body="SELECT MAX(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RrxVde3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RrxVdu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RrxVd-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RrxVeO3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RrxVee3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RrxVeu3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RrxVe-3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%>  END )) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RrxVfO3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RrxVfe3GEe-tMLU8ePLI8g" body="SELECT MAX(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RrxVfu3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RrxVf-3GEe-tMLU8ePLI8g" body="SELECT MAX(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </maxLengthWithBlankNullIndicator>
-        <avgLengthWithBlankIndicator xmi:id="_PMKfs-3GEe-tMLU8ePLI8g">
+        <avgLengthWithBlankIndicator xmi:id="_PMKfs-3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="8416.0">
           <parameters xmi:id="_PMKftO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfte3GEe-tMLU8ePLI8g"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPI-3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&quot;Branch&quot;)) )=0  THEN '' ELSE  &quot;Branch&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RqJk0O3GEe-tMLU8ePLI8g" name="Average Length With Blank" label="Average Length With Blank">
+            <taggedValue xmi:id="_RqJk0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null values when computing the average length."/>
+            <taggedValue xmi:id="_RqJk0u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-null values"/>
+            <sqlGenericExpression xmi:id="_RqJk0-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RqJk1O3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RqJk1e3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) )=0  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RqJk1u3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RqJk1-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RqJk2O3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RqJk2e3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RqJk2u3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN   CHAR_LENGTH( LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) ) =0  THEN '' ELSE  &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RqJk2-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM  &lt;%=__TABLE_NAME__%>   WHERE ( &lt;%=__COLUMN_NAMES__%>  IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RqJk3O3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RqJk3e3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RqJk3u3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> IS NOT NULL ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithBlankIndicator>
-        <avgLengthWithNullIndicator xmi:id="_PMKftu3GEe-tMLU8ePLI8g">
+        <avgLengthWithNullIndicator xmi:id="_PMKftu3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="8416.0">
           <parameters xmi:id="_PMKft-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfuO3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RqeU8O3GEe-tMLU8ePLI8g" name="Average Length With Null" label="Average Length With Null">
+            <taggedValue xmi:id="_RqeU8e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the blank values when computing the average length."/>
+            <taggedValue xmi:id="_RqeU8u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record of non-blank values"/>
+            <sqlGenericExpression xmi:id="_RqeU8-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RqeU9O3GEe-tMLU8ePLI8g" body="SELECT SUM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL THEN 0 ELSE LENGTH(&lt;%=__COLUMN_NAMES__%>) END), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(NVL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) IS NOT NULL) &lt;%=__AND_WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RqeU9e3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (LTRIM(RTRIM(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END)) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RqeU9u3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RqeU9-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RqeU-O3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RqeU-e3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RqeU-u3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END ))  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RqeU--3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN  &lt;%=__COLUMN_NAMES__%>  IS NULL  THEN 'NULL TALEND' ELSE  &lt;%=__COLUMN_NAMES__%>  END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RqeU_O3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  WHERE ( TRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN 'NULL TALEND' ELSE &lt;%=__COLUMN_NAMES__%> END )  &lt;>  '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RqeU_e3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(ISNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RqeU_u3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RqeU_-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (TRIM(IFNULL(&lt;%=__COLUMN_NAMES__%>,'NULL TALEND')) &lt;> '' ) &lt;%=__AND_WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithNullIndicator>
-        <avgLengthWithBlankNullIndicator xmi:id="_PMKfue3GEe-tMLU8ePLI8g">
+        <avgLengthWithBlankNullIndicator xmi:id="_PMKfue3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="8416.0">
           <parameters xmi:id="_PMKfuu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfu-3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
           <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
+          <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END )) )=0  THEN '' ELSE   CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END  END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
+          <builtInIndicatorDefinition xmi:id="_RqzsIO3GEe-tMLU8ePLI8g" name="Average Length With Blank and Null" label="Average Length With Blank and Null">
+            <taggedValue xmi:id="_RqzsIe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field."/>
+            <taggedValue xmi:id="_RqzsIu3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluates the average length of the textual record"/>
+            <sqlGenericExpression xmi:id="_RqzsI-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+            <sqlGenericExpression xmi:id="_RqzsJO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+            <sqlGenericExpression xmi:id="_RqzsJe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) )=0  THEN '' ELSE   CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END  END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
+            <sqlGenericExpression xmi:id="_RqzsJu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+            <sqlGenericExpression xmi:id="_RqzsJ-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQLite"/>
+            <sqlGenericExpression xmi:id="_RqzsKO3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Hive"/>
+            <sqlGenericExpression xmi:id="_RqzsKe3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+            <sqlGenericExpression xmi:id="_RqzsKu3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH( CASE WHEN   CHAR_LENGTH( LTRIM(RTRIM( CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END )) ) =0  THEN '' ELSE   CASE WHEN &lt;%=__COLUMN_NAMES__%> IS NULL  THEN '' ELSE &lt;%=__COLUMN_NAMES__%> END  END)), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+            <sqlGenericExpression xmi:id="_RqzsK-3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM  &lt;%=__TABLE_NAME__%>   &lt;%=__WHERE_CLAUSE__%>" language="Informix"/>
+            <sqlGenericExpression xmi:id="_RqzsLO3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(&lt;%=__COLUMN_NAMES__%>)), COUNT(*) FROM &lt;%=__TABLE_NAME__%>  &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+            <sqlGenericExpression xmi:id="_RqzsLe3GEe-tMLU8ePLI8g" body="SELECT SUM(CHAR_LENGTH(ISNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Netezza"/>
+            <sqlGenericExpression xmi:id="_RqzsLu3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Snowflake"/>
+            <sqlGenericExpression xmi:id="_RqzsL-3GEe-tMLU8ePLI8g" body="SELECT SUM(LENGTH(IFNULL(&lt;%=__COLUMN_NAMES__%>,''))), COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="HDB"/>
+          </builtInIndicatorDefinition>
         </avgLengthWithBlankNullIndicator>
       </indicators>
     </results>
