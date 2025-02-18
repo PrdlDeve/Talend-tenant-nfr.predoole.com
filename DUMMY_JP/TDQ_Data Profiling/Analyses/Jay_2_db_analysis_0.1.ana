@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_bqprUO3EEe-tMLU8ePLI8g" name="Jay_2_db_analysis" creationDate="2025-02-18T12:18:59.780+0530">
+  <clientDependency href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
+  <taggedValue xmi:id="_bqprUe3EEe-tMLU8ePLI8g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_bqprUu3EEe-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
+  <taggedValue xmi:id="_bqprU-3EEe-tMLU8ePLI8g" tag="Purpose"/>
+  <taggedValue xmi:id="_bqprVO3EEe-tMLU8ePLI8g" tag="Description"/>
+  <taggedValue xmi:id="_bqprVe3EEe-tMLU8ePLI8g" tag="Version" value="0.1"/>
+  <context xmi:id="_bqprVu3EEe-tMLU8ePLI8g">
+    <connection href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+    <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+  </context>
+  <results xmi:id="_bqprV-3EEe-tMLU8ePLI8g">
+    <resultMetadata xmi:id="_bqprWO3EEe-tMLU8ePLI8g"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_bqprWe3EEe-tMLU8ePLI8g">
+      <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+      <schemaIndicators xmi:id="_bqprWu3EEe-tMLU8ePLI8g">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_vH20geqbEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+      </schemaIndicators>
+      <catalogIndicators xmi:id="_bqprW-3EEe-tMLU8ePLI8g">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_vH20gOqbEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      </catalogIndicators>
+    </indicators>
+  </results>
+  <parameters xmi:id="_bqprXO3EEe-tMLU8ePLI8g" analysisType="Connection Analysis"/>
+</dataquality.analysis:Analysis>
