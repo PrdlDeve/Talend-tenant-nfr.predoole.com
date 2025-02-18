@@ -56,18 +56,21 @@
       <ownedElement xsi:type="relational:TdView" xmi:id="_adfeXunXEe-fdZkOhC4CCA" name="Summary of Sales by Quarter" label="Summary of Sales by Quarter" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_adfeX-nXEe-fdZkOhC4CCA" name="Summary of Sales by Year" label="Summary of Sales by Year" tableType="VIEW"/>
       <ownedElement xsi:type="relational:TdView" xmi:id="_adfeYOnXEe-fdZkOhC4CCA" name="syncobj_0x3135393535393046" label="syncobj_0x3135393535393046" tableType="VIEW">
-        <feature xsi:type="relational:TdColumn" xmi:id="_NWnacO3DEe-tMLU8ePLI8g" name="TerritoryID" label="TerritoryID" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_NWnacO3DEe-tMLU8ePLI8g" name="TerritoryID" id="TerritoryID" label="TerritoryID" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_NWnace3DEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_PQ9AMO3DEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_NWnacu3DEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_NWnac-3DEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_NWnadO3DEe-tMLU8ePLI8g" name="TerritoryDescription" label="TerritoryDescription" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_NWnadO3DEe-tMLU8ePLI8g" name="TerritoryDescription" id="TerritoryDescription" label="TerritoryDescription" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_NWnade3DEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_PRYeAO3DEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_NWnadu3DEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_NWnad-3DEe-tMLU8ePLI8g" name="NCHAR" javaDataType="-15"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_NWnaeO3DEe-tMLU8ePLI8g" name="RegionID" label="RegionID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+        <feature xsi:type="relational:TdColumn" xmi:id="_NWnaeO3DEe-tMLU8ePLI8g" name="RegionID" id="RegionID" label="RegionID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
           <taggedValue xmi:id="_NWnaee3DEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_PRt1MO3DEe-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_NWnaeu3DEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_NWnae-3DEe-tMLU8ePLI8g" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
         </feature>
@@ -80,5 +83,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_I9AHQOnQEe-fdZkOhC4CCA" kind="Usage" supplier="_tQDsEEWtEe-mhfigRoauIw">
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/database_analysis_0.1.ana#_I9AuUOnQEe-fdZkOhC4CCA"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/sv_0.1.ana#_NB8yAe3DEe-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
