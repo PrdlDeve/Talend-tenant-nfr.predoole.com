@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_I_NqcO3FEe-tMLU8ePLI8g" name="column_Jay_2_analysis" creationDate="2025-02-18T12:24:03.926+0530" defaultContext="Default">
-    <clientDependency href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
+    <clientDependency href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
     <taggedValue xmi:id="_I_Nqce3FEe-tMLU8ePLI8g" tag="Status" value="development"/>
     <taggedValue xmi:id="_I_Nqcu3FEe-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
     <taggedValue xmi:id="_I_Nqc-3FEe-tMLU8ePLI8g" tag="Purpose" value=""/>
@@ -12,18 +12,18 @@
     <taggedValue xmi:id="_ePfxMO3FEe-tMLU8ePLI8g" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_ePgYQO3FEe-tMLU8ePLI8g" tag="Is Use Sample Data" value="false"/>
     <context xmi:id="_I_Nqdu3FEe-tMLU8ePLI8g">
-      <connection href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+      <connection href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_I_Nqd-3FEe-tMLU8ePLI8g">
       <resultMetadata xmi:id="_I_NqeO3FEe-tMLU8ePLI8g" executionDate="2025-02-18T12:32:11.908+0530" executionDuration="3602" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="1"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ePfxMe3FEe-tMLU8ePLI8g" count="999" computed="true">
         <parameters xmi:id="_ePfxMu3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwCfwO3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hrnSwO3FEe-tMLU8ePLI8g" name="Row Count" label="Row Count">
           <taggedValue xmi:id="_hrnSwe3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of rows"/>
@@ -33,8 +33,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_ePfxM-3FEe-tMLU8ePLI8g" count="999" computed="true">
         <parameters xmi:id="_ePfxNO3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwCfwe3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Emp_id&quot; IS NULL " language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hryR4O3FEe-tMLU8ePLI8g" name="Null Count" label="Null Count">
           <taggedValue xmi:id="_hryR4e3FEe-tMLU8ePLI8g" tag="Purpose" value="evaluate the number of missing data (null records)"/>
@@ -44,8 +44,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_ePfxNe3FEe-tMLU8ePLI8g" count="999" computed="true" distinctValueCount="999">
         <parameters xmi:id="_ePfxNu3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwCfwu3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;Emp_id&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; ) A" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hr8C4O3FEe-tMLU8ePLI8g" name="Distinct Count" label="Distinct Count">
           <taggedValue xmi:id="_hr8C4e3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -55,8 +55,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_ePfxN-3FEe-tMLU8ePLI8g" count="999" computed="true" uniqueValueCount="999">
         <parameters xmi:id="_ePfxOO3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwCfw-3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &quot;Emp_id&quot;, COUNT(*) mycount FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot;  GROUP BY &quot;Emp_id&quot; HAVING COUNT(*) = 1) AS myquery" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hsHpEO3FEe-tMLU8ePLI8g" name="Unique Count" label="Unique Count">
           <taggedValue xmi:id="_hsHpEe3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -72,8 +72,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_ePfxOe3FEe-tMLU8ePLI8g" count="999" computed="true" duplicateValueCount="0">
         <parameters xmi:id="_ePfxOu3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwCfxO3FEe-tMLU8ePLI8g" body="SELECT COUNT(*) FROM (SELECT &quot;Emp_id&quot;, COUNT(*) mycount FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot;  m  GROUP BY &quot;Emp_id&quot; HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hsSoMO3FEe-tMLU8ePLI8g" name="Duplicate Count" label="Duplicate Count">
           <taggedValue xmi:id="_hsSoMe3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
@@ -89,8 +89,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BenfordLawFrequencyIndicator" xmi:id="_HGupYO3GEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F400000000000187708000000200000000A740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000000007400013271007E00057400013371007E00057400013471007E00057400013571007E00057400013671007E00057400013771007E0005740007696E76616C69647371007E000300000000000003E77400013871007E00057400013971007E000578">
         <parameters xmi:id="_HGupYe3GEe-tMLU8ePLI8g" topN="50"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Fraud Detection/Benford_Law_Frequency_0.1.definition#_yRkFIezIEeG0fbygDv6UrQ"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Fraud Detection/Benford_Law_Frequency_0.1.definition#_yRkFIezIEeG0fbygDv6UrQ"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Ir_XAO3GEe-tMLU8ePLI8g" body="SELECT TOP 50  cast(LEFT(&quot;Emp_name&quot;,1) as char), COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; t  GROUP BY LEFT(&quot;Emp_name&quot;,1) order by LEFT(&quot;Emp_name&quot;,1)" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_Irzw0O3GEe-tMLU8ePLI8g" name="Benford Law Frequency" label="Benford Law Frequency">
           <taggedValue xmi:id="_Irzw0e3GEe-tMLU8ePLI8g" tag="Description" value="Benford's law is used by accountants to detect possible instances of fraud based on the distribution of digits in numbers."/>
@@ -110,14 +110,14 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:TextIndicator" xmi:id="_PMKfcO3GEe-tMLU8ePLI8g">
         <parameters xmi:id="_PMKfce3GEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
         <averageLengthIndicator xmi:id="_PMKfcu3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="6414.0">
           <parameters xmi:id="_PMKfc-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfdO3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-PUO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&quot;Emp_name&quot;)), COUNT(&quot;Emp_name&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RkfowO3GEe-tMLU8ePLI8g" name="Average Length" label="Average Length">
             <taggedValue xmi:id="_Rkfowe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null and blank values when computing the average length."/>
@@ -141,8 +141,8 @@
           <parameters xmi:id="_PMKfdu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfd-3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-PUe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RkxVkO3GEe-tMLU8ePLI8g" name="Maximal Length" label="Maximal Length">
             <taggedValue xmi:id="_RkxVke3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -166,8 +166,8 @@
           <parameters xmi:id="_PMKfee3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfeu3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2YO3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RlB0QO3GEe-tMLU8ePLI8g" name="Minimal Length" label="Minimal Length">
             <taggedValue xmi:id="_RlB0Qe3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -191,8 +191,8 @@
           <parameters xmi:id="_PMKffO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKffe3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Z-3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RoJZsO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank" label="Minimal Length With Blank">
             <taggedValue xmi:id="_RoJZse3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null values when computing the minimal length."/>
@@ -215,8 +215,8 @@
           <parameters xmi:id="_PMKff-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfgO3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2aO3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_Roc7sO3GEe-tMLU8ePLI8g" name="Minimal Length With Null" label="Minimal Length With Null">
             <taggedValue xmi:id="_Roc7se3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the blank values when computing the minimal length."/>
@@ -240,8 +240,8 @@
           <parameters xmi:id="_PMKfgu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfg-3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2ae3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_Roxr0O3GEe-tMLU8ePLI8g" name="Minimal Length With Blank and Null" label="Minimal Length With Blank and Null">
             <taggedValue xmi:id="_Roxr0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field."/>
@@ -265,8 +265,8 @@
           <parameters xmi:id="_PMKfhe3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfhu3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2ZO3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Emp_name&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RnD0kO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank" label="Maximal Length With Blank">
             <taggedValue xmi:id="_RnD0ke3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null values when computing the maximal length."/>
@@ -289,8 +289,8 @@
           <parameters xmi:id="_PMKfiO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfie3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Ze3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RncPEO3GEe-tMLU8ePLI8g" name="Maximal Length With Null" label="Maximal Length With Null">
             <taggedValue xmi:id="_RncPEe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the blank values when computing the maximal length."/>
@@ -314,8 +314,8 @@
           <parameters xmi:id="_PMKfi-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfjO3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Zu3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RnyNUO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank and Null" label="Maximal Length With Blank and Null">
             <taggedValue xmi:id="_Rny0YO3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field."/>
@@ -339,8 +339,8 @@
           <parameters xmi:id="_PMKfju3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfj-3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Ye3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&quot;Emp_name&quot;)) )=0  THEN '' ELSE  &quot;Emp_name&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Emp_name&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RlQdwO3GEe-tMLU8ePLI8g" name="Average Length With Blank" label="Average Length With Blank">
             <taggedValue xmi:id="_RlQdwe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null values when computing the average length."/>
@@ -363,8 +363,8 @@
           <parameters xmi:id="_PMKfke3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfku3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Yu3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Emp_name&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Emp_name&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RmZtQO3GEe-tMLU8ePLI8g" name="Average Length With Null" label="Average Length With Null">
             <taggedValue xmi:id="_RmZtQe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the blank values when computing the average length."/>
@@ -388,8 +388,8 @@
           <parameters xmi:id="_PMKflO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfle3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Rs-2Y-3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END )) )=0  THEN '' ELSE   CASE WHEN &quot;Emp_name&quot; IS NULL  THEN '' ELSE &quot;Emp_name&quot; END  END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RmudYO3GEe-tMLU8ePLI8g" name="Average Length With Blank and Null" label="Average Length With Blank and Null">
             <taggedValue xmi:id="_RmudYe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field."/>
@@ -412,14 +412,14 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:BoxIndicator" xmi:id="_ePfxQe3FEe-tMLU8ePLI8g">
         <parameters xmi:id="_ePfxQu3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Summary_Statistics_0.1.definition#_ccI48BF2Ed2PKb6nEJEvhw"/>
         <IQR xmi:id="_ePfxQ-3FEe-tMLU8ePLI8g" computed="true">
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Inter_Quartile_Range_0.1.definition#_ccI48xF2Ed2PKb6nEJEvhw"/>
           <lowerValue xsi:type="dataquality.indicators:LowerQuartileIndicator" xmi:id="_ePfxRO3FEe-tMLU8ePLI8g" computed="true" value="56221.0" datatype="4">
-            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
+            <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Lower_Quartile_0.1.definition#_ccI49BF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hx9yYO3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 250 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR ORDER BY &quot;Salary&quot; ASC " language="Microsoft SQL Server"/>
             <builtInIndicatorDefinition xmi:id="_hu0-0O3FEe-tMLU8ePLI8g" name="Lower Quartile" label="Lower Quartile">
               <taggedValue xmi:id="_hu0-0e3FEe-tMLU8ePLI8g" tag="Description" value="1/4th of the records are below this value and 3/4th are above"/>
@@ -434,8 +434,8 @@
             </builtInIndicatorDefinition>
           </lowerValue>
           <upperValue xsi:type="dataquality.indicators:UpperQuartileIndicator" xmi:id="_ePfxRe3FEe-tMLU8ePLI8g" computed="true" value="85899.0" datatype="4">
-            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Upper_Quartile_0.1.definition#_ccI49RF2Ed2PKb6nEJEvhw"/>
+            <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Upper_Quartile_0.1.definition#_ccI49RF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hySigO3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 750 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR ORDER BY &quot;Salary&quot; ASC " language="Microsoft SQL Server"/>
             <builtInIndicatorDefinition xmi:id="_hvH5wO3FEe-tMLU8ePLI8g" name="Upper Quartile" label="Upper Quartile">
               <taggedValue xmi:id="_hvH5we3FEe-tMLU8ePLI8g" tag="Description" value="1/4th of the records are above this value and 3/4th are below"/>
@@ -451,11 +451,11 @@
           </upperValue>
         </IQR>
         <rangeIndicator xmi:id="_ePfxRu3FEe-tMLU8ePLI8g" computed="true">
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Range_0.1.definition#_ccI49hF2Ed2PKb6nEJEvhw"/>
           <lowerValue xmi:id="_ePfxR-3FEe-tMLU8ePLI8g" computed="true" value="40003" datatype="4">
-            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
+            <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Minimum_0.1.definition#_ccJgABF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0e3FEe-tMLU8ePLI8g" body="SELECT MIN(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
             <builtInIndicatorDefinition xmi:id="_hs5sMO3FEe-tMLU8ePLI8g" name="Minimum" label="Minimum">
               <taggedValue xmi:id="_hs5sMe3FEe-tMLU8ePLI8g" tag="Description" value="gives the minimal record"/>
@@ -464,8 +464,8 @@
             </builtInIndicatorDefinition>
           </lowerValue>
           <upperValue xmi:id="_ePfxSO3FEe-tMLU8ePLI8g" computed="true" value="99899" datatype="4">
-            <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Maximum_0.1.definition#_ccJgARF2Ed2PKb6nEJEvhw"/>
+            <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Maximum_0.1.definition#_ccJgARF2Ed2PKb6nEJEvhw"/>
             <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0u3FEe-tMLU8ePLI8g" body="SELECT MAX(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
             <builtInIndicatorDefinition xmi:id="_huiD4O3FEe-tMLU8ePLI8g" name="Maximum" label="Maximum">
               <taggedValue xmi:id="_huiD4e3FEe-tMLU8ePLI8g" tag="Description" value="gives the maximal record"/>
@@ -475,8 +475,8 @@
           </upperValue>
         </rangeIndicator>
         <meanIndicator xmi:id="_ePfxSe3FEe-tMLU8ePLI8g" count="999" computed="true" sumStr="70591745">
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hwNe4O3FEe-tMLU8ePLI8g" body="SELECT SUM(&quot;Salary&quot;), COUNT(&quot;Salary&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_hsdAQO3FEe-tMLU8ePLI8g" name="Mean" label="Mean">
             <taggedValue xmi:id="_hsdAQe3FEe-tMLU8ePLI8g" tag="Description" value="computes the mean (average) of the records"/>
@@ -490,8 +490,8 @@
           </builtInIndicatorDefinition>
         </meanIndicator>
         <medianIndicator xmi:id="_ePfxSu3FEe-tMLU8ePLI8g" computed="true" median="70387.0">
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Median_0.1.definition#_ccI48hF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hxRO0O3FEe-tMLU8ePLI8g" body="SELECT * FROM (SELECT TOP 1 &quot;Salary&quot; FROM (SELECT TOP 500 &quot;Salary&quot; FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE &quot;Salary&quot; IS NOT NULL  ORDER BY &quot;Salary&quot; ASC ) AS FOO ORDER BY &quot;Salary&quot; DESC ) AS BAR" language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_hsrpwO3FEe-tMLU8ePLI8g" name="Median" label="Median">
             <taggedValue xmi:id="_hsrpwe3FEe-tMLU8ePLI8g" tag="Description" value="The median is the value separating the higher half of a sample, a population or a probability distribution from the lower half"/>
@@ -511,8 +511,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:ModeIndicator" xmi:id="_ePfxS-3FEe-tMLU8ePLI8g" computed="true" mode="ACED000574000B54616C6C61686173736565">
         <parameters xmi:id="_ePfxTO3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Mode_0.1.definition#_ccIR4RF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hySige3FEe-tMLU8ePLI8g" body="SELECT TOP 1   &quot;Branch&quot;, COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; m  GROUP BY &quot;Branch&quot; ORDER BY COUNT(*) DESC " language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hvWjQO3FEe-tMLU8ePLI8g" name="Mode" label="Mode">
           <taggedValue xmi:id="_hvWjQe3FEe-tMLU8ePLI8g" tag="Description" value="computes the mode (most probable value). For numerical data or continuous data, bins can be set in the parameters of this indicator. It is different from the average and from the median. Generalization of it is an histogram. It is good for addressing categorical attributes"/>
@@ -528,8 +528,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:FrequencyIndicator" xmi:id="_ePfxTe3FEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74000B54616C6C616861737365657372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000001F74000A446573204D6F696E65737371007E0003000000000000001A74000853616E74612046657371007E0003000000000000001874000D4F6B6C61686F6D61204369747971007E0009740008436F6C756D6269617371007E000300000000000000177400094E61736876696C6C657371007E0003000000000000001D74000644656E7665727371007E0003000000000000001C74000848617274666F726471007E00097400074C616E73696E6771007E000E7400094672616E6B666F72747371007E0003000000000000001978">
         <parameters xmi:id="_ePfxTu3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Frequency_Table_0.1.definition#_ccIR4hF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hySigu3FEe-tMLU8ePLI8g" body="SELECT TOP 10  &quot;Branch&quot;, COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; t  GROUP BY &quot;Branch&quot; ORDER BY c DESC" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hvklsO3FEe-tMLU8ePLI8g" name="Frequency Table" label="Frequency Table">
           <taggedValue xmi:id="_hvklse3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of records for each distinct record"/>
@@ -545,8 +545,8 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:LowFrequencyIndicator" xmi:id="_ePfxT-3FEe-tMLU8ePLI8g" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A74000843686579656E6E657372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000000C740006546F70656B617371007E0003000000000000000E7400065069657272657371007E0003000000000000000F7400074F6C796D7069617371007E0003000000000000001074000752616C6569676871007E000574000B4261746F6E20526F75676571007E000B74000A4D6F6E74676F6D6572797371007E0003000000000000000D74000B436172736F6E204369747971007E000774000648656C656E6171007E000B740006426F73746F6E71007E000778">
         <parameters xmi:id="_ePfxUO3FEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Advanced Statistics/Low_Frequency_Table_0.1.definition#_-0C00JOtEd2Iyo0dtkB9pA"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hySig-3FEe-tMLU8ePLI8g" body="SELECT TOP 10  &quot;Branch&quot;, COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; t  GROUP BY &quot;Branch&quot; ORDER BY c ASC" language="Microsoft SQL Server"/>
         <builtInIndicatorDefinition xmi:id="_hvzPMO3FEe-tMLU8ePLI8g" name="Low Frequency Table" label="Low Frequency Table">
           <taggedValue xmi:id="_hvzPMe3FEe-tMLU8ePLI8g" tag="Description" value="counts the number of records for each distinct record"/>
@@ -561,14 +561,14 @@
       </indicators>
       <indicators xsi:type="dataquality.indicators:TextIndicator" xmi:id="_PMKflu3GEe-tMLU8ePLI8g">
         <parameters xmi:id="_PMKfl-3GEe-tMLU8ePLI8g"/>
-        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Text_Statistics_0.1.definition#_yb9x0zh8Ed2XmO7pl5Yuyg"/>
         <averageLengthIndicator xmi:id="_PMKfmO3GEe-tMLU8ePLI8g" count="999" computed="true" sumLength="8416.0">
           <parameters xmi:id="_PMKfme3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfmu3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_0.1.definition#_ccIR4BF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(&quot;Branch&quot;)), COUNT(&quot;Branch&quot;) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RpF04O3GEe-tMLU8ePLI8g" name="Average Length" label="Average Length">
             <taggedValue xmi:id="_RpF04e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null and blank values when computing the average length."/>
@@ -592,8 +592,8 @@
           <parameters xmi:id="_PMKfnO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfne3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_0.1.definition#_ccHq1RF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIe3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RpdoUO3GEe-tMLU8ePLI8g" name="Maximal Length" label="Maximal Length">
             <taggedValue xmi:id="_RpdoUe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null and blank values when computing the maximal length."/>
@@ -617,8 +617,8 @@
           <parameters xmi:id="_PMKfn-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfoO3GEe-tMLU8ePLI8g" useBlank="false"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_0.1.definition#_ccHq1BF2Ed2PKb6nEJEvhw"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPIu3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) AND (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RpxxYO3GEe-tMLU8ePLI8g" name="Minimal Length" label="Minimal Length">
             <taggedValue xmi:id="_RpxxYe3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null and blank values when computing the minimal length."/>
@@ -642,8 +642,8 @@
           <parameters xmi:id="_PMKfou3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfo-3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_0.1.definition#_G4EzQZU9Ed-Y15ulK_jijQ"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKe3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RsE3cO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank" label="Minimal Length With Blank">
             <taggedValue xmi:id="_RsE3ce3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the null values when computing the minimal length."/>
@@ -666,8 +666,8 @@
           <parameters xmi:id="_PMKfpe3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfpu3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Null_0.1.definition#_a4KsoI1qEd-xwI2imLgHRA"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKu3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RscD0O3GEe-tMLU8ePLI8g" name="Minimal Length With Null" label="Minimal Length With Null">
             <taggedValue xmi:id="_RscD0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field. Does not take into account the blank values when computing the minimal length."/>
@@ -691,8 +691,8 @@
           <parameters xmi:id="_PMKfqO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfqe3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Minimal_Length_With_Blank_and_Null_0.1.definition#_9HDjMJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPK-3GEe-tMLU8ePLI8g" body="SELECT MIN(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RssigO3GEe-tMLU8ePLI8g" name="Minimal Length With Blank and Null" label="Minimal Length With Blank and Null">
             <taggedValue xmi:id="_Rssige3GEe-tMLU8ePLI8g" tag="Description" value="computes the minimal length of a text field."/>
@@ -716,8 +716,8 @@
           <parameters xmi:id="_PMKfq-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfrO3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_0.1.definition#_-xmZcJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJu3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(&quot;Branch&quot;)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RrGAAO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank" label="Maximal Length With Blank">
             <taggedValue xmi:id="_RrGAAe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the null values when computing the maximal length."/>
@@ -740,8 +740,8 @@
           <parameters xmi:id="_PMKfru3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfr-3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Null_0.1.definition#_-_UFUJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJ-3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RrclUO3GEe-tMLU8ePLI8g" name="Maximal Length With Null" label="Maximal Length With Null">
             <taggedValue xmi:id="_RrclUe3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field. Does not take into account the blank values when computing the maximal length."/>
@@ -765,8 +765,8 @@
           <parameters xmi:id="_PMKfse3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfsu3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Maximal_Length_With_Blank_and_Null_0.1.definition#_-hzp8JSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPKO3GEe-tMLU8ePLI8g" body="SELECT MAX(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RrxVcO3GEe-tMLU8ePLI8g" name="Maximal Length With Blank and Null" label="Maximal Length With Blank and Null">
             <taggedValue xmi:id="_RrxVce3GEe-tMLU8ePLI8g" tag="Description" value="computes the maximal length of a text field."/>
@@ -790,8 +790,8 @@
           <parameters xmi:id="_PMKftO3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfte3GEe-tMLU8ePLI8g"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_0.1.definition#__gPoIJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPI-3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM(&quot;Branch&quot;)) )=0  THEN '' ELSE  &quot;Branch&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (&quot;Branch&quot; IS NOT NULL ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RqJk0O3GEe-tMLU8ePLI8g" name="Average Length With Blank" label="Average Length With Blank">
             <taggedValue xmi:id="_RqJk0e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the null values when computing the average length."/>
@@ -814,8 +814,8 @@
           <parameters xmi:id="_PMKft-3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfuO3GEe-tMLU8ePLI8g" useBlank="false" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Null_0.1.definition#__vI_wJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJO3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; WHERE (LTRIM(RTRIM(CASE WHEN &quot;Branch&quot; IS NULL  THEN 'NULL TALEND' ELSE &quot;Branch&quot; END)) &lt;> '' ) " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RqeU8O3GEe-tMLU8ePLI8g" name="Average Length With Null" label="Average Length With Null">
             <taggedValue xmi:id="_RqeU8e3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field. Does not take into account the blank values when computing the average length."/>
@@ -839,8 +839,8 @@
           <parameters xmi:id="_PMKfuu3GEe-tMLU8ePLI8g">
             <textParameter xmi:id="_PMKfu-3GEe-tMLU8ePLI8g" useNulls="true"/>
           </parameters>
-          <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
-          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
+          <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Text Statistics/Average_Length_With_Blank_and_Null_0.1.definition#__TbUIJSOEd-TE5ti6XNR2Q"/>
           <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_RttPJe3GEe-tMLU8ePLI8g" body="SELECT SUM(LEN(CASE WHEN  LEN( LTRIM(RTRIM( CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END )) )=0  THEN '' ELSE   CASE WHEN &quot;Branch&quot; IS NULL  THEN '' ELSE &quot;Branch&quot; END  END)), COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; " language="Microsoft SQL Server"/>
           <builtInIndicatorDefinition xmi:id="_RqzsIO3GEe-tMLU8ePLI8g" name="Average Length With Blank and Null" label="Average Length With Blank and Null">
             <taggedValue xmi:id="_RqzsIe3GEe-tMLU8ePLI8g" tag="Description" value="computes the average length of the field."/>
