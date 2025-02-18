@@ -588,5 +588,6 @@
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Jay_2_db_analysis_0.1.ana#_bqprUO3EEe-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/view_Jay_2_analysis_0.1.ana#_pNEugO3EEe-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/table_Jay_2_analysis_0.1.ana#_3Vs2Ee3EEe-tMLU8ePLI8g"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/column_Jay_2_analysis_0.1.ana#_I_NqcO3FEe-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
