@@ -61,5 +61,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_yQRbMOnQEe-fdZkOhC4CCA" kind="Usage" supplier="_FnRdwKDjEe-Nee7K9MFJsQ">
     <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/db_analysis_0.1.ana#_yQSCQOnQEe-fdZkOhC4CCA"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/229_analysis_0.1.ana#_n1gmAO3BEe-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
