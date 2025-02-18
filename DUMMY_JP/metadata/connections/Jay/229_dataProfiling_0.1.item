@@ -554,7 +554,6 @@
   </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_JFcD8Oq0Ee-tMLU8ePLI8g" kind="Usage" supplier="_u5LfUOqbEe-tMLU8ePLI8g">
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/View_analysis_0.1.ana#_JFdSEOq0Ee-tMLU8ePLI8g"/>
-    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/column_view_ANALYSIS_0.1.ana#_c2CgoOq0Ee-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/nominal_correlation_analysis_0.1.ana#_FZO28Oq_Ee-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
