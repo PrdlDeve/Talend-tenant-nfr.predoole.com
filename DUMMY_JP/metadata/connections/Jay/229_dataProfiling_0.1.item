@@ -46,21 +46,25 @@
       <ownedElement xsi:type="relational:TdView" xmi:id="_AsrCM-q0Ee-tMLU8ePLI8g" name="Customer and Suppliers by City" label="Customer and Suppliers by City" tableType="VIEW">
         <feature xsi:type="relational:TdColumn" xmi:id="_56QAQOrAEe-tMLU8ePLI8g" name="City" id="City" label="City" length="15" sourceType="VARCHAR" talendType="id_String">
           <taggedValue xmi:id="_56QAQerAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pfsvkO3EEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_56QAQurAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_56QAQ-rAEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_56QAROrAEe-tMLU8ePLI8g" name="CompanyName" id="CompanyName" label="CompanyName" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_56QARerAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pf4VwO3EEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_56QARurAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_56QAR-rAEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9"/>
         </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_56QASOrAEe-tMLU8ePLI8g" name="ContactName" id="ContactName" label="ContactName" length="30" sourceType="VARCHAR" talendType="id_String">
           <taggedValue xmi:id="_56QASerAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pgDU4O3EEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_56QASurAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_56QAS-rAEe-tMLU8ePLI8g" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
         </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="_56QATOrAEe-tMLU8ePLI8g" name="Relationship" id="Relationship" label="Relationship" length="9" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="_56QATerAEe-tMLU8ePLI8g" tag="Comment" value=""/>
+          <taggedValue xmi:id="_pgPiIO3EEe-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_56QATurAEe-tMLU8ePLI8g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="_56QAT-rAEe-tMLU8ePLI8g" name="VARCHAR" javaDataType="12"/>
         </feature>
@@ -556,5 +560,6 @@
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/View_analysis_0.1.ana#_JFdSEOq0Ee-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/nominal_correlation_analysis_0.1.ana#_FZO28Oq_Ee-tMLU8ePLI8g"/>
     <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/Jay_2_db_analysis_0.1.ana#_bqprUO3EEe-tMLU8ePLI8g"/>
+    <client xsi:type="dataquality.analysis:Analysis" href="../../../TDQ_Data Profiling/Analyses/view_Jay_2_analysis_0.1.ana#_pNEugO3EEe-tMLU8ePLI8g"/>
   </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
