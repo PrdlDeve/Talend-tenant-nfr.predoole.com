@@ -20,7 +20,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
     </context>
     <results xmi:id="_I_Nqd-3FEe-tMLU8ePLI8g">
-      <resultMetadata xmi:id="_I_NqeO3FEe-tMLU8ePLI8g" executionDate="2025-02-18T12:29:25.885+0530" message="Unsupported use of regular expressions on this database. Remove all Pattern indicators from this analysis, please." executionNumber="3"/>
+      <resultMetadata xmi:id="_I_NqeO3FEe-tMLU8ePLI8g" executionDate="2025-02-18T12:31:11.407+0530" message="Unsupported use of regular expressions on this database. Remove all Pattern indicators from this analysis, please." executionNumber="4"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_ePfxMe3FEe-tMLU8ePLI8g">
         <parameters xmi:id="_ePfxMu3FEe-tMLU8ePLI8g"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
@@ -92,6 +92,22 @@
         <parameters xmi:id="_HGupYe3GEe-tMLU8ePLI8g" topN="50"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Fraud Detection/Benford_Law_Frequency_0.1.definition#_yRkFIezIEeG0fbygDv6UrQ"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Ir_XAO3GEe-tMLU8ePLI8g" body="SELECT TOP 50  cast(LEFT(&quot;Emp_name&quot;,1) as char), COUNT(*) c FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Branch_Empls&quot; t  GROUP BY LEFT(&quot;Emp_name&quot;,1) order by LEFT(&quot;Emp_name&quot;,1)" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_Irzw0O3GEe-tMLU8ePLI8g" name="Benford Law Frequency" label="Benford Law Frequency">
+          <taggedValue xmi:id="_Irzw0e3GEe-tMLU8ePLI8g" tag="Description" value="Benford's law is used by accountants to detect possible instances of fraud based on the distribution of digits in numbers."/>
+          <taggedValue xmi:id="_Irzw0u3GEe-tMLU8ePLI8g" tag="Purpose" value="evaluate the possible instances of fraud"/>
+          <sqlGenericExpression xmi:id="_Irzw0-3GEe-tMLU8ePLI8g" body="SELECT cast(LEFT(&lt;%=__COLUMN_NAMES__%>,1) as char), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY LEFT(&lt;%=__COLUMN_NAMES__%>,1) order by LEFT(&lt;%=__COLUMN_NAMES__%>,1)" language="SQL"/>
+          <sqlGenericExpression xmi:id="_Irzw1O3GEe-tMLU8ePLI8g" body="SELECT cast(SUBSTR(&lt;%=__COLUMN_NAMES__%>,0,1) as char), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY SUBSTR(&lt;%=__COLUMN_NAMES__%>,0,1) order by SUBSTR(&lt;%=__COLUMN_NAMES__%>,0,1)" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_Irzw1e3GEe-tMLU8ePLI8g" body="SELECT SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char) FROM 1 FOR 2), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char) FROM 1 FOR 2) order by SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char) FROM 1 FOR 2)" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_Irzw1u3GEe-tMLU8ePLI8g" body="SELECT SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char),1,2), COUNT(*)  FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char),1,2) order by SUBSTRING(cast(&lt;%=__COLUMN_NAMES__%> as char),1,2)" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_Irzw1-3GEe-tMLU8ePLI8g" body="SELECT cast(SUBSTR(&lt;%=__COLUMN_NAMES__%>,0,1) as char), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY 1 order by 1" language="Informix"/>
+          <sqlGenericExpression xmi:id="_Irzw2O3GEe-tMLU8ePLI8g" body="SELECT SUBSTRING(CONVERT(char(15),&lt;%=__COLUMN_NAMES__%>),1,1), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY SUBSTRING(CONVERT(char(15),&lt;%=__COLUMN_NAMES__%>),1,1) order by SUBSTRING(CONVERT(char(15),&lt;%=__COLUMN_NAMES__%>),1,1)" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_Irzw2e3GEe-tMLU8ePLI8g" body="SELECT substr(&lt;%=__COLUMN_NAMES__%>,1,1), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY substr(&lt;%=__COLUMN_NAMES__%>,1,1)" language="Hive"/>
+          <sqlGenericExpression xmi:id="_Irzw2u3GEe-tMLU8ePLI8g" body="SELECT SUBSTR(TO_CHAR(&lt;%=__COLUMN_NAMES__%>),1,1) , COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY SUBSTR(TO_CHAR(&lt;%=__COLUMN_NAMES__%>),1,1) order by SUBSTR(TO_CHAR(&lt;%=__COLUMN_NAMES__%>),1,1)" language="Vertica Database"/>
+          <sqlGenericExpression xmi:id="_Irzw2-3GEe-tMLU8ePLI8g" body="SELECT cast(SUBSTR(&lt;%=__COLUMN_NAMES__%>,1,1) as char), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY 1 order by 1" language="Netezza"/>
+          <sqlGenericExpression xmi:id="_Irzw3O3GEe-tMLU8ePLI8g" body="SELECT SUBSTRING(&lt;%=__COLUMN_NAMES__%>,1,1), COUNT(*)  FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY 1 order by 1" language="Redshift"/>
+          <sqlGenericExpression xmi:id="_Irzw3e3GEe-tMLU8ePLI8g" body="SELECT substr(cast(&lt;%=__COLUMN_NAMES__%> as STRING),1,1), COUNT(*) c FROM &lt;%=__TABLE_NAME__%> t &lt;%=__WHERE_CLAUSE__%> GROUP BY substr(cast(&lt;%=__COLUMN_NAMES__%> as STRING),1,1)" language="Google BigQuery"/>
+        </builtInIndicatorDefinition>
       </indicators>
       <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_HGupYu3GEe-tMLU8ePLI8g" name="Uppercased Single Word">
         <parameters xmi:id="_HGupY-3GEe-tMLU8ePLI8g">
