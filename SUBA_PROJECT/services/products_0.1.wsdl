@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="products"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="productsOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="ID" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="productsOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="product_id" type="xsd:int"></xsd:element>
+						<xsd:element name="name" type="xsd:string">
+						</xsd:element>
+						<xsd:element name="type" type="xsd:string">
+						</xsd:element>
+						<xsd:element name="plant_id"
+							type="xsd:int">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="productsOperationRequest">
+		<wsdl:part name="parameters" element="tns:productsOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="productsOperationResponse">
+		<wsdl:part name="parameters" element="tns:productsOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="productsPortType">
+		<wsdl:operation name="productsOperation">
+			<wsdl:input message="tns:productsOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:productsOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="productsBinding" type="tns:productsPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="productsOperation">
+			<soap:operation soapAction="http://www.talend.org/service/productsOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="products">
+		<wsdl:port name="productsPort" binding="tns:productsBinding">
+			<soap:address location="http://localhost:8090/services/products" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_NdEAANQBEe-bgfNSwtROWA" name="route_format2" dataPackage="_NdEACNQBEe-bgfNSwtROWA" JSONFilePath="D:/J7/usecase.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_NdEAAdQBEe-bgfNSwtROWA" LimitBoucle="50" AbsoluteXPathQuery="$.Order">
+      <schemaTargets xmi:id="_NdEAAtQBEe-bgfNSwtROWA" RelativeXPathQuery="OrderID" TagName="OrderID"/>
+      <schemaTargets xmi:id="_NdEAA9QBEe-bgfNSwtROWA" RelativeXPathQuery="CustomerID" TagName="CustomerID"/>
+      <schemaTargets xmi:id="_NdEABNQBEe-bgfNSwtROWA" RelativeXPathQuery="ProductID" TagName="ProductID"/>
+      <schemaTargets xmi:id="_NdEABdQBEe-bgfNSwtROWA" RelativeXPathQuery="ProductName" TagName="ProductName"/>
+      <schemaTargets xmi:id="_NdEABtQBEe-bgfNSwtROWA" RelativeXPathQuery="PaymentMethod" TagName="PaymentMethod"/>
+      <schemaTargets xmi:id="_NdEAB9QBEe-bgfNSwtROWA" RelativeXPathQuery="OrderTime" TagName="OrderTime"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_NdEACNQBEe-bgfNSwtROWA" name="default" dataManager="_NdEAANQBEe-bgfNSwtROWA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NdEACdQBEe-bgfNSwtROWA" id="_D94v0NQBEe-bgfNSwtROWA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEACtQBEe-bgfNSwtROWA" label="OrderID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEAC9QBEe-bgfNSwtROWA" label="CustomerID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEADNQBEe-bgfNSwtROWA" label="ProductID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEADdQBEe-bgfNSwtROWA" label="ProductName" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEADtQBEe-bgfNSwtROWA" label="PaymentMethod" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NdEAD9QBEe-bgfNSwtROWA" label="OrderTime" length="24" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

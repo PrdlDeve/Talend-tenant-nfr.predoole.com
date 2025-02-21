@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_xRdiECMpEe-b8t9hh6Yleg" name="MSSQL_Pharma_Landing_demo" id="_piE0gCMpEe-b8t9hh6Yleg" label="MSSQL_Pharma_Landing_demo" dataPackage="_xVbcECMpEe-b8t9hh6Yleg" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=Pharma_Demo;" dbVersionString="MSSQL_PROP" Port="1433" Username="megha" Password="enc:system.encryption.key.v1:2XQOP0/WnMASwSJHDD9q/8w2XkKH3xdCosuOCmav9aYd6hS0LhsSnw==" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Pharma_Demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_xRdiESMpEe-b8t9hh6Yleg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_xSCJ0CMpEe-b8t9hh6Yleg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_xSCJ0SMpEe-b8t9hh6Yleg" tag="Status" value=""/>
+    <taggedValue xmi:id="_xSCJ0iMpEe-b8t9hh6Yleg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_xSCJ0yMpEe-b8t9hh6Yleg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_xSCJ1CMpEe-b8t9hh6Yleg" tag="Description" value=""/>
+    <taggedValue xmi:id="_xSCJ1SMpEe-b8t9hh6Yleg" tag="Author" value=""/>
+    <taggedValue xmi:id="_xSCJ1iMpEe-b8t9hh6Yleg" tag="otherParameter"/>
+    <taggedValue xmi:id="_xT2uwCMpEe-b8t9hh6Yleg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_xT2uwSMpEe-b8t9hh6Yleg" tag="DB ProductVersion" value="15.00.2000"/>
+    <taggedValue xmi:id="_xT2uwiMpEe-b8t9hh6Yleg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_xRdiEiMpEe-b8t9hh6Yleg" key="CONN_PARA_KEY_USERNAME" value="megha"/>
+    <parameters xmi:id="_Cp1jICMqEe-b8t9hh6Yleg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_xVbcECMpEe-b8t9hh6Yleg" name="Pharma_Demo" dataManager="_xRdiECMpEe-b8t9hh6Yleg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqISMqEe-b8t9hh6Yleg" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqIiMqEe-b8t9hh6Yleg" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqIyMqEe-b8t9hh6Yleg" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqJCMqEe-b8t9hh6Yleg" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqJSMqEe-b8t9hh6Yleg" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqJiMqEe-b8t9hh6Yleg" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqJyMqEe-b8t9hh6Yleg" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqKCMqEe-b8t9hh6Yleg" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqKSMqEe-b8t9hh6Yleg" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqKiMqEe-b8t9hh6Yleg" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqKyMqEe-b8t9hh6Yleg" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqLCMqEe-b8t9hh6Yleg" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqLSMqEe-b8t9hh6Yleg" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_xVbcESMpEe-b8t9hh6Yleg" name="landing">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_3sEOASMpEe-b8t9hh6Yleg" name="Aggregated" id="_3sEOACMpEe-b8t9hh6Yleg" label="Aggregated" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sEOAiMpEe-b8t9hh6Yleg" name="MedicationID" label="MedicationID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_3sEOAyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sEOBCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sEOBSMpEe-b8t9hh6Yleg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sEOBiMpEe-b8t9hh6Yleg" name="Name" label="Name" length="100" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3sEOByMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sEOCCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sEOCSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sEOCiMpEe-b8t9hh6Yleg" name="SaleAmount" label="SaleAmount" length="10" precision="2" sourceType="NUMERIC" talendType="id_BigDecimal">
+          <taggedValue xmi:id="_3sEOCyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sEODCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sEODSMpEe-b8t9hh6Yleg" name="NUMERIC" numericPrecision="2" numericPrecisionRadix="10" javaDataType="2" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_3sXwASMpEe-b8t9hh6Yleg" name="Medications" id="_3sXwACMpEe-b8t9hh6Yleg" label="Medications" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwAiMpEe-b8t9hh6Yleg" name="MedicationID" label="MedicationID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_3sXwAyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwBCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwBSMpEe-b8t9hh6Yleg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwBiMpEe-b8t9hh6Yleg" name="Name" label="Name" length="100" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_3sXwByMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwCCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwCSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwCiMpEe-b8t9hh6Yleg" name="Description" label="Description" length="2147483647" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3sXwCyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwDCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwDSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwDiMpEe-b8t9hh6Yleg" name="DosageForm" label="DosageForm" length="50" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3sXwDyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwECMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwESMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwEiMpEe-b8t9hh6Yleg" name="Strength" label="Strength" length="50" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3sXwEyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwFCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwFSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sXwFiMpEe-b8t9hh6Yleg" name="ManufacturerID" label="ManufacturerID" length="10" sourceType="INT" talendType="id_Integer">
+          <taggedValue xmi:id="_3sXwFyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sXwGCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sXwGSMpEe-b8t9hh6Yleg" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_3sr5ESMpEe-b8t9hh6Yleg" name="DrugMaster" id="_3sr5ECMpEe-b8t9hh6Yleg" label="DrugMaster" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sr5EiMpEe-b8t9hh6Yleg" name="DrugID" label="DrugID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_3sr5EyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sr5FCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sr5FSMpEe-b8t9hh6Yleg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sr5FiMpEe-b8t9hh6Yleg" name="Name" label="Name" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_3sr5FyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sr5GCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sr5GSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sr5GiMpEe-b8t9hh6Yleg" name="ChemicalFormula" label="ChemicalFormula" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_3sr5GyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sr5HCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sr5HSMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sr5HiMpEe-b8t9hh6Yleg" name="Quantity" label="Quantity" length="50" sourceType="NVARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_3sr5HyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sr5ICMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sr5ISMpEe-b8t9hh6Yleg" name="NVARCHAR" javaDataType="-9" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_3sr5IiMpEe-b8t9hh6Yleg" name="MedicationID" label="MedicationID" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
+          <taggedValue xmi:id="_3sr5IyMpEe-b8t9hh6Yleg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_3sr5JCMpEe-b8t9hh6Yleg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_3sr5JSMpEe-b8t9hh6Yleg" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EnaqLyMqEe-b8t9hh6Yleg" name="pharma_demo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

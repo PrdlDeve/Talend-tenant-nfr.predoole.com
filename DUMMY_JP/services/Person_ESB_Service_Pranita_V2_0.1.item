@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_GyNFEUW4Ee-jRLftcPihSQ" id="_GyNFEEW4Ee-jRLftcPihSQ" servicePort="_nPTHcE2YEe-B3u2o0o0QuA"/>
+  <Services:ServicePort xmi:id="_nPTHcE2YEe-B3u2o0o0QuA" name="Person_ESB_Service_Pranita_V2PortType" id="_mg-o4E2YEe-B3u2o0o0QuA" serviceOperation="_nPTHcU2YEe-B3u2o0o0QuA"/>
+  <Services:ServiceOperation xmi:id="_nPTHcU2YEe-B3u2o0o0QuA" label="Person_ESB_Service_Pranita_V2Operation-Person_ESB_Service_Pranita_V2PortType_Person_ESB_Service_Pranita_V2Operation" name="Person_ESB_Service_Pranita_V2Operation" id="_mg-o4U2YEe-B3u2o0o0QuA" referenceJobId="_YA5lsEW4Ee-jRLftcPihSQ"/>
+</xmi:XMI>

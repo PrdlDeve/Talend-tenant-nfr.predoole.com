@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Xm2-gI95Ee-e1umB8A-2uw" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_Xm2-gY95Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Login" prompt="connection_MovieAPI_SSMS_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="megha"/>
+  <contextParameter xmi:id="_Xm2-go95Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_AdditionalParams" prompt="connection_MovieAPI_SSMS_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="encrypt=true;trustServerCertificate=true;"/>
+  <contextParameter xmi:id="_Xm2-g495Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Server" prompt="connection_MovieAPI_SSMS_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="20.204.123.250"/>
+  <contextParameter xmi:id="_Xm2-hI95Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Password" prompt="connection_MovieAPI_SSMS_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:mgCK5+swCul8BUd7aU4kqkSiM/Y97buaMDthGS1c4wEb4XwNzGWa+NU="/>
+  <contextParameter xmi:id="_Xm2-hY95Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Database" prompt="connection_MovieAPI_SSMS_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="MM_Test"/>
+  <contextParameter xmi:id="_Xm2-ho95Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Schema" prompt="connection_MovieAPI_SSMS_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="moviecatalog"/>
+  <contextParameter xmi:id="_Xm2-h495Ee-e1umB8A-2uw" comment="" name="connection_MovieAPI_SSMS_Port" prompt="connection_MovieAPI_SSMS_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+</talendfile:ContextType>
