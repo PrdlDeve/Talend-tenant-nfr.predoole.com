@@ -1,0 +1,16 @@
+package routines;
+public class MyProcess implements org.apache.camel.Processor {
+    @Override
+    public void process(org.apache.camel.Exchange exchange) throws Exception {
+        String json = exchange.getIn().getBody(String.class);
+        String productIdKey = "\"ProductID\":";
+        int startIndex = json.indexOf(productIdKey) + productIdKey.length();
+        int endIndex = json.indexOf(",", startIndex);
+        if (endIndex == -1) {
+            endIndex = json.indexOf("}", startIndex);
+        }
+        String productIdValue = json.substring(startIndex, endIndex).trim();
+        int productId = Integer.parseInt(productIdValue);
+        exchange.setProperty("ProductID", productId);
+    }
+}

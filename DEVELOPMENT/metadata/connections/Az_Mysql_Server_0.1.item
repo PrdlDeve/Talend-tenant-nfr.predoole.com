@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_mwTZ0CwiEe2YPqOM5tOUoQ" name="Az_Mysql_Server" id="_2UumcCwhEe2YPqOM5tOUoQ" label="Az_Mysql_Server" dataPackage="_kaY7ADQoEe27wKTPcYpn1A" ContextMode="true" ContextId="_gUTPYDQoEe27wKTPcYpn1A" contextName="Default" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://20.235.41.89:3306/customerdb?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="context.Az_Mysql_Server_Port" Username="context.Az_Mysql_Server_Login" Password="context.Az_Mysql_Server_Password" ServerName="context.Az_Mysql_Server_Server" DatasourceName="" FileFieldName="" SID="context.Az_Mysql_Server_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.Az_Mysql_Server_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_mwTZ0SwiEe2YPqOM5tOUoQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_mwsbYCwiEe2YPqOM5tOUoQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_mwsbYSwiEe2YPqOM5tOUoQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_mwsbYiwiEe2YPqOM5tOUoQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_mwsbYywiEe2YPqOM5tOUoQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_mwsbZCwiEe2YPqOM5tOUoQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_mwsbZSwiEe2YPqOM5tOUoQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_mwsbZiwiEe2YPqOM5tOUoQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_myzUMCwiEe2YPqOM5tOUoQ" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_myzUMSwiEe2YPqOM5tOUoQ" tag="DB ProductVersion" value="8.0.30"/>
+    <taggedValue xmi:id="_myzUMiwiEe2YPqOM5tOUoQ" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_mwTZ0iwiEe2YPqOM5tOUoQ" key="CONN_PARA_KEY_USERNAME" value="context.Az_Mysql_Server_Login"/>
+    <parameters xmi:id="_avEFMDQoEe27wKTPcYpn1A" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_kaY7ADQoEe27wKTPcYpn1A" name="customerdb" dataManager="_mwTZ0CwiEe2YPqOM5tOUoQ"/>
+</xmi:XMI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_njvVsN4MEe--u_L78Q4NkQ" name="postgres" id="_lJPbcN4HEe--u_L78Q4NkQ" label="postgres" dataPackage="_rbgRcN4MEe--u_L78Q4NkQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Pranita_target?" dbVersionString="V9_X" Port="5433" Username="talend" Password="enc:system.encryption.key.v1:vt8JS3w8JZDYRIDkodI03ebaw/Yb/sj2OKOJthDC0l2oyxpOOQfjhRQ=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Pranita_target" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_nkXn0N4MEe--u_L78Q4NkQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_rC2g4N4MEe--u_L78Q4NkQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_rOtLkN4MEe--u_L78Q4NkQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_rOzSMN4MEe--u_L78Q4NkQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_rOzSMd4MEe--u_L78Q4NkQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_rO28kN4MEe--u_L78Q4NkQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_rO71EN4MEe--u_L78Q4NkQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_rO71Ed4MEe--u_L78Q4NkQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_rQfUQN4MEe--u_L78Q4NkQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_rQfUQd4MEe--u_L78Q4NkQ" tag="DB ProductVersion" value="14.12"/>
+    <taggedValue xmi:id="_rQfUQt4MEe--u_L78Q4NkQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_nkXn0d4MEe--u_L78Q4NkQ" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_rbgRcN4MEe--u_L78Q4NkQ" name="Pranita_target" dataManager="_njvVsN4MEe--u_L78Q4NkQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_rbgRcd4MEe--u_L78Q4NkQ" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

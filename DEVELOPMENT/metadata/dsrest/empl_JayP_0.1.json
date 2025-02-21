@@ -1,0 +1,89 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "empl_JayP",
+    "description" : "No description",
+    "contact" : { },
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "/"
+  } ],
+  "paths" : {
+    "/employees" : {
+      "get" : {
+        "summary" : "getall",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          },
+          "style" : "simple",
+          "explode" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "object"
+                }
+              }
+            }
+          }
+        },
+        "security" : [ {
+          "Basic authentication" : [ ]
+        } ]
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Employee" : {
+        "type" : "object",
+        "properties" : {
+          "employees" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "properties" : {
+                "id" : {
+                  "type" : "number"
+                },
+                "name" : {
+                  "type" : "string"
+                },
+                "age" : {
+                  "type" : "number"
+                },
+                "department" : {
+                  "type" : "string"
+                },
+                "position" : {
+                  "type" : "string"
+                },
+                "salary" : {
+                  "type" : "number"
+                },
+                "hireDate" : {
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        },
+        "example" : "{\r\n  \"employees\": [\r\n    {\r\n      \"id\": 9,\r\n      \"name\": \"John Doe\",\r\n      \"age\": 23,\r\n      \"department\": \"Data Engineering\",\r\n      \"position\": \"Developer\",\r\n      \"salary\": 7500,\r\n      \"hireDate\": \"2023-08-19\"\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "securitySchemes" : {
+      "Basic authentication" : {
+        "type" : "http",
+        "scheme" : "basic"
+      }
+    }
+  }
+}

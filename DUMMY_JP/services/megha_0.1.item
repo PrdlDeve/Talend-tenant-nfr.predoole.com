@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_MAgTkEf1Ee-VW-tM56dK-g" servicePort="_MD-eUkf1Ee-VW-tM56dK-g"/>
+  <Services:ServicePort xmi:id="_MD-eUkf1Ee-VW-tM56dK-g" name="meghaPortType" id="_MD-eUEf1Ee-VW-tM56dK-g" serviceOperation="_MD-eU0f1Ee-VW-tM56dK-g"/>
+  <Services:ServiceOperation xmi:id="_MD-eU0f1Ee-VW-tM56dK-g" label="meghaOperation-meghaPortType_meghaOperation" name="meghaOperation" id="_MD-eUUf1Ee-VW-tM56dK-g" referenceJobId="_l7eyYEf2Ee-VW-tM56dK-g"/>
+</xmi:XMI>
