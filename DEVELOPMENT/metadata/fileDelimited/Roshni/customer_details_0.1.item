@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_nzkgoMDwEe-6K4eE0wpK7w" name="customer_details" dataPackage="_nzkgocDwEe-6K4eE0wpK7w" Server="Localhost 127.0.0.1" FilePath="C:/Users/Laptop_User/Downloads/Customer_details.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_nzkgocDwEe-6K4eE0wpK7w" name="default" dataManager="_nzkgoMDwEe-6K4eE0wpK7w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_nzkgosDwEe-6K4eE0wpK7w" id="_SJpx4MDwEe-6K4eE0wpK7w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzkgo8DwEe-6K4eE0wpK7w" label="cust_id" length="3" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzkgpMDwEe-6K4eE0wpK7w" label="cust_name" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzkgpcDwEe-6K4eE0wpK7w" label="email_id" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzkgpsDwEe-6K4eE0wpK7w" label="phone_no" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzkgp8DwEe-6K4eE0wpK7w" label="city" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

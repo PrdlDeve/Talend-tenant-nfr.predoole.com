@@ -201,7 +201,7 @@
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;98.70.40.229&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;melita_deo&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;melita_demo&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;Melita&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L2ngSVbgxYgVGGVbOcs0N9D5a42L1vP0DZ9sQh3nrnfPnfLvjOWX7XBjpQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Customers&quot;"/>

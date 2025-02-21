@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_fHqDAL3HEe-UddxSfyOUsg" name="Melita_PrepDemoDS" id="_fD4WQL3HEe-UddxSfyOUsg" dataPackage="_fHqDAb3HEe-UddxSfyOUsg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Laptop_User/Downloads/dataset_25.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fHqDAb3HEe-UddxSfyOUsg" name="default" dataManager="_fHqDAL3HEe-UddxSfyOUsg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fHqDAr3HEe-UddxSfyOUsg" id="_mwYkYL3GEe-UddxSfyOUsg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDA73HEe-UddxSfyOUsg" label="Product_ID" length="163" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDBL3HEe-UddxSfyOUsg" name="Product_Name" label="Product_Name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDBb3HEe-UddxSfyOUsg" name="SKU" label="SKU" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDBr3HEe-UddxSfyOUsg" name="Category" label="Category" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDB73HEe-UddxSfyOUsg" name="Brand" label="Brand" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDCL3HEe-UddxSfyOUsg" name="Description" label="Description" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDCb3HEe-UddxSfyOUsg" name="Price" label="Price" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDCr3HEe-UddxSfyOUsg" name="Supplier_Name" label="Supplier_Name" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fHqDC73HEe-UddxSfyOUsg" name="Stock_Availability" label="Stock_Availability" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
