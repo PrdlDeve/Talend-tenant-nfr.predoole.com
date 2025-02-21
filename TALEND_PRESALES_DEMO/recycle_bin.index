@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/API/Melita</deletedFolders>
+  <deletedFolders>process/API/Melita/Usecase</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Finance_Snowflake</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha/TalendDemo</deletedFolders>

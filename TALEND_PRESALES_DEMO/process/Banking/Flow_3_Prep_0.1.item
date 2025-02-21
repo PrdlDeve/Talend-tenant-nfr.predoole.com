@@ -189,6 +189,7 @@
     <elementParameter field="TEXT" name="LIMIT_PREVIEW" value="1000"/>
     <elementParameter field="TEXT" name="LABEL" value="Data Preparation"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="EXCLUDE_TECHNICAL_COLUMNS" value="false"/>
     <metadata connector="FLOW" name="tDataPrepRun_1">
       <column comment="" key="false" length="-1" name="ID" nullable="false" originalDbColumnName="0000" pattern="" precision="-1" sourceType="String" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="FirstName" nullable="false" originalDbColumnName="0001" pattern="" precision="-1" sourceType="String" type="id_String" originalLength="-1" usefulColumn="true"/>
