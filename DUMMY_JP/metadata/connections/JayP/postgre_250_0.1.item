@@ -12,6 +12,15 @@
     <taggedValue xmi:id="_lZP8sN_QEe-ozNH_CSGnOg" tag="DB ProductName" value="PostgreSQL"/>
     <taggedValue xmi:id="_lZP8sd_QEe-ozNH_CSGnOg" tag="DB ProductVersion" value="14.12"/>
     <taggedValue xmi:id="_lZP8st_QEe-ozNH_CSGnOg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <cdcConns xmi:id="_4EMecP_FEe-dAJ6xknQSxA">
+      <cdcTypes xmi:id="_4EMecf_FEe-dAJ6xknQSxA" linkDB="_OX7BcP8REe-dhvSQ0luRnQ" cdcConnection="_4EMecP_FEe-dAJ6xknQSxA">
+        <subscribers xmi:id="_4ENFgf_FEe-dAJ6xknQSxA" name="TSUBSCRIBERS" id="_4ENFgP_FEe-dAJ6xknQSxA" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4ENFgv_FEe-dAJ6xknQSxA" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4ENFg__FEe-dAJ6xknQSxA" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4ENFhP_FEe-dAJ6xknQSxA" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_lVCyIt_QEe-ozNH_CSGnOg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_lapq4N_QEe-ozNH_CSGnOg" name="Jay_Demo" dataManager="_lVCyIN_QEe-ozNH_CSGnOg">
