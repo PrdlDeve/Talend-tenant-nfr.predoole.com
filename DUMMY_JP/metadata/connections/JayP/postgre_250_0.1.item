@@ -98,7 +98,7 @@
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_lapq4N_QEe-ozNH_CSGnOg" name="Jay_Demo" dataManager="_lVCyIN_QEe-ozNH_CSGnOg">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_lapq4d_QEe-ozNH_CSGnOg" name="public">
-      <ownedElement xsi:type="relational:TdTable" xmi:id="_Xz9zMAGEEfCstKkskrkrwA" name="orders" id="_Xz1QUAGEEfCstKkskrkrwA" label="orders" tableType="TABLE">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_Xz9zMAGEEfCstKkskrkrwA" name="orders" id="_Xz1QUAGEEfCstKkskrkrwA" label="orders" tableType="TABLE" attachedCDC="true" activatedCDC="true">
         <feature xsi:type="relational:TdColumn" xmi:id="_Xz9zMQGEEfCstKkskrkrwA" name="account_name" label="account_name" length="255" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
           <taggedValue xmi:id="_Xz9zMgGEEfCstKkskrkrwA" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="_Xz9zMwGEEfCstKkskrkrwA" language="COLUMN_DEF"/>
