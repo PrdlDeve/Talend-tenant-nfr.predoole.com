@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_K5N-MPAkEe-A7LIOkB9uaQ" name="InsuranceDev" id="_rt1gQPAjEe-A7LIOkB9uaQ" label="InsuranceDev" dataPackage="_K7RzsPAkEe-A7LIOkB9uaQ" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=Insurance_Dev;" dbVersionString="MSSQL_PROP" Port="1433" Username="megha" Password="enc:system.encryption.key.v1:7JtwVkEb6tV3THKhKcX0l1/cfk673ZKQBdSLf1vZp4H3fGB7I0HOSNM=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Insurance_Dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_K5N-MfAkEe-A7LIOkB9uaQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_K5m_wPAkEe-A7LIOkB9uaQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_K5nm0PAkEe-A7LIOkB9uaQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_K5nm0fAkEe-A7LIOkB9uaQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_K5nm0vAkEe-A7LIOkB9uaQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_K5nm0_AkEe-A7LIOkB9uaQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_K5nm1PAkEe-A7LIOkB9uaQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_K5nm1fAkEe-A7LIOkB9uaQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_K6RuIPAkEe-A7LIOkB9uaQ" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_K6RuIfAkEe-A7LIOkB9uaQ" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_K6RuIvAkEe-A7LIOkB9uaQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_K5N-MvAkEe-A7LIOkB9uaQ" key="CONN_PARA_KEY_USERNAME" value="megha"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_K7RzsPAkEe-A7LIOkB9uaQ" name="Insurance_Dev" dataManager="_K5N-MPAkEe-A7LIOkB9uaQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_K7RzsfAkEe-A7LIOkB9uaQ" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

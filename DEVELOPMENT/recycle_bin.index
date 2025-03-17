@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/Customers</deletedFolders>
+  <deletedFolders>process/Customers/CustomersPortType</deletedFolders>
+  <deletedFolders>process/Customers/CustomersPortType/CustomersOperation</deletedFolders>
+  <deletedFolders>process/Melita/Talend_ETL</deletedFolders>
   <deletedFolders>process/Suba/Suba</deletedFolders>
   <deletedItems id="_EQAX0FlxEe-zColVVpzJkQ" path="" type="JSON"/>
   <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
@@ -7,12 +11,32 @@
   <deletedItems id="_6bKsoFhGEe69bKoNEun9KA" path="Megha" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_HkvH0EGGEe6UysSrJjFATg" path="Megha" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_YuISsFxWEe6Kaq5HzQ5SqA" path="Megha" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_diTDIKsNEe-wtLUxhRZBgA" path="Melita" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_-P7_wPvOEe67Q_gb2Ba35w" path="Megha" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_fjS6sNQDEe-wFuBfd4Tfyg" path="Customers/CustomersPortType/CustomersOperation" type="PROCESS"/>
   <deletedItems id="_5YgCQDOeEe-AluTJBw6Nwg" path="Megha/TalendDemo/Test_Jobs/pharma" type="PROCESS"/>
   <deletedItems id="_EnHicOEvEe6OtKrUQSA9Jg" path="Megha/TalendDemo/udemy_test_jobs" type="PROCESS"/>
   <deletedItems id="_Ch9hoOHQEe6OtKrUQSA9Jg" path="Megha/udemy_test_jobs" type="PROCESS"/>
+  <deletedItems id="_AiIvMJaLEe-DTo0-h9u9lQ" path="Melita" type="PROCESS"/>
+  <deletedItems id="_AsmLEKG1Ee-7QcJf2ZHVJg" path="Melita" type="PROCESS"/>
+  <deletedItems id="_UW2YkLtmEe-hPOnEV4kmpA" path="Melita" type="PROCESS"/>
+  <deletedItems id="_VGA54JBfEe-2jYysFXplYw" path="Melita" type="PROCESS"/>
+  <deletedItems id="_zK-OYKGOEe-7QcJf2ZHVJg" path="Melita" type="PROCESS"/>
   <deletedItems id="_0KbyYJzPEe-RpopY_FEGKQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_0bov4MweEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_2_O-wMwCEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_8J3A0MwTEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
   <deletedItems id="_B1HnYJ2ZEe-8EuEj5h4Xow" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_JvgAMN1kEe-oHOjL7Za3eQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_RCujgM89Ee-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_SSWewMwQEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_fvYpcMwBEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_kCfE8M2DEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_nnW8IM8_Ee-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_X2c0cLxBEe-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
+  <deletedItems id="_lDL0QL0tEe-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
+  <deletedItems id="_qD188L45Ee-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
+  <deletedItems id="_q_rA0L0tEe-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
   <deletedItems id="_U8rdIDUAEe6g0ZNH9Eq4tw" path="Sumit/Partition_Jobs" type="PROCESS"/>
   <deletedItems id="_m4qYQEXFEe-bnvX39q3vUA" path="" type="SERVICES"/>
 </recyclebin:RecycleBin>
