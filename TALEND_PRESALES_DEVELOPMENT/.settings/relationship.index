@@ -252,34 +252,14 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - SIPTransactions",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_TflYADnCEe-9Brt4mDM0JA",
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - Investors",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - MutualFunds",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_Ig6A0Dj6Ee-Lf_L9zPWogQ - SIPPlans",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_JbyicDj_Ee-Lf_L9zPWogQ - AGGREGATE_LANDING",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_TgGboEA0Ee-0eILAJnvxAA",
@@ -578,15 +558,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "_BxBmYNiFEe-xQIfJb19BUw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_T3sQ0NiFEe-xQIfJb19BUw",
-    "version" : "Latest",
-    "type" : "property"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_qRPKj14XEe-Pf6lEuLxHZg",
