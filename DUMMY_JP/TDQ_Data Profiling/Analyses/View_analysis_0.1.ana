@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_JFdSEOq0Ee-tMLU8ePLI8g" name="View_analysis" creationDate="2025-02-14T14:44:49.646+0530" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
+    <taggedValue xmi:id="_JFdSEeq0Ee-tMLU8ePLI8g" tag="Status" value="development"/>
+    <taggedValue xmi:id="_JFdSEuq0Ee-tMLU8ePLI8g" tag="Author" value="jay.p@talend.com"/>
+    <taggedValue xmi:id="_JFdSE-q0Ee-tMLU8ePLI8g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_JFdSFOq0Ee-tMLU8ePLI8g" tag="Description" value=""/>
+    <taggedValue xmi:id="_JFdSFeq0Ee-tMLU8ePLI8g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_WLPckOq0Ee-tMLU8ePLI8g" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_WLPckeq0Ee-tMLU8ePLI8g" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_JFdSFuq0Ee-tMLU8ePLI8g">
+      <connection href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+      <analysedElements xsi:type="relational:TdView" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_AsrCN-q0Ee-tMLU8ePLI8g"/>
+    </context>
+    <results xmi:id="_JFdSF-q0Ee-tMLU8ePLI8g">
+      <resultMetadata xmi:id="_JFdSGOq0Ee-tMLU8ePLI8g" executionDate="2025-02-14T14:46:27.731+0530" executionDuration="124" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_JFdSGeq0Ee-tMLU8ePLI8g" count="834" computed="true">
+        <parameters xmi:id="_WVlEUOq0Ee-tMLU8ePLI8g"/>
+        <analyzedElement xsi:type="relational:TdView" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_AsrCN-q0Ee-tMLU8ePLI8g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_Xs2ZQOq0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &quot;Jay_2&quot;.&quot;dbo&quot;.&quot;Orders Qry&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_Xst2YOq0Ee-tMLU8ePLI8g" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_Xst2Yeq0Ee-tMLU8ePLI8g" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_Xst2Yuq0Ee-tMLU8ePLI8g" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_Xst2Y-q0Ee-tMLU8ePLI8g" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_JFdSGuq0Ee-tMLU8ePLI8g" dataFilter="_WLQqsOq0Ee-tMLU8ePLI8g" analysisType="Table Analysis"/>
+    <contextType xmi:id="_WLO1gOq0Ee-tMLU8ePLI8g" confirmationNeeded="false" hide="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_WLQqsOq0Ee-tMLU8ePLI8g" name="View_analysis">
+    <ranges xmi:id="_WLQqseq0Ee-tMLU8ePLI8g">
+      <expressions xmi:id="_WLQqsuq0Ee-tMLU8ePLI8g">
+        <expression xsi:type="relational:TdExpression" xmi:id="_WLQqs-q0Ee-tMLU8ePLI8g" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

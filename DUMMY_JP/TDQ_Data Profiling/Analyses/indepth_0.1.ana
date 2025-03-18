@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_GtCbIO6DEe-SMJCoas5wnA" name="indepth" creationDate="2025-02-19T11:03:52.825+0530" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_JFcD8Oq0Ee-tMLU8ePLI8g"/>
+  <taggedValue xmi:id="_GtCbIe6DEe-SMJCoas5wnA" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_GtCbIu6DEe-SMJCoas5wnA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_GtCbI-6DEe-SMJCoas5wnA" tag="Author" value="harsh.p@nfr.predoole.com"/>
+  <taggedValue xmi:id="_GtCbJO6DEe-SMJCoas5wnA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_GtCbJe6DEe-SMJCoas5wnA" tag="Description" value=""/>
+  <taggedValue xmi:id="_GtCbJu6DEe-SMJCoas5wnA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_IL6z8O6DEe-SMJCoas5wnA" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_IL6z8e6DEe-SMJCoas5wnA" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_IL6z8u6DEe-SMJCoas5wnA" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_IOFXIO6DEe-SMJCoas5wnA" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_IkjWYO6DEe-SMJCoas5wnA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_GtCbJ-6DEe-SMJCoas5wnA">
+    <connection href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_u5LfUOqbEe-tMLU8ePLI8g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSkO3EEe-tMLU8ePLI8g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSlO3EEe-tMLU8ePLI8g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSmO3EEe-tMLU8ePLI8g"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Jay/229_dataProfiling_0.1.item#_3lCSnO3EEe-tMLU8ePLI8g"/>
+  </context>
+  <results xmi:id="_GtCbKO6DEe-SMJCoas5wnA">
+    <resultMetadata xmi:id="_GtCbKe6DEe-SMJCoas5wnA"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_GtFecO6DEe-SMJCoas5wnA"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_GtFece6DEe-SMJCoas5wnA">
+      <builtInMatchRuleDefinition xmi:id="_GtFecu6DEe-SMJCoas5wnA">
+        <matchRules xmi:id="_Hunz8O6DEe-SMJCoas5wnA" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_GtFec-6DEe-SMJCoas5wnA" analysisType="Match Analysis"/>
+  <contextType xmi:id="_IkivUO6DEe-SMJCoas5wnA" confirmationNeeded="false" hide="false" name="Default"/>
+</dataquality.analysis:Analysis>

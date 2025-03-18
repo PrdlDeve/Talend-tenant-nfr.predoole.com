@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_eeXBsNo_Ee-CkKMrh9yFVw" name="250_postgres" id="_kqr2gNo-Ee-CkKMrh9yFVw" label="250_postgres" dataPackage="_LoKwy94OEe-okcq_fk_nkA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Jay_Demo?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:pXXolbcEkWrkj7tu+cGyF0Op1X09BCBXAerJNn9P0N2/alTOg/ejRxM=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Jay_Demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_eeXBsNo_Ee-CkKMrh9yFVw" name="250_postgres" id="_kqr2gNo-Ee-CkKMrh9yFVw" label="250_postgres" dataPackage="_LoKwy94OEe-okcq_fk_nkA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Jay_Demo?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:pXXolbcEkWrkj7tu+cGyF0Op1X09BCBXAerJNn9P0N2/alTOg/ejRxM=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Jay_Demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public" supportNLS="false">
     <taggedValue xmi:id="_eeXBsdo_Ee-CkKMrh9yFVw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_ekmzoNo_Ee-CkKMrh9yFVw" tag="package filter" value=""/>
     <taggedValue xmi:id="_ekuvcNo_Ee-CkKMrh9yFVw" tag="Status" value=""/>
@@ -12,15 +12,21 @@
     <taggedValue xmi:id="_LqmZsN4OEe-okcq_fk_nkA" tag="DB ProductName" value="PostgreSQL"/>
     <taggedValue xmi:id="_LqmZsd4OEe-okcq_fk_nkA" tag="DB ProductVersion" value="14.12"/>
     <taggedValue xmi:id="_KLVrwN4hEe-okcq_fk_nkA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <cdcConns xmi:id="_4gklIN_LEe-ozNH_CSGnOg">
+      <cdcTypes xmi:id="_4gnBYN_LEe-ozNH_CSGnOg" linkDB="_1bk1AN_JEe-ozNH_CSGnOg" cdcConnection="_4gklIN_LEe-ozNH_CSGnOg">
+        <subscribers xmi:id="_4gtvEd_LEe-ozNH_CSGnOg" name="TSUBSCRIBERS" id="_4gtvEN_LEe-ozNH_CSGnOg" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4gtvEt_LEe-ozNH_CSGnOg" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4gtvE9_LEe-ozNH_CSGnOg" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4gtvFN_LEe-ozNH_CSGnOg" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_eeXowNo_Ee-CkKMrh9yFVw" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
     <parameters xmi:id="_gnI6gN4NEe-okcq_fk_nkA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_LoKwy94OEe-okcq_fk_nkA" name="Jay_Demo" dataManager="_eeXBsNo_Ee-CkKMrh9yFVw">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LoKwzN4OEe-okcq_fk_nkA" name="_demojay_db"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LoKwzd4OEe-okcq_fk_nkA" name="information_schema"/>
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LoKwzt4OEe-okcq_fk_nkA" name="pg_catalog"/>
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_LoKwz94OEe-okcq_fk_nkA" name="public"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmcN4gEe-okcq_fk_nkA" name="accounts" label="accounts">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmcN4gEe-okcq_fk_nkA" name="accounts" id="_kJMeUd-1Ee-ozNH_CSGnOg" label="accounts">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmN5Ad4gEe-okcq_fk_nkA" name="account_name" label=""/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmN5Bt4gEe-okcq_fk_nkA" name="account_owner_alias" label=""/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmN5BN4gEe-okcq_fk_nkA" name="billing_city" label=""/>
@@ -30,11 +36,11 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmN5B94gEe-okcq_fk_nkA" name="updated_at" label=""/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_zmN5A94gEe-okcq_fk_nkA" name="website" label=""/>
     </ownedElement>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmcd4gEe-okcq_fk_nkA" name="attrep_apply_exceptions" label="attrep_apply_exceptions"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmct4gEe-okcq_fk_nkA" name="attrep_changes28594978267AF766" label="attrep_changes28594978267AF766"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmc94gEe-okcq_fk_nkA" name="customers" label="customers"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdN4gEe-okcq_fk_nkA" name="employees" label="employees"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdd4gEe-okcq_fk_nkA" name="orders" label="orders"/>
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdt4gEe-okcq_fk_nkA" name="transactions" label="transactions"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmcd4gEe-okcq_fk_nkA" name="attrep_apply_exceptions" id="_kJL3Qt-1Ee-ozNH_CSGnOg" label="attrep_apply_exceptions"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmct4gEe-okcq_fk_nkA" name="attrep_changes28594978267AF766" id="_kJL3Q9-1Ee-ozNH_CSGnOg" label="attrep_changes28594978267AF766"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmc94gEe-okcq_fk_nkA" name="customers" id="_kJMeUt-1Ee-ozNH_CSGnOg" label="customers"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdN4gEe-okcq_fk_nkA" name="employees" id="_kJMeUN-1Ee-ozNH_CSGnOg" label="employees"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdd4gEe-okcq_fk_nkA" name="orders" id="_kJL3QN-1Ee-ozNH_CSGnOg" label="orders"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zNQmdt4gEe-okcq_fk_nkA" name="transactions" id="_kJL3Qd-1Ee-ozNH_CSGnOg" label="transactions"/>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

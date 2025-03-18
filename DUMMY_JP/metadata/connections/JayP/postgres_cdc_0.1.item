@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_AIEM4N_KEe-ozNH_CSGnOg" name="postgres_cdc" id="_1bk1AN_JEe-ozNH_CSGnOg" label="postgres_cdc" dataPackage="_SVWcvt_KEe-ozNH_CSGnOg" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Pranita_target?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:VrGx6yXa4v7ehaKye92nV8nOOannTcEF6dAF07b/5u5yLUhYSXjRXbM=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Pranita_target" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public" supportNLS="false">
+    <taggedValue xmi:id="_AIEM4d_KEe-ozNH_CSGnOg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_AMGYUN_KEe-ozNH_CSGnOg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_AMGYUd_KEe-ozNH_CSGnOg" tag="Status" value=""/>
+    <taggedValue xmi:id="_AMGYUt_KEe-ozNH_CSGnOg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_AMGYU9_KEe-ozNH_CSGnOg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_AMGYVN_KEe-ozNH_CSGnOg" tag="Description" value=""/>
+    <taggedValue xmi:id="_AMGYVd_KEe-ozNH_CSGnOg" tag="Author" value=""/>
+    <taggedValue xmi:id="_AMGYVt_KEe-ozNH_CSGnOg" tag="otherParameter"/>
+    <taggedValue xmi:id="_ANOZsN_KEe-ozNH_CSGnOg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_ANOZsd_KEe-ozNH_CSGnOg" tag="DB ProductVersion" value="14.12"/>
+    <taggedValue xmi:id="_ANOZst_KEe-ozNH_CSGnOg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_AIEM4t_KEe-ozNH_CSGnOg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+    <parameters xmi:id="_OkZTkN_KEe-ozNH_CSGnOg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_SVWcvt_KEe-ozNH_CSGnOg" name="Pranita_target" dataManager="_AIEM4N_KEe-ozNH_CSGnOg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_SVWcv9_KEe-ozNH_CSGnOg" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
