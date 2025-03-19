@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_tPJAcOnMEe-fdZkOhC4CCA" name="titanic_analysis" supplierDependency="_3QDEuOnMEe-fdZkOhC4CCA" dataPackage="_tPJAcenMEe-fdZkOhC4CCA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Laptop_User/Downloads/archive/Titanic-Dataset.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_tPJAcenMEe-fdZkOhC4CCA" name="default" dataManager="_tPJAcOnMEe-fdZkOhC4CCA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_tPJAcunMEe-fdZkOhC4CCA" id="_3PhdEOnIEe-fdZkOhC4CCA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAc-nMEe-fdZkOhC4CCA" id="PassengerId" label="PassengerId" length="2" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP0Oq4Ee-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAdOnMEe-fdZkOhC4CCA" id="Survived" label="Survived" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_3QDEuenMEe-fdZkOhC4CCA" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAdenMEe-fdZkOhC4CCA" id="Pclass" label="Pclass" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP0eq4Ee-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAdunMEe-fdZkOhC4CCA" id="Name" label="Name" length="57" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP0uq4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAd-nMEe-fdZkOhC4CCA" id="Sex" label="Sex" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP0-q4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAeOnMEe-fdZkOhC4CCA" id="Age" label="Age" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP1Oq4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAeenMEe-fdZkOhC4CCA" id="SibSp" label="SibSp" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP1eq4Ee-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAeunMEe-fdZkOhC4CCA" id="Parch" label="Parch" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP1uq4Ee-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAe-nMEe-fdZkOhC4CCA" id="Ticket" label="Ticket" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP1-q4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAfOnMEe-fdZkOhC4CCA" id="Fare" label="Fare" length="8" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP2Oq4Ee-tMLU8ePLI8g" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAfenMEe-fdZkOhC4CCA" id="Cabin" label="Cabin" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP2eq4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_tPJAfunMEe-fdZkOhC4CCA" id="Embarked" label="Embarked" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_a0CP2uq4Ee-tMLU8ePLI8g" tag="Content Type" value="Nominal"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_3QDEuOnMEe-fdZkOhC4CCA" kind="Usage" supplier="_tPJAcOnMEe-fdZkOhC4CCA">
+    <client xsi:type="dataquality.analysis:Analysis" href="../../TDQ_Data Profiling/Analyses/survived_analysis_0.1.ana#_29tXgOnMEe-fdZkOhC4CCA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_kXUaMKsNEe-wtLUxhRZBgA" name="customer" id="_diTDIKsNEe-wtLUxhRZBgA" label="customer" dataPackage="_kb5YMKsNEe-wtLUxhRZBgA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.40.229:1433;DatabaseName=Melita_temp;" dbVersionString="MSSQL_PROP" Port="1433" Username="User1" Password="enc:system.encryption.key.v1:0EaHSVrLz4BjnDe9apUUk6HyMngB7RWwwEIcM7OCj5uMuzBDSFa4nQ==" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="Melita_temp" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_kXUaMasNEe-wtLUxhRZBgA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_kYISgKsNEe-wtLUxhRZBgA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_kYL84KsNEe-wtLUxhRZBgA" tag="Status" value=""/>
+    <taggedValue xmi:id="_kYL84asNEe-wtLUxhRZBgA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_kYL84qsNEe-wtLUxhRZBgA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_kYL846sNEe-wtLUxhRZBgA" tag="Description" value=""/>
+    <taggedValue xmi:id="_kYL85KsNEe-wtLUxhRZBgA" tag="Author" value=""/>
+    <taggedValue xmi:id="_kYL85asNEe-wtLUxhRZBgA" tag="otherParameter"/>
+    <taggedValue xmi:id="_kZSwIKsNEe-wtLUxhRZBgA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_kZSwIasNEe-wtLUxhRZBgA" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_kZSwIqsNEe-wtLUxhRZBgA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_kXUaMqsNEe-wtLUxhRZBgA" key="CONN_PARA_KEY_USERNAME" value="User1"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_kb5YMKsNEe-wtLUxhRZBgA" name="Melita_temp" dataManager="_kXUaMKsNEe-wtLUxhRZBgA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_kb5YMasNEe-wtLUxhRZBgA" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
