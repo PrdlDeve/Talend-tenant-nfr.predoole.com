@@ -112,7 +112,7 @@
       </feature>
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_k8qTYAMnEfCx6crW1uYKUA" name="Investors" id="_k8oeMAMnEfCx6crW1uYKUA" label="Investors" tableType="TABLE">
-      <feature xsi:type="relational:TdColumn" xmi:id="_k8qTYQMnEfCx6crW1uYKUA" name="InvestorID" label="InvestorID" length="-1" sourceType="NUMBER" talendType="id_Integer" key="true" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_k8qTYQMnEfCx6crW1uYKUA" name="InvestorID" label="InvestorID" length="-1" sourceType="INTEGER" talendType="id_Integer" key="true" nullable="false">
         <taggedValue xmi:id="_k8qTYgMnEfCx6crW1uYKUA" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_k8qTYwMnEfCx6crW1uYKUA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_k8qTZAMnEfCx6crW1uYKUA" name="NUMBER" numericPrecisionRadix="10" javaDataType="2"/>

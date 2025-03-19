@@ -2,6 +2,7 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/API/Melita</deletedFolders>
   <deletedFolders>process/API/Melita/Usecase</deletedFolders>
+  <deletedFolders>process/Finance/Finance_SQL/Finance</deletedFolders>
   <deletedFolders>process/Finance/Finance_SQL/Finance/Finance_SQL</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Finance_Snowflake</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha</deletedFolders>
