@@ -162,22 +162,6 @@
     "id" : "_TWwFIBzDEe-ryueBa_onWQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_RRK1gBy_Ee-ryueBa_onWQ - Investors",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_RRK1gBy_Ee-ryueBa_onWQ - MutualFunds",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_RRK1gBy_Ee-ryueBa_onWQ - SIPPlans",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_TWwFIBzDEe-ryueBa_onWQ - AGGREGATE_LANDING",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
