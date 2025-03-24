@@ -1368,13 +1368,17 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_LClhUAipEfCAxcNLw5gZtg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_SDasYNltEe-6rstfrsjNZQ",
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_d0RvYN_QEe-ozNH_CSGnOg",
+    "id" : "_LClhUAipEfCAxcNLw5gZtg - customers",
     "version" : "Latest",
-    "type" : "property"
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
