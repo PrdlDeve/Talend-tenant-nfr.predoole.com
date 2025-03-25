@@ -224,7 +224,7 @@
       <elementValue elementRef="NAME" value="&quot;q&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="context.data" id="1"/>
       <elementValue elementRef="NAME" value="&quot;format&quot;" id="2"/>
-      <elementValue elementRef="VALUE" value="&quot;json&quot;" id="3"/>
+      <elementValue elementRef="VALUE" value="&quot;xml&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAMESPACE" value="&quot;http://www.talend.org/rest/&quot;" show="false"/>
