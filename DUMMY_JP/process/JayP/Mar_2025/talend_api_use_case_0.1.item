@@ -191,7 +191,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="data" expression="row1.Street || row1.City || row1.State || row1.Zip_Code " type="id_String" nullable="true"/>
+        <mapperTableEntries name="data" expression="row1.Street + &quot; &quot; + row1.City  + &quot; &quot; + row1.State  + &quot; &quot; + row1.Zip_Code " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="City" type="id_String" nullable="true"/>
