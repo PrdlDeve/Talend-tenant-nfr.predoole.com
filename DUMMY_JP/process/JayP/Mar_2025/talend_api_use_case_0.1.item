@@ -296,33 +296,31 @@
       <inputTrees name="row3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
         <nodes name="statusCode" type="id_Integer" xpath="row3/statusCode"/>
         <nodes name="body" expression="" type="id_Document" xpath="row3/body">
-          <children name="root" expression="" type="id_String" xpath="row3.body:/root" loop="true" main="true">
-            <children name="searchresults" expression="" type="id_String" xpath="row3.body:/root/searchresults">
-              <children name="place" expression="" type="id_String" xpath="row3.body:/root/searchresults/place">
-                <children name="lat" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.0" xpath="row3.body:/root/searchresults/place/lat"/>
-                <children name="lon" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.1" xpath="row3.body:/root/searchresults/place/lon"/>
-                <children name="class" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.4" xpath="row3.body:/root/searchresults/place/class"/>
-                <children name="type" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.2" xpath="row3.body:/root/searchresults/place/type"/>
-                <children name="importance" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.3" xpath="row3.body:/root/searchresults/place/importance"/>
-              </children>
+          <children name="searchresults" expression="" type="id_String" xpath="row3.body:/searchresults" main="true">
+            <children name="place" expression="" type="id_String" xpath="row3.body:/searchresults/place" loop="true" main="true">
+              <children name="lat" expression="" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.0" xpath="row3.body:/searchresults/place/lat"/>
+              <children name="lon" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.1" xpath="row3.body:/searchresults/place/lon"/>
+              <children name="class" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.4" xpath="row3.body:/searchresults/place/class"/>
+              <children name="type" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.3" xpath="row3.body:/searchresults/place/type"/>
+              <children name="importance" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.2" xpath="row3.body:/searchresults/place/importance"/>
             </children>
           </children>
         </nodes>
         <nodes name="string" type="id_String" xpath="row3/string"/>
       </inputTrees>
       <outputTrees name="out3">
-        <nodes name="lat" expression="[row3.body:/root/searchresults/place/lat]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.0" xpath="out3/lat"/>
-        <nodes name="lon" expression="[row3.body:/root/searchresults/place/lon]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.1" xpath="out3/lon" pattern=""/>
-        <nodes name="buildingClass" expression="[row3.body:/root/searchresults/place/class]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.4" xpath="out3/buildingClass" pattern=""/>
-        <nodes name="type" expression="[row3.body:/root/searchresults/place/type]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.2" xpath="out3/type" pattern=""/>
-        <nodes name="importance" expression="[row3.body:/root/searchresults/place/importance]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.3" xpath="out3/importance" pattern=""/>
+        <nodes name="lat" expression="[row3.body:/searchresults/place/lat]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.0" xpath="out3/lat"/>
+        <nodes name="lon" expression="[row3.body:/searchresults/place/lon]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.1" xpath="out3/lon" pattern=""/>
+        <nodes name="buildingClass" expression=" [row3.body:/searchresults/place/class]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.4" xpath="out3/buildingClass" pattern=""/>
+        <nodes name="type" expression=" [row3.body:/searchresults/place/type]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.3" xpath="out3/type" pattern=""/>
+        <nodes name="importance" expression="[row3.body:/searchresults/place/importance]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.2" xpath="out3/importance" pattern=""/>
       </outputTrees>
       <varTables name="Var" minimized="true"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.0" target="//@node.4/@nodeData/@outputTrees.0/@nodes.0"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.1" target="//@node.4/@nodeData/@outputTrees.0/@nodes.1"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.3" target="//@node.4/@nodeData/@outputTrees.0/@nodes.3"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.4" target="//@node.4/@nodeData/@outputTrees.0/@nodes.4"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.2" target="//@node.4/@nodeData/@outputTrees.0/@nodes.2"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0" target="//@node.4/@nodeData/@outputTrees.0/@nodes.0"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.1" target="//@node.4/@nodeData/@outputTrees.0/@nodes.1"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.4" target="//@node.4/@nodeData/@outputTrees.0/@nodes.4"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.3" target="//@node.4/@nodeData/@outputTrees.0/@nodes.3"/>
+      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.2" target="//@node.4/@nodeData/@outputTrees.0/@nodes.2"/>
     </nodeData>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="200">
