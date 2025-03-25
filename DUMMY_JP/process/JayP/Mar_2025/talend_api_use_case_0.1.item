@@ -269,8 +269,39 @@
       <column defaultValue="" key="false" length="1024" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="680" posY="80">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_2" show="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="statusCode" id="0"/>
+      <elementValue elementRef="LENGTH" value="10" id="1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="body" id="2"/>
+      <elementValue elementRef="LENGTH" value="10" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="string" id="4"/>
+      <elementValue elementRef="LENGTH" value="10" id="5"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_2">
+      <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_Document" originalLength="-1" usefulColumn="true"/>
+      <column key="false" length="4048" name="string" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="680" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
@@ -283,40 +314,19 @@
       <column comment="" key="false" length="-1" name="buildClass" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
-      <inputTrees name="row3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <nodes name="statusCode" type="id_Integer" xpath="row3/statusCode"/>
-        <nodes name="body" expression="" type="id_Document" xpath="row3/body">
-          <children name="root" expression="" type="id_String" xpath="row3.body:/root" loop="true" main="true">
-            <children name="searchresults" expression="" type="id_String" xpath="row3.body:/root/searchresults">
-              <children name="place" expression="" type="id_String" xpath="row3.body:/root/searchresults/place">
-                <children name="lat" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.0" xpath="row3.body:/root/searchresults/place/lat"/>
-                <children name="lon" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.1" xpath="row3.body:/root/searchresults/place/lon"/>
-                <children name="class" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.4" xpath="row3.body:/root/searchresults/place/class"/>
-                <children name="type" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.2" xpath="row3.body:/root/searchresults/place/type"/>
-                <children name="importance" type="id_String" outgoingConnections="//@node.4/@nodeData/@connections.3" xpath="row3.body:/root/searchresults/place/importance"/>
-              </children>
-            </children>
-          </children>
-        </nodes>
-        <nodes name="string" type="id_String" xpath="row3/string"/>
-      </inputTrees>
       <outputTrees name="out3">
-        <nodes name="lat" expression="[row3.body:/root/searchresults/place/lat]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.0" xpath="out3/lat"/>
-        <nodes name="lon" expression="[row3.body:/root/searchresults/place/lon]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.1" xpath="out3/lon"/>
-        <nodes name="type" expression="[row3.body:/root/searchresults/place/type]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.2" xpath="out3/type"/>
-        <nodes name="importance" expression="[row3.body:/root/searchresults/place/importance]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.3" xpath="out3/importance"/>
-        <nodes name="buildClass" expression="[row3.body:/root/searchresults/place/class]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.4" xpath="out3/buildClass" pattern=""/>
+        <nodes name="lat" expression="[row3.body:/root/searchresults/place/lat]" type="id_String" xpath="out3/lat"/>
+        <nodes name="lon" expression="[row3.body:/root/searchresults/place/lon]" type="id_String" xpath="out3/lon"/>
+        <nodes name="type" expression="[row3.body:/root/searchresults/place/type]" type="id_String" xpath="out3/type"/>
+        <nodes name="importance" expression="[row3.body:/root/searchresults/place/importance]" type="id_String" xpath="out3/importance"/>
+        <nodes name="buildClass" expression="[row3.body:/root/searchresults/place/class]" type="id_String" xpath="out3/buildClass" pattern=""/>
       </outputTrees>
       <varTables name="Var" minimized="true"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.0" target="//@node.4/@nodeData/@outputTrees.0/@nodes.0"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.1" target="//@node.4/@nodeData/@outputTrees.0/@nodes.1"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.3" target="//@node.4/@nodeData/@outputTrees.0/@nodes.2"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.4" target="//@node.4/@nodeData/@outputTrees.0/@nodes.3"/>
-      <connections xsi:type="TalendXMLMap:Connection" source="//@node.4/@nodeData/@inputTrees.0/@nodes.1/@children.0/@children.0/@children.0/@children.2" target="//@node.4/@nodeData/@outputTrees.0/@nodes.4"/>
     </nodeData>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="80">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -363,16 +373,22 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
-  <connection connectorName="RESPONSE" label="row3" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tXMLMap_1">
+  <connection connectorName="RESPONSE" label="row3" lineStyle="0" metaname="RESPONSE" offsetLabelX="0" offsetLabelY="0" source="tRESTClient_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out3" lineStyle="0" metaname="out3" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out3" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tXMLMap_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
