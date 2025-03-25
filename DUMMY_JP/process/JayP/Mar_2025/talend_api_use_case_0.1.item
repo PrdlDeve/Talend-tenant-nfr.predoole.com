@@ -288,7 +288,7 @@
     <metadata connector="FLOW" name="out3">
       <column key="false" length="100" name="lat" nullable="true" precision="0" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="lon" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Class" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="buildingClass" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="type" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="importance" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -313,7 +313,7 @@
       <outputTrees name="out3">
         <nodes name="lat" expression="[row3.body:/root/searchresults/place/lat]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.0" xpath="out3/lat"/>
         <nodes name="lon" expression="[row3.body:/root/searchresults/place/lon]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.1" xpath="out3/lon" pattern=""/>
-        <nodes name="Class" expression="[row3.body:/root/searchresults/place/class]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.4" xpath="out3/Class" pattern=""/>
+        <nodes name="buildingClass" expression="[row3.body:/root/searchresults/place/class]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.4" xpath="out3/buildingClass" pattern=""/>
         <nodes name="type" expression="[row3.body:/root/searchresults/place/type]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.2" xpath="out3/type" pattern=""/>
         <nodes name="importance" expression="[row3.body:/root/searchresults/place/importance]" type="id_String" incomingConnections="//@node.4/@nodeData/@connections.3" xpath="out3/importance" pattern=""/>
       </outputTrees>
