@@ -279,19 +279,19 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/searchresults/place&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="lat" id="0"/>
-      <elementValue elementRef="QUERY" value="&quot;@lat&quot;" id="1"/>
+      <elementValue elementRef="QUERY" value="@lat" id="1"/>
       <elementValue elementRef="NODECHECK" value="false" id="2"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="lon" id="3"/>
-      <elementValue elementRef="QUERY" value="&quot;lon&quot;" id="4"/>
+      <elementValue elementRef="QUERY" value="lon" id="4"/>
       <elementValue elementRef="NODECHECK" value="false" id="5"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="building_class" id="6"/>
-      <elementValue elementRef="QUERY" value="&quot;class&quot;" id="7"/>
+      <elementValue elementRef="QUERY" value="class" id="7"/>
       <elementValue elementRef="NODECHECK" value="false" id="8"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="type" id="9"/>
-      <elementValue elementRef="QUERY" value="&quot;type&quot;" id="10"/>
+      <elementValue elementRef="QUERY" value="type" id="10"/>
       <elementValue elementRef="NODECHECK" value="false" id="11"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="importance" id="12"/>
-      <elementValue elementRef="QUERY" value="&quot;importance&quot;" id="13"/>
+      <elementValue elementRef="QUERY" value="importance" id="13"/>
       <elementValue elementRef="NODECHECK" value="false" id="14"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
