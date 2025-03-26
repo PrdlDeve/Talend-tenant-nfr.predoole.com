@@ -498,7 +498,7 @@
     <elementParameter field="TEXT" name="LABEL" value="sql_Server_229_1907"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out2" name="tDBOutput_1">
-      <column comment="" key="false" length="500" name="full_address" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="5000" name="full_address" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="30" name="lat" nullable="true" pattern="" precision="30" sourceType="" type="id_Double" originalLength="30" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="lon" nullable="true" pattern="" precision="30" sourceType="" type="id_Double" originalLength="30" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="buildingClass" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
@@ -506,7 +506,7 @@
       <column comment="" key="false" length="100" name="type" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="out2" name="REJECT">
-      <column comment="" key="false" length="500" name="full_address" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="5000" name="full_address" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="30" name="lat" nullable="true" pattern="" precision="30" sourceType="" type="id_Double" originalLength="30" usefulColumn="true"/>
       <column comment="" key="false" length="30" name="lon" nullable="true" pattern="" precision="30" sourceType="" type="id_Double" originalLength="30" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="buildingClass" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
