@@ -273,7 +273,7 @@
   </node>
   <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExtractXMLField_1" show="false"/>
-    <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="statusCode"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="body"/>
     <elementParameter field="CHECK" name="USE_ITEMS" value="false" show="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY_BASE" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;//searchresults/place&quot;"/>
