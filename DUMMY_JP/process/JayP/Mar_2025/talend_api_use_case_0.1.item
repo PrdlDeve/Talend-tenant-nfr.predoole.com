@@ -276,7 +276,7 @@
     <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="body"/>
     <elementParameter field="CHECK" name="USE_ITEMS" value="false" show="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY_BASE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;//root/row/searchresults/place&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;//root/row/body/searchresults/place&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="full_address" id="0"/>
       <elementValue elementRef="QUERY" value="&quot;@display_name&quot;" id="1"/>
