@@ -297,7 +297,7 @@
       <elementValue elementRef="QUERY" value="&quot;@type&quot;" id="16"/>
       <elementValue elementRef="NODECHECK" value="false" id="17"/>
     </elementParameter>
-    <elementParameter field="TEXT" name="LIMIT" value="1"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="USE_XML_FIELD" value="false" show="false"/>
     <elementParameter field="TEXT" name="XML_TEXT" value="&quot;&quot;" show="false"/>
