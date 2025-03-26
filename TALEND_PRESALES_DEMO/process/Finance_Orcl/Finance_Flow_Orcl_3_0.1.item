@@ -493,24 +493,24 @@
     <elementParameter field="TEXT" name="LABEL" value="Oracle_Finance_Landing"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
-      <column comment="" key="false" length="100" name="FundName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
       </column>
-      <column comment="" key="true" length="38" name="InvestorID" nullable="false" pattern="" precision="0" type="id_Integer" originalLength="-1" usefulColumn="true">
+      <column comment="" key="true" length="38" name="InvestorID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="InvestorID"/>
       </column>
-      <column comment="" key="false" length="15" name="Amount" nullable="true" pattern="" precision="2" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+      <column comment="" key="false" length="15" name="Amount" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Amount"/>
       </column>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="100" name="FundName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+      <column comment="" key="false" length="100" name="FundName" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="FundName"/>
       </column>
-      <column comment="" key="true" length="38" name="InvestorID" nullable="false" pattern="" precision="0" type="id_Integer" originalLength="-1" usefulColumn="true">
+      <column comment="" key="true" length="38" name="InvestorID" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="InvestorID"/>
       </column>
-      <column comment="" key="false" length="15" name="Amount" nullable="true" pattern="" precision="2" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+      <column comment="" key="false" length="15" name="Amount" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Amount"/>
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
