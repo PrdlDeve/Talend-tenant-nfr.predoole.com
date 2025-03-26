@@ -274,14 +274,14 @@
   <node componentName="tFileOutputXML" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="80">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputXML_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Laptop_User/Desktop/out.xml&quot;"/>
-    <elementParameter field="CHECK" name="INPUT_IS_DOCUMENT" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" value="statusCode" show="false"/>
-    <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;"/>
-    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="CHECK" name="INPUT_IS_DOCUMENT" value="true"/>
+    <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" value="statusCode"/>
+    <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;" show="false"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false" show="false"/>
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
-    <elementParameter field="TABLE" name="ROOT_TAGS"/>
-    <elementParameter field="TABLE" name="MAPPING">
+    <elementParameter field="TABLE" name="ROOT_TAGS" show="false"/>
+    <elementParameter field="TABLE" name="MAPPING" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="statusCode" id="0"/>
       <elementValue elementRef="AS_ATTRIBUTE" value="false" id="1"/>
       <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="2"/>
@@ -295,17 +295,17 @@
       <elementValue elementRef="SCHEMA_COLUMN_NAME" value="true" id="10"/>
       <elementValue elementRef="LABEL" value="&quot;label&quot;" id="11"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_GROUPING" value="false" show="false"/>
     <elementParameter field="TABLE" name="GROUP_BY" show="false"/>
-    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false" show="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false" show="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
-    <elementParameter field="CHECK" name="TRIM" value="false" show="false"/>
+    <elementParameter field="CHECK" name="TRIM" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputXML_1">
       <column defaultValue="" key="false" length="0" name="statusCode" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
