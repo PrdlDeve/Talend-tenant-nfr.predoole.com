@@ -275,7 +275,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputXML_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Laptop_User/Desktop/out.xml&quot;"/>
     <elementParameter field="CHECK" name="INPUT_IS_DOCUMENT" value="true"/>
-    <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" value="statusCode"/>
+    <elementParameter field="COLUMN_LIST" name="DOCUMENT_COL" value="body"/>
     <elementParameter field="TEXT" name="ROW_TAG" value="&quot;row&quot;" show="false"/>
     <elementParameter field="CHECK" name="SPLIT" value="false" show="false"/>
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
