@@ -112,15 +112,15 @@
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;Art_Database&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;Jay_1&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;User1&quot;"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GDuPukQWsivIRypCW2pqzqxvW+aMPoIZnOFyLnl2ACuYs7+aglzlWKkA"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Customer_Address&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;customers&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select dbo.Customer_Address.City,dbo.Customer_Address.Customer_ID,dbo.Customer_Address.Customer_Name,dbo.Customer_Address.State,dbo.Customer_Address.Street,dbo.Customer_Address.Zip_Code &#xA;from dbo.Customer_Address&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select dbo.customers.City,dbo.customers.Customer_ID,dbo.customers.Customer_Name,dbo.customers.State,dbo.customers.Street,dbo.customers.Zip_Code &#xA;from dbo.customers&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
