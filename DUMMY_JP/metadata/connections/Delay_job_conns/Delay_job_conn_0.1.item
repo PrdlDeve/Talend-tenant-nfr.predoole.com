@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_S2c_QBBJEfCkBuNKPJ67ew" name="Delay_job_conn" id="_Iy2zYBBJEfCkBuNKPJ67ew" label="Delay_job_conn" dataPackage="_TFjyQBBJEfCkBuNKPJ67ew" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.40.229:1433;DatabaseName=Hospital_Management_DB;" dbVersionString="MSSQL_PROP" Port="1433" Username="User1" Password="enc:system.encryption.key.v1:a4xSyEPLeGeARxbwYhXS2oQzOiHyK0RlbuY3O/N0Wcus3/pPEVtsaQ==" ServerName="98.70.40.229" DatasourceName="" FileFieldName="" SID="Hospital_Management_DB" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_S2c_QRBJEfCkBuNKPJ67ew" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_S5bawBBJEfCkBuNKPJ67ew" tag="package filter" value=""/>
+    <taggedValue xmi:id="_S5noABBJEfCkBuNKPJ67ew" tag="Status" value=""/>
+    <taggedValue xmi:id="_S5noARBJEfCkBuNKPJ67ew" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_S5noAhBJEfCkBuNKPJ67ew" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_S5noAxBJEfCkBuNKPJ67ew" tag="Description" value=""/>
+    <taggedValue xmi:id="_S5noBBBJEfCkBuNKPJ67ew" tag="Author" value=""/>
+    <taggedValue xmi:id="_S5noBRBJEfCkBuNKPJ67ew" tag="otherParameter"/>
+    <taggedValue xmi:id="_TBi08BBJEfCkBuNKPJ67ew" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_TBi08RBJEfCkBuNKPJ67ew" tag="DB ProductVersion" value="16.00.1000"/>
+    <taggedValue xmi:id="_TBi08hBJEfCkBuNKPJ67ew" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_S2c_QhBJEfCkBuNKPJ67ew" key="CONN_PARA_KEY_USERNAME" value="User1"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_TFjyQBBJEfCkBuNKPJ67ew" name="Hospital_Management_DB" dataManager="_S2c_QBBJEfCkBuNKPJ67ew">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_TFjyQRBJEfCkBuNKPJ67ew" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
