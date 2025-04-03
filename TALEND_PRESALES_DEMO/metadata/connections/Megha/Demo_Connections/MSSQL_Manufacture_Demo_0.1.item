@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_m6oBMAsEEfCxVLMT40NhWA" name="MSSQL_Manufacture_Demo" id="_WRFcEAsEEfCxVLMT40NhWA" label="MSSQL_Manufacture_Demo" dataPackage="_nAIMQAsEEfCxVLMT40NhWA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=Manufactures_Dev;" dbVersionString="MSSQL_PROP" Port="1433" Username="megha" Password="enc:system.encryption.key.v1:fEaSBWpv0mV0PiSoxjTbJNib5OxbCfTvJkQJl4fyN0okhltHPbzwTdM=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Manufactures_Dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
-    <taggedValue xmi:id="_m6oBMQsEEfCxVLMT40NhWA" tag="Is Conn Need Reload" value="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_m6oBMAsEEfCxVLMT40NhWA" name="MSSQL_Manufacture_Demo" id="_WRFcEAsEEfCxVLMT40NhWA" label="MSSQL_Manufacture_Demo" dataPackage="_nAIMQAsEEfCxVLMT40NhWA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.31.45:1433;DatabaseName=Manufactures_Dev;trustServerCertificate=true" dbVersionString="MSSQL_PROP" Port="1433" Username="sa" Password="enc:system.encryption.key.v1:XqP8nrUKGujrdCXVz6k9L8Wy9DzSTvqWdGd+FPvWeyXdv4OKIMwWh2M=" ServerName="98.70.31.45" DatasourceName="" FileFieldName="" SID="Manufactures_Dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="trustServerCertificate=true" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+    <taggedValue xmi:id="_m6oBMQsEEfCxVLMT40NhWA" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_m7tmUAsEEfCxVLMT40NhWA" tag="package filter" value=""/>
     <taggedValue xmi:id="_m7wpoAsEEfCxVLMT40NhWA" tag="Status" value=""/>
     <taggedValue xmi:id="_m7wpoQsEEfCxVLMT40NhWA" tag="Version" value="0.1"/>
@@ -12,9 +12,23 @@
     <taggedValue xmi:id="_m9IioAsEEfCxVLMT40NhWA" tag="DB ProductName" value="Microsoft SQL Server"/>
     <taggedValue xmi:id="_m9IioQsEEfCxVLMT40NhWA" tag="DB ProductVersion" value="16.00.1000"/>
     <taggedValue xmi:id="_m9IiogsEEfCxVLMT40NhWA" tag="DB IdentifierQuoteString" value="&quot;"/>
-    <parameters xmi:id="_m6oBMgsEEfCxVLMT40NhWA" key="CONN_PARA_KEY_USERNAME" value="megha"/>
+    <parameters xmi:id="_m6oBMgsEEfCxVLMT40NhWA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+    <parameters xmi:id="_AjjpMA-lEfCBB9TKEltqyA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_nAIMQAsEEfCxVLMT40NhWA" name="Manufactures_Dev" dataManager="_m6oBMAsEEfCxVLMT40NhWA">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_nAIMQQsEEfCxVLMT40NhWA" name="dbo"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X68b0A-kEfCBB9TKEltqyA" name="Customers" label="Customers"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X69C4A-kEfCBB9TKEltqyA" name="Employees" label="Employees"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X69C4Q-kEfCBB9TKEltqyA" name="Plants" label="Plants"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X69C4g-kEfCBB9TKEltqyA" name="Products" label="Products"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_X69C4w-kEfCBB9TKEltqyA" name="Sales" label="Sales">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNog-kEfCBB9TKEltqyA" name="customer_id" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNow-kEfCBB9TKEltqyA" name="employee_id" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNoQ-kEfCBB9TKEltqyA" name="product_id" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNpQ-kEfCBB9TKEltqyA" name="quantity" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNpA-kEfCBB9TKEltqyA" name="sale_date" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNoA-kEfCBB9TKEltqyA" name="sale_id" label=""/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_YvQNpg-kEfCBB9TKEltqyA" name="total_amount" label=""/>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
