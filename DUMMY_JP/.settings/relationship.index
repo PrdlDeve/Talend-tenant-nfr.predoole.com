@@ -53,6 +53,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_0nXxgBBIEfCkBuNKPJ67ew",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Iy2zYBBJEfCkBuNKPJ67ew",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Iy2zYBBJEfCkBuNKPJ67ew - Billing",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_2bZ3cDrPEe-2VeFhC29sBQ",
     "version" : "0.1",
     "type" : "job"
