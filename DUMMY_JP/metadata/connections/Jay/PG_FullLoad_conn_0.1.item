@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_MWH5YBFHEfCPNtl1tf0MIA" name="PG_FullLoad_conn" id="_5Gqa4BFGEfCPNtl1tf0MIA" label="PG_FullLoad_conn" dataPackage="_MkQcABFHEfCPNtl1tf0MIA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://20.204.123.250:5433/Jay_Demo?" dbVersionString="V9_X" Port="5433" Username="postgres" Password="enc:system.encryption.key.v1:e2RK+4o1mp2KguRAlN+KCpqxaE1rjaSBEsK/ABO3FIt5kk8S1cvcxWE=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Jay_Demo" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_MWH5YRFHEfCPNtl1tf0MIA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_Ma5rsBFHEfCPNtl1tf0MIA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_MbKKYBFHEfCPNtl1tf0MIA" tag="Status" value=""/>
+    <taggedValue xmi:id="_MbKKYRFHEfCPNtl1tf0MIA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_MbKKYhFHEfCPNtl1tf0MIA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_MbKKYxFHEfCPNtl1tf0MIA" tag="Description" value=""/>
+    <taggedValue xmi:id="_MbKKZBFHEfCPNtl1tf0MIA" tag="Author" value=""/>
+    <taggedValue xmi:id="_MbKxcBFHEfCPNtl1tf0MIA" tag="otherParameter"/>
+    <taggedValue xmi:id="_Mc8TEBFHEfCPNtl1tf0MIA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_Mc86IBFHEfCPNtl1tf0MIA" tag="DB ProductVersion" value="14.12"/>
+    <taggedValue xmi:id="_Mc86IRFHEfCPNtl1tf0MIA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_MWH5YhFHEfCPNtl1tf0MIA" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_MkQcABFHEfCPNtl1tf0MIA" name="Jay_Demo" dataManager="_MWH5YBFHEfCPNtl1tf0MIA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_MkQcARFHEfCPNtl1tf0MIA" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_MkQcAhFHEfCPNtl1tf0MIA" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_MkQcAxFHEfCPNtl1tf0MIA" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
