@@ -3,7 +3,13 @@
   <deletedFolders>process/Customers</deletedFolders>
   <deletedFolders>process/Customers/CustomersPortType</deletedFolders>
   <deletedFolders>process/Customers/CustomersPortType/CustomersOperation</deletedFolders>
+  <deletedFolders>process/Melita/Melita</deletedFolders>
+  <deletedFolders>process/Melita/Melita/Usecase</deletedFolders>
+  <deletedFolders>process/Melita/Routes</deletedFolders>
   <deletedFolders>process/Melita/Talend_ETL</deletedFolders>
+  <deletedFolders>process/Melita/Usecase/TDC_Get_Data/Melita</deletedFolders>
+  <deletedFolders>process/Melita/Usecase/TDC_Get_Data/Melita/Usecase</deletedFolders>
+  <deletedFolders>process/Melita/Usecase/TDC_Get_Data/Melita/Usecase/TDC_Get_Data</deletedFolders>
   <deletedFolders>process/Suba/Suba</deletedFolders>
   <deletedItems id="_EQAX0FlxEe-zColVVpzJkQ" path="" type="JSON"/>
   <deletedItems id="_noP74DLFEe6YCNhEfH_DPw" path="" type="METADATA_CONNECTIONS"/>
@@ -33,6 +39,7 @@
   <deletedItems id="_fvYpcMwBEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
   <deletedItems id="_kCfE8M2DEe-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
   <deletedItems id="_nnW8IM8_Ee-GQpWgDiMHfQ" path="Melita/APIs" type="PROCESS"/>
+  <deletedItems id="_EDRQcA4oEfCqueSYuyItkA" path="Melita/Routes" type="PROCESS"/>
   <deletedItems id="_X2c0cLxBEe-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
   <deletedItems id="_lDL0QL0tEe-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
   <deletedItems id="_qD188L45Ee-UddxSfyOUsg" path="Melita/Talend_ETL" type="PROCESS"/>
