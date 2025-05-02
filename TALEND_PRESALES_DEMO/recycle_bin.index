@@ -2,16 +2,21 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/API/Melita</deletedFolders>
   <deletedFolders>process/API/Melita/Usecase</deletedFolders>
+  <deletedFolders>process/Finance/Finance_SQL</deletedFolders>
   <deletedFolders>process/Finance/Finance_SQL/Finance</deletedFolders>
   <deletedFolders>process/Finance/Finance_SQL/Finance/Finance_SQL</deletedFolders>
+  <deletedFolders>process/Finance/Finance_Snowflake</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Finance_Snowflake</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha/TalendDemo</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha/TalendDemo/Demo_27_May_24</deletedFolders>
   <deletedFolders>process/Finance/Finance_Snowflake/Megha/TalendDemo/Demo_27_May_24/Finance_Mutual_Funds_Demo</deletedFolders>
+  <deletedFolders>process/Finance/Finance_Snowflake_229</deletedFolders>
   <deletedFolders>process/Insurance/Suba</deletedFolders>
   <deletedFolders>process/Insurance/Suba/PreSales_Suba</deletedFolders>
   <deletedFolders>process/Insurance/Suba/PreSales_Suba/Insurance_Demo</deletedFolders>
+  <deletedFolders>process/Manufacture/Manufacture_SQL</deletedFolders>
+  <deletedFolders>process/Manufacture/Manufacture_Snowflake</deletedFolders>
   <deletedFolders>process/Pharma/Pharma_SQL/Megha</deletedFolders>
   <deletedFolders>process/Pharma/Pharma_SQL/Megha/TalendDemo</deletedFolders>
   <deletedFolders>process/Pharma/Pharma_SQL/Megha/TalendDemo/Demo_27_May_24</deletedFolders>
@@ -19,15 +24,43 @@
   <deletedFolders>process/Pharma/Pharma_Snowflake</deletedFolders>
   <deletedFolders>process/Pharma/Pharma_Snowflake/Presales_megha</deletedFolders>
   <deletedFolders>process/Pharma/Pharma_Snowflake/Presales_megha/Presales_megha</deletedFolders>
+  <deletedFolders>process/Pharma/Pharma_Snowflakee</deletedFolders>
   <deletedFolders>process/PreSales_Suba</deletedFolders>
   <deletedFolders>process/PreSales_Suba/Finance</deletedFolders>
   <deletedFolders>process/PreSales_Suba/Insurance_Demo</deletedFolders>
   <deletedFolders>process/PreSales_Suba/Pharma</deletedFolders>
   <deletedFolders>process/Presales_megha</deletedFolders>
   <deletedItems id="_xSJ1wL6REe-XcqALphGvgg" path="" type="PROCESS"/>
+  <deletedItems id="_4RLp4Dj5Ee-Lf_L9zPWogQ" path="Finance/Finance_SQL" type="PROCESS"/>
+  <deletedItems id="_4XbJ4Dj7Ee-Lf_L9zPWogQ" path="Finance/Finance_SQL" type="PROCESS"/>
+  <deletedItems id="_6U-4IDm-Ee-KNs-Vfm0dmw" path="Finance/Finance_SQL" type="PROCESS"/>
+  <deletedItems id="_KG8S8AoeEfCB9pi1w7mAQA" path="Finance/Finance_SQL" type="PROCESS"/>
+  <deletedItems id="_WoJDQAraEfChWoLL2RK3rw" path="Finance/Finance_SQL" type="PROCESS"/>
+  <deletedItems id="_I2T9UCGGEe-b8t9hh6Yleg" path="Finance/Finance_Snowflake" type="PROCESS"/>
+  <deletedItems id="_jC6kkBzaEe-MkYgYHG4oDQ" path="Finance/Finance_Snowflake" type="PROCESS"/>
+  <deletedItems id="_k55oQBzCEe-ryueBa_onWQ" path="Finance/Finance_Snowflake" type="PROCESS"/>
+  <deletedItems id="_qY4SUBwmEe-ryueBa_onWQ" path="Finance/Finance_Snowflake" type="PROCESS"/>
+  <deletedItems id="_z_6soB2oEe-Z3cRl8aMbkA" path="Finance/Finance_Snowflake" type="PROCESS"/>
+  <deletedItems id="_S1bWYOUZEe-g6a-tGv7xHQ" path="Finance/Finance_Snowflake_229" type="PROCESS"/>
+  <deletedItems id="_SfzrsOUZEe-g6a-tGv7xHQ" path="Finance/Finance_Snowflake_229" type="PROCESS"/>
+  <deletedItems id="_So-10OUZEe-g6a-tGv7xHQ" path="Finance/Finance_Snowflake_229" type="PROCESS"/>
   <deletedItems id="_Svg7oOUZEe-g6a-tGv7xHQ" path="Finance/Finance_Snowflake_229" type="PROCESS"/>
   <deletedItems id="_ZzKZ4B5uEe-Z3cRl8aMbkA" path="Finance/Finance_Snowflake_229" type="PROCESS"/>
   <deletedItems id="_Q1TkAA7iEfCnQYvR-n2SjQ" path="Insurance/insv1" type="PROCESS"/>
+  <deletedItems id="_FaDOgAr5EfChWoLL2RK3rw" path="Manufacture/Manufacture_SQL" type="PROCESS"/>
+  <deletedItems id="_JMm6IAr5EfChWoLL2RK3rw" path="Manufacture/Manufacture_SQL" type="PROCESS"/>
+  <deletedItems id="_UaRFYAr5EfChWoLL2RK3rw" path="Manufacture/Manufacture_SQL" type="PROCESS"/>
+  <deletedItems id="_KtPdYBzeEe-rJtLV0JY11A" path="Manufacture/Manufacture_Snowflake" type="PROCESS"/>
+  <deletedItems id="_T3pnYBzyEe-MkYgYHG4oDQ" path="Manufacture/Manufacture_Snowflake" type="PROCESS"/>
+  <deletedItems id="_kzDQABzbEe-MkYgYHG4oDQ" path="Manufacture/Manufacture_Snowflake" type="PROCESS"/>
+  <deletedItems id="_0jJU0EXREe-KOeY9f5f8RQ" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_9quYsEAQEe-V5t9uxa3YwQ" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_XopmUD58Ee-X9IYs3E3LHQ" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_aGIKkEZtEe-HNufR_fAfQA" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_aGIKkUZtEe-HNufR_fAfQA" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_aGIKkkZtEe-HNufR_fAfQA" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_dERDUD-hEe-eI9uuammsdA" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
+  <deletedItems id="_gh86kD6CEe-X9IYs3E3LHQ" path="Pharma/Pharma_Snowflakee" type="PROCESS"/>
   <deletedItems id="_9bV80BwJEe-ryueBa_onWQ" path="PreSales_Suba/Insurance_Demo" type="PROCESS"/>
   <deletedItems id="_Py8-YBvrEe-ryueBa_onWQ" path="PreSales_Suba/Insurance_Demo" type="PROCESS"/>
   <deletedItems id="_tgY0oBwMEe-ryueBa_onWQ" path="PreSales_Suba/Insurance_Demo" type="PROCESS"/>
