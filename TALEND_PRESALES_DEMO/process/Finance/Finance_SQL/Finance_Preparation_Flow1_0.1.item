@@ -105,14 +105,14 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_BNsHIArKEfCB9pi1w7mAQA" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;98.70.31.45&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;QDI4&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yTr/4Y5034UvT7Dcv3GJK2VnJ5h3XVYtNl5q/iX0w3LKCaqkYX2DOsOgPA=="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:J1OfVlvKqcShsyV8Bt/3WtztYKB6Va4alvgqaeXzUmiKIbbs9xC+0dulCw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Investors&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -231,7 +231,7 @@
       <column comment="" key="false" length="-1" name="PANNumber" nullable="false" pattern="" precision="-1" sourceType="String" type="id_String" originalLength="255" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="InvestorID" expression="row2.InvestorID " type="id_Integer"/>
@@ -273,14 +273,14 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_BNsHIArKEfCB9pi1w7mAQA" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;98.70.31.45&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;dbo&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;QDI4&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+WJ4QDg2ZcPmzn7t3doSLEZGUHTGvThcnzv7R17z1hzT03rUPvm7Gm2jLQ=="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bLeczHW1o+W5cOsGi/8xxIqFc1PywvG4PQ6xFO0Gj+qLCqMj5S5iVgKVgA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_BNsHIArKEfCB9pi1w7mAQA - Addresses" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Addresses&quot;"/>
@@ -345,13 +345,13 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;98.70.31.45&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;20.204.123.250&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;1433&quot;"/>
-    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;landing&quot;"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;Finance_Dev&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;QDI4&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ESiWsuwWsnJRQWMoUzRw6azWHOsUr1mJEUQVFUcZZu/az/57ZWr89CSzYQ=="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;megha&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nY/H6LuIKo1UbshmK4+9Ei/FKOl/Dwe2+ZY0Yp0Az4sChfMNG8ULJx0jrA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;InvestorDetails&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
