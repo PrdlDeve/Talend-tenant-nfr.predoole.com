@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_A8W0oArMEfCB9pi1w7mAQA" name="SQL_250_Finance" id="_BNsHIArKEfCB9pi1w7mAQA" label="SQL_250_Finance" dataPackage="_BQi78ArMEfCB9pi1w7mAQA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://20.204.123.250:1433;DatabaseName=Finance_Dev;" dbVersionString="MSSQL_PROP" Port="1433" Username="megha" Password="enc:system.encryption.key.v1:GmhC0p66gBUzih3DNqriktCz/OsHAeKmwK0Xh8qmi7uImI+PHnUDTVY=" ServerName="20.204.123.250" DatasourceName="" FileFieldName="" SID="Finance_Dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
+  <TalendMetadata:DatabaseConnection xmi:id="_A8W0oArMEfCB9pi1w7mAQA" name="SQL_qdi4_Finance" id="_BNsHIArKEfCB9pi1w7mAQA" label="SQL_qdi4_Finance" dataPackage="_BQi78ArMEfCB9pi1w7mAQA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://98.70.31.45:1433;DatabaseName=Finance_Dev;" dbVersionString="MSSQL_PROP" Port="1433" Username="QDI4" Password="enc:system.encryption.key.v1:BhT8v/Sm+15PnwyCFF2fsLWS2xtu0lvj6Q5ZFoGZ61ryTtNNMY2WM+E=" ServerName="98.70.31.45" DatasourceName="" FileFieldName="" SID="Finance_Dev" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo" supportNLS="false">
     <taggedValue xmi:id="_A8W0oQrMEfCB9pi1w7mAQA" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_A9D_QArMEfCB9pi1w7mAQA" tag="package filter" value=""/>
     <taggedValue xmi:id="_A9IQsArMEfCB9pi1w7mAQA" tag="Status" value=""/>
@@ -12,7 +12,8 @@
     <taggedValue xmi:id="_BIwR4ArMEfCB9pi1w7mAQA" tag="DB ProductName" value="Microsoft SQL Server"/>
     <taggedValue xmi:id="_BIwR4QrMEfCB9pi1w7mAQA" tag="DB ProductVersion" value="16.00.1000"/>
     <taggedValue xmi:id="_BIwR4grMEfCB9pi1w7mAQA" tag="DB IdentifierQuoteString" value="&quot;"/>
-    <parameters xmi:id="_A8W0ogrMEfCB9pi1w7mAQA" key="CONN_PARA_KEY_USERNAME" value="megha"/>
+    <parameters xmi:id="_A8W0ogrMEfCB9pi1w7mAQA" key="CONN_PARA_KEY_USERNAME" value="QDI4"/>
+    <parameters xmi:id="_dkPuIDx8EfCDXcaTgs0DlA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_BQi78ArMEfCB9pi1w7mAQA" name="Finance_Dev" dataManager="_A8W0oArMEfCB9pi1w7mAQA">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_BQi78QrMEfCB9pi1w7mAQA" name="dbo">
