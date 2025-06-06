@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="esb_use_case_job"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			<xsd:element name="esb_use_case_jobOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="clientId" type="xsd:int"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="esb_use_case_jobOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="cust_id"
+							type="xsd:int">
+						</xsd:element>
+						<xsd:element name="cust_name"
+							type="xsd:string">
+						</xsd:element>
+						<xsd:element name="branch"
+							type="xsd:string">
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="esb_use_case_jobOperationRequest">
+		<wsdl:part name="parameters" element="tns:esb_use_case_jobOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="esb_use_case_jobOperationResponse">
+		<wsdl:part name="parameters" element="tns:esb_use_case_jobOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:portType name="esb_use_case_jobPortType">
+		<wsdl:operation name="esb_use_case_jobOperation">
+			<wsdl:input message="tns:esb_use_case_jobOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:esb_use_case_jobOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="esb_use_case_jobBinding" type="tns:esb_use_case_jobPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="esb_use_case_jobOperation">
+			<soap:operation soapAction="http://www.talend.org/service/esb_use_case_jobOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="esb_use_case_job">
+		<wsdl:port name="esb_use_case_jobPort" binding="tns:esb_use_case_jobBinding">
+			<soap:address location="http://localhost:8090/services/esb_use_case_job" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
