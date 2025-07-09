@@ -2,5 +2,5 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
   <Services:ServiceConnection xmi:id="_eJWzME4zEe-GmIguiYMgIA" servicePort="_eMRkUk4zEe-GmIguiYMgIA"/>
   <Services:ServicePort xmi:id="_eMRkUk4zEe-GmIguiYMgIA" name="Melita_APIPortType" id="_eMRkUE4zEe-GmIguiYMgIA" serviceOperation="_eMRkU04zEe-GmIguiYMgIA"/>
-  <Services:ServiceOperation xmi:id="_eMRkU04zEe-GmIguiYMgIA" label="Melita_APIOperation-Melita_APIPortType_Melita_APIOperation2" name="Melita_APIOperation" id="_eMRkUU4zEe-GmIguiYMgIA" referenceJobId="_tWdaEE40Ee-GmIguiYMgIA"/>
+  <Services:ServiceOperation xmi:id="_eMRkU04zEe-GmIguiYMgIA" label="Melita_APIOperation" name="Melita_APIOperation" id="_eMRkUU4zEe-GmIguiYMgIA"/>
 </xmi:XMI>

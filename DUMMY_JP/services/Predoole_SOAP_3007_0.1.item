@@ -2,5 +2,5 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
   <Services:ServiceConnection xmi:id="_-WdH0U5qEe-Fgtmly-lmiw" servicePort="_MMjU8E5rEe-Fgtmly-lmiw"/>
   <Services:ServicePort xmi:id="_MMjU8E5rEe-Fgtmly-lmiw" name="Predoole_SOAP_3007PortType" id="_-W7B4E5qEe-Fgtmly-lmiw" serviceOperation="_MMjU8U5rEe-Fgtmly-lmiw"/>
-  <Services:ServiceOperation xmi:id="_MMjU8U5rEe-Fgtmly-lmiw" label="Predoole_SOAP_3007Operation-Predoole_SOAP_3007PortType_Predoole_SOAP_3007Operation" name="Predoole_SOAP_3007Operation" id="_-W7B4U5qEe-Fgtmly-lmiw" referenceJobId="_P685UE5rEe-Fgtmly-lmiw"/>
+  <Services:ServiceOperation xmi:id="_MMjU8U5rEe-Fgtmly-lmiw" label="Predoole_SOAP_3007Operation" name="Predoole_SOAP_3007Operation" id="_-W7B4U5qEe-Fgtmly-lmiw"/>
 </xmi:XMI>
