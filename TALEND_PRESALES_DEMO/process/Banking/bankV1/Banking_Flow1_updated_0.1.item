@@ -177,7 +177,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDataPrepRun_1" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;https://tdp.ap.cloud.talend.com/&quot;"/>
     <elementParameter field="TEXT" name="USERNAME" value="&quot;megha.m@predoole.com&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:aLxan0msYrJSKdR3HT4XiJC4GKNwb9bG5Vos4uR+GcGw3zmJGeN6nyYStUTeKCVLd63NxnZzfEQRqxRMRSDFUyVSjgF7L/7ejACjpAd6JQ+S6cVzvW6exsKITyTGPQ=="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:J9utEY6/KUiADh9mBivNW2FIrEGHdLkbMXKiJEALyl284nGIwovsdDmvg0eS+uqs1ZPGuizoEozsu8EuF9+J0JAlYMEiyIr5rXtJmpxCdYI8Oj57H9ldMtnHufK1Hg=="/>
     <elementParameter field="CHECK" name="USE_PREP_PATH" value="false"/>
     <elementParameter field="DATA_PREP_ID" name="PREPARATION_ID" value="&quot;c6ddb442-0fdc-42c2-a90c-7ffbb19c533d&quot;"/>
     <elementParameter field="TEXT" name="PREPARATION_NAME" value="Megha_Banking_Demo_Updated" show="false"/>
@@ -230,7 +230,7 @@
       <column comment="" key="false" length="200" name="Email" nullable="false" pattern="" precision="-1" sourceType="String" type="id_String" originalLength="200" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="ID" expression="row2.ID " type="id_String"/>
