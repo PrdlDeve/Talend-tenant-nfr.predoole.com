@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
-  <Services:ServiceConnection xmi:id="_7q480EmxEe-9L8dFXtjQEw" servicePort="_7uBwYEmxEe-9L8dFXtjQEw"/>
-  <Services:ServicePort xmi:id="_7uBwYEmxEe-9L8dFXtjQEw" name="Melita_TestAPIPortType" id="_7uBJUEmxEe-9L8dFXtjQEw" serviceOperation="_7uBwYUmxEe-9L8dFXtjQEw"/>
-  <Services:ServiceOperation xmi:id="_7uBwYUmxEe-9L8dFXtjQEw" label="Melita_TestAPIOperation-Melita_TestAPIPortType_Melita_TestAPIOperation" name="Melita_TestAPIOperation" id="_7uBJUUmxEe-9L8dFXtjQEw" referenceJobId="_PF3SUEmzEe-9L8dFXtjQEw"/>
-</xmi:XMI>

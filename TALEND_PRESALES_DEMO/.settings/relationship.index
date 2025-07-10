@@ -102,6 +102,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_BNsHIArKEfCB9pi1w7mAQA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_BNsHIArKEfCB9pi1w7mAQA - Investors",
     "version" : "Latest",
     "type" : "schema"
@@ -618,10 +622,6 @@
     "id" : "_i02PoCGiEfCYaq7FlBhehQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_g_9nECGhEfCYaq7FlBhehQ - SIPTransactions",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -663,18 +663,6 @@
     "id" : "_i02PoCGiEfCYaq7FlBhehQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_g_9nECGhEfCYaq7FlBhehQ - Investors",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_g_9nECGhEfCYaq7FlBhehQ - MutualFunds",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_g_9nECGhEfCYaq7FlBhehQ - SIPPlans",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -686,10 +674,6 @@
     "id" : "_g_9nECGhEfCYaq7FlBhehQ",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_g_9nECGhEfCYaq7FlBhehQ - Addresses",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
